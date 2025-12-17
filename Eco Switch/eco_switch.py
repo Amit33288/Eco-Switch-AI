@@ -7,51 +7,166 @@ import re
 from pathlib import Path
 from io import BytesIO
 
+# Set page config
 st.set_page_config(page_title="Eco-Switch Pro • Polished", layout="wide", initial_sidebar_state="expanded")
 
-# ---------- STYLE ----------
+# ---------- ENHANCED VISUAL STYLE (CSS) ----------
 st.markdown(
     """
     <style>
-    /* Page background & main font */
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+    /* Global settings */
     html, body, [class*="css"]  {
-      background-color: #0f1113;
-      color: #e6eef3;
-      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      background-color: #0E1117;
+      font-family: 'Poppins', sans-serif;
+      color: #FAFAFA;
     }
-    /* Sidebar styling */
-    .sidebar .sidebar-content {
-      background-color: #141518;
-      padding-top: 24px;
+
+    /* Sidebar Styling */
+    [data-testid="stSidebar"] {
+      background-color: #161B22;
+      border-right: 1px solid rgba(255, 255, 255, 0.05);
     }
-    /* Cards */
-    .kpi-card {
-      background: linear-gradient(180deg, rgba(20,20,20,0.9), rgba(18,18,18,0.9));
-      border-radius: 12px;
-      padding: 14px;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.6);
-      border: 1px solid rgba(255,255,255,0.03);
-    }
-    .kpi-label { color: #9fb0c6; font-size: 12px; margin:0; }
-    .kpi-value { color: #00E676; font-weight:700; font-size:26px; margin:6px 0 0 0; }
-    /* Green button look */
-    .stButton>button {
-      background-color: #00C853;
-      border-radius: 10px;
-      color: #021012;
+    
+    /* Custom Headers */
+    h1, h2, h3 {
       font-weight: 700;
-      height: 44px;
+      letter-spacing: -0.5px;
     }
-    .stButton>button:hover { background-color: #00E676; color: #021012; }
-    /* Small helpers */
-    .muted { color: #9fb0c6; font-size:13px; }
-    .card-box { background:#0b0c0d; border-radius:10px; padding:14px; border:1px solid rgba(255,255,255,0.02) }
+    
+    /* Modern Glassmorphism KPI Cards */
+    .kpi-container {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 30px;
+    }
+    .kpi-card {
+      background: rgba(30, 34, 45, 0.6);
+      backdrop-filter: blur(10px);
+      border-radius: 16px;
+      padding: 20px;
+      flex: 1;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+      transition: transform 0.2s ease;
+    }
+    .kpi-card:hover {
+      transform: translateY(-2px);
+      border-color: rgba(0, 230, 118, 0.3);
+    }
+    .kpi-label { color: #8b949e; font-size: 13px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.5px; }
+    .kpi-value { 
+      background: linear-gradient(90deg, #00E676, #69F0AE);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: 700; 
+      font-size: 32px; 
+      margin-top: 5px; 
+    }
+    
+    /* Glowing Action Button */
+    .stButton>button {
+      background: linear-gradient(90deg, #00C853, #00E676);
+      border: none;
+      border-radius: 12px;
+      color: #000;
+      font-weight: 700;
+      padding: 0.6rem 1.2rem;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 15px rgba(0, 230, 118, 0.3);
+    }
+    .stButton>button:hover { 
+      box-shadow: 0 6px 20px rgba(0, 230, 118, 0.5);
+      transform: scale(1.02);
+    }
+
+    /* Result Containers */
+    .success-box {
+      background: rgba(0, 200, 83, 0.1);
+      border-left: 4px solid #00E676;
+      padding: 20px;
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+    .warning-box {
+      background: rgba(255, 171, 0, 0.1);
+      border-left: 4px solid #FFAB00;
+      padding: 20px;
+      border-radius: 8px;
+      margin-top: 20px;
+    }
     </style>
     """,
     unsafe_allow_html=True
 )
 
+# ---------- COUNTRY DATA (Prices & Currencies) ----------
+COUNTRY_DATA = {
+    "Algeria": {"currency": "DZD", "elec_price": 5.5},
+    "Argentina": {"currency": "$", "elec_price": 55.0},
+    "Australia": {"currency": "A$", "elec_price": 0.35},
+    "Austria": {"currency": "€", "elec_price": 0.38},
+    "Belgium": {"currency": "€", "elec_price": 0.36},
+    "Brazil": {"currency": "R$", "elec_price": 0.85},
+    "Canada": {"currency": "C$", "elec_price": 0.16},
+    "Chile": {"currency": "$", "elec_price": 140.0},
+    "China": {"currency": "¥", "elec_price": 0.60},
+    "Colombia": {"currency": "$", "elec_price": 750.0},
+    "Czech Republic": {"currency": "Kč", "elec_price": 8.5},
+    "Denmark": {"currency": "kr", "elec_price": 2.8},
+    "Egypt": {"currency": "E£", "elec_price": 1.4},
+    "Finland": {"currency": "€", "elec_price": 0.25},
+    "France": {"currency": "€", "elec_price": 0.23},
+    "Germany": {"currency": "€", "elec_price": 0.40},
+    "Greece": {"currency": "€", "elec_price": 0.22},
+    "Hungary": {"currency": "Ft", "elec_price": 36.0},
+    "India": {"currency": "₹", "elec_price": 8.0},
+    "Indonesia": {"currency": "Rp", "elec_price": 1450.0},
+    "Ireland": {"currency": "€", "elec_price": 0.38},
+    "Israel": {"currency": "₪", "elec_price": 0.60},
+    "Italy": {"currency": "€", "elec_price": 0.35},
+    "Japan": {"currency": "¥", "elec_price": 31.0},
+    "Malaysia": {"currency": "RM", "elec_price": 0.50},
+    "Mexico": {"currency": "$", "elec_price": 1.9},
+    "Netherlands": {"currency": "€", "elec_price": 0.35},
+    "New Zealand": {"currency": "NZ$", "elec_price": 0.30},
+    "Norway": {"currency": "kr", "elec_price": 1.5},
+    "Pakistan": {"currency": "₨", "elec_price": 45.0},
+    "Philippines": {"currency": "₱", "elec_price": 11.0},
+    "Poland": {"currency": "zł", "elec_price": 0.95},
+    "Portugal": {"currency": "€", "elec_price": 0.24},
+    "Russia": {"currency": "₽", "elec_price": 5.5},
+    "Saudi Arabia": {"currency": "﷼", "elec_price": 0.18},
+    "Singapore": {"currency": "S$", "elec_price": 0.30},
+    "South Africa": {"currency": "R", "elec_price": 2.80},
+    "South Korea": {"currency": "₩", "elec_price": 140.0},
+    "Spain": {"currency": "€", "elec_price": 0.24},
+    "Sweden": {"currency": "kr", "elec_price": 2.5},
+    "Switzerland": {"currency": "CHF", "elec_price": 0.32},
+    "Taiwan": {"currency": "NT$", "elec_price": 3.0},
+    "Thailand": {"currency": "฿", "elec_price": 4.7},
+    "Turkey": {"currency": "₺", "elec_price": 2.6},
+    "UAE": {"currency": "AED", "elec_price": 0.30},
+    "UK": {"currency": "£", "elec_price": 0.34},
+    "USA": {"currency": "$", "elec_price": 0.16},
+    "United Kingdom": {"currency": "£", "elec_price": 0.34},
+    "United States": {"currency": "$", "elec_price": 0.16},
+    "Vietnam": {"currency": "₫", "elec_price": 2000.0}
+}
+
+DEFAULT_CURRENCY = "$"
+DEFAULT_ELEC_PRICE = 0.14  # Global avg approx
+
 # ---------- HELPERS ----------
+def get_country_info(country_name):
+    if country_name in COUNTRY_DATA:
+        return COUNTRY_DATA[country_name]
+    for k, v in COUNTRY_DATA.items():
+        if k.lower() in country_name.lower():
+            return v
+    return {"currency": DEFAULT_CURRENCY, "elec_price": DEFAULT_ELEC_PRICE}
+
 def safe_read_csv(path):
     if not Path(path).exists():
         return pd.DataFrame()
@@ -75,7 +190,6 @@ def prepare_mileage(raw):
     df = raw.copy()
     df.columns = [c.strip() for c in df.columns]
 
-    # detect columns (best-effort)
     make_col = next((c for c in df.columns if re.search("identification\\.make|\\bmake\\b|\\bbrand\\b", c, re.I)), None)
     class_col = next((c for c in df.columns if re.search("identification\\.classification|classification|model\\b", c, re.I)), None)
     year_col = next((c for c in df.columns if re.search("\\byear\\b|identification\\.year", c, re.I)), None)
@@ -83,13 +197,9 @@ def prepare_mileage(raw):
     city_col = next((c for c in df.columns if re.search("city mpg|city_mpg", c, re.I)), None)
     hwy_col = next((c for c in df.columns if re.search("highway mpg|highway_mpg", c, re.I)), None)
 
-    # Make
-    if make_col:
-        df["Make"] = df[make_col].astype(str).str.strip()
-    else:
-        df["Make"] = "Unknown"
+    if make_col: df["Make"] = df[make_col].astype(str).str.strip()
+    else: df["Make"] = "Unknown"
 
-    # Model: best-effort
     if class_col:
         if year_col and year_col in df.columns:
             df["Model"] = df[class_col].astype(str).str.strip() + " (" + df[year_col].astype(str).str.strip() + ")"
@@ -100,21 +210,18 @@ def prepare_mileage(raw):
     else:
         df["Model"] = df["Make"].astype(str).str.strip() + " " + df.index.astype(str)
 
-    # Fuel
     if fuel_col and fuel_col in df.columns:
         df["Fuel"] = df[fuel_col].astype(str).str.strip()
     else:
         merged = df.astype(str).agg(" ".join, axis=1).str.lower()
         df["Fuel"] = merged.apply(lambda t: "Diesel" if "diesel" in t else ("Petrol" if ("petrol" in t or "gasoline" in t or " gas " in t) else ""))
 
-    # mpg to kmpl (1 mpg US = 0.425143707 km/L)
     conv = 0.425143707
     city_vals = df[city_col].apply(parse_float) if (city_col and city_col in df.columns) else pd.Series([None]*len(df))
     hwy_vals = df[hwy_col].apply(parse_float) if (hwy_col and hwy_col in df.columns) else pd.Series([None]*len(df))
     mpg_avg = pd.concat([city_vals, hwy_vals], axis=1).mean(axis=1)
     df["kmpl"] = mpg_avg.apply(lambda v: v*conv if v and not pd.isna(v) else None)
 
-    # final
     out = df[["Make","Model","Fuel","kmpl"]].drop_duplicates().reset_index(drop=True)
     out["Make"] = out["Make"].fillna("").astype(str)
     out["Model"] = out["Model"].fillna("").astype(str)
@@ -122,10 +229,13 @@ def prepare_mileage(raw):
     return out
 
 # ---------- LOAD FILES ----------
-raw_mileage = safe_read_csv("Fuel Car Mileage.csv")
-mileage_df = prepare_mileage(raw_mileage)
+if "mileage_db" not in st.session_state:
+    raw_mileage = safe_read_csv("Fuel Car Mileage.csv")
+    st.session_state.mileage_db = prepare_mileage(raw_mileage)
 
 preds_df = safe_read_csv("fuel_price_predictions_2025_2030.csv")
+hist_prices_df = safe_read_csv("clean_fuel_prices.csv") 
+master_prices_df = safe_read_csv("Master_Fuel_Prices_2015_2024.csv")
 ev_df = safe_read_csv("clean_ev_specs.csv")
 gef_df = safe_read_csv("clean_gef.csv")
 
@@ -138,10 +248,8 @@ SEGMENT_MILEAGE = {
     "Sports Car": 7
 }
 EV_SEGMENT = {"Budget City EV":12, "Standard Sedan EV":15, "Performance SUV EV":22}
-ELEC_DEFAULTS = {"India":8.0, "USA":0.16, "UK":0.34, "Germany":0.40}
 
-# ---------- PERSISTENT SELECTIONS ----------
-# Use session_state to ensure selections persist and do not reset when running
+# ---------- STATE INITIALIZATION ----------
 if "params" not in st.session_state:
     st.session_state.params = {
         "country": "India",
@@ -155,75 +263,170 @@ if "params" not in st.session_state:
         "ev_choice": list(EV_SEGMENT.keys())[0],
         "daily_km": 40,
         "use_avg_elec": True,
-        "elec_price": ELEC_DEFAULTS.get("India", 8.0)
+        "elec_price": 8.0,
+        "currency_symbol": "₹",
+        "manual_fuel_price": 0.0
     }
 
-p = st.session_state.params
+# TRACKERS for Auto-Detect logic
+if "last_country" not in st.session_state:
+    st.session_state.last_country = st.session_state.params["country"]
+if "last_fuel" not in st.session_state:
+    st.session_state.last_fuel = st.session_state.params["fuel"]
 
 # ---------- SIDEBAR (INPUTS) ----------
+p = st.session_state.params
+
 with st.sidebar:
     st.title("🚘 Simulation Parameters")
     st.subheader("1. Location")
-    countries = sorted(preds_df["country"].dropna().unique()) if not preds_df.empty else ["India","USA","UK"]
-    p["country"] = st.selectbox("Select Country", countries, index=countries.index(p["country"]) if p["country"] in countries else 0)
+    
+    # Merge countries
+    pred_countries = set(preds_df["country"].dropna().unique()) if not preds_df.empty else set()
+    hist_countries = set(hist_prices_df["country"].dropna().unique()) if not hist_prices_df.empty else set()
+    master_countries = set(master_prices_df["Country"].dropna().unique()) if not master_prices_df.empty else set()
+    all_countries = sorted(list(pred_countries.union(hist_countries).union(master_countries)))
+    
+    if not all_countries: all_countries = ["India","USA","UK"]
+        
+    selected_country = st.selectbox("Select Country", all_countries, index=all_countries.index(p["country"]) if p["country"] in all_countries else 0)
+
+    # Country Change Logic
+    if selected_country != st.session_state.last_country:
+        country_info = get_country_info(selected_country)
+        p["country"] = selected_country
+        p["elec_price"] = country_info["elec_price"]
+        p["currency_symbol"] = country_info["currency"]
+        p["manual_fuel_price"] = 0.0 # Reset to force re-detect
+        st.session_state.last_country = selected_country
+        st.rerun()
 
     st.markdown("---")
     st.subheader("2. Your Current Car")
-    p["fuel"] = st.radio("Fuel Type", ["Petrol","Diesel"], index=0 if p["fuel"]=="Petrol" else 1, horizontal=True)
+    
+    # Fuel Select
+    selected_fuel = st.radio("Fuel Type", ["Petrol","Diesel"], index=0 if p["fuel"]=="Petrol" else 1, horizontal=True)
 
-    st.markdown("How to select car?")
-    p["car_mode"] = st.radio("", ["By Segment (Easy)", "By Exact Model (Advanced)"], index=0 if p["car_mode"]=="By Segment (Easy)" else 1)
+    # ⚡⚡⚡ FUEL CHANGE LOGIC (The Fix) ⚡⚡⚡
+    # If fuel changed, we MUST reset manual price so it looks up the new fuel price
+    if selected_fuel != st.session_state.last_fuel:
+        p["fuel"] = selected_fuel
+        p["manual_fuel_price"] = 0.0  # Reset!
+        st.session_state.last_fuel = selected_fuel
+        st.rerun()
+    
+    # Update param if it was just a normal interaction (though rerun handles mostly)
+    p["fuel"] = selected_fuel
+
+    # --- AUTO DETECT PRICE ---
+    st.markdown("##### ⛽ Current Fuel Price")
+    
+    detected_price = None
+    
+    # 1. Master File (Priority)
+    if not master_prices_df.empty:
+        try:
+            m_row = master_prices_df[master_prices_df["Country"].str.lower() == p["country"].lower()]
+            if not m_row.empty:
+                f_type_match = m_row[m_row["Fuel Type"].str.contains(p["fuel"], case=False, na=False)]
+                if not f_type_match.empty:
+                    # Look for most recent year data
+                    for y in ["2024", "2023", "2022"]:
+                        val = f_type_match.iloc[0].get(y)
+                        if pd.notna(val):
+                            detected_price = float(val)
+                            break
+        except: pass
+
+    # 2. Predictions File (Backup)
+    if detected_price is None and not preds_df.empty:
+        try:
+            cp = preds_df[preds_df['country'].str.lower() == p["country"].lower()]
+            fp = cp[cp['fuel'].str.lower().str.contains(p["fuel"].lower(), na=False)].sort_values('year')
+            if not fp.empty: detected_price = fp.iloc[0]['predicted_price']
+        except: pass
+
+    # 3. Historical Clean File (Last Resort)
+    if detected_price is None and not hist_prices_df.empty:
+         try:
+            ch = hist_prices_df[hist_prices_df['country'].str.lower() == p["country"].lower()]
+            price_col = "petrol_price" if "petrol" in p["fuel"].lower() else "diesel_price"
+            if not ch.empty and price_col in ch.columns:
+                detected_price = float(ch.sort_values('year', ascending=False).iloc[0][price_col])
+         except: pass
+
+    # Apply detected price if we have 0.0 (meaning reset state)
+    if p["manual_fuel_price"] == 0.0:
+        if detected_price:
+            p["manual_fuel_price"] = detected_price
+        else:
+            p["manual_fuel_price"] = 100.0 # Only fallback if truly nothing found
+
+    col_f1, col_f2 = st.columns([1, 2])
+    with col_f1: st.markdown(f"**{p['currency_symbol']}**")
+    with col_f2:
+        p["manual_fuel_price"] = st.number_input(
+            "Price/Liter", 
+            value=float(p["manual_fuel_price"]), 
+            format="%.2f",
+            help="This is the price used for calculations."
+        )
+
+    if detected_price:
+        st.caption(f"✅ Auto-detected {p['fuel']} price")
+    else:
+        if p["manual_fuel_price"] == 100.0:
+            st.warning("⚠️ Price not found. Please update!")
+
+    st.markdown("---")
+    
+    # Car Mode
+    p["car_mode"] = st.radio("Car Selection Mode", ["By Segment (Easy)", "By Exact Model (Advanced)"], index=0 if p["car_mode"]=="By Segment (Easy)" else 1)
 
     if p["car_mode"] == "By Segment (Easy)":
         segs = list(SEGMENT_MILEAGE.keys())
-        p["segment"] = st.selectbox("What type of car do you drive?", segs, index=segs.index(p["segment"]) if p["segment"] in segs else 0)
+        p["segment"] = st.selectbox("Car Segment", segs, index=segs.index(p["segment"]) if p["segment"] in segs else 0)
         p["mileage"] = SEGMENT_MILEAGE[p["segment"]]
         st.info(f"Assumed mileage: {p['mileage']} km/L")
     else:
-        # Advanced: use prepared mileage_df
-        filtered = mileage_df.copy()
-        # filter by fuel if present
-        if "Fuel" in filtered.columns and filtered["Fuel"].str.strip().astype(bool).any():
-            if p["fuel"].lower() == "petrol":
-                mask = filtered["Fuel"].str.lower().str.contains("petrol|gasoline|gas", na=False)
-            else:
-                mask = filtered["Fuel"].str.lower().str.contains("diesel", na=False)
-            if mask.any():
-                filtered = filtered[mask]
+        filtered = st.session_state.mileage_db.copy()
+        
+        with st.expander("➕ Add Custom Car"):
+            c_make = st.text_input("Make", key="new_make")
+            c_model = st.text_input("Model", key="new_model")
+            c_fuel = st.selectbox("Fuel", ["Petrol", "Diesel"], key="new_fuel")
+            c_kmpl = st.number_input("Mileage", min_value=1.0, value=15.0, key="new_kmpl")
+            if st.button("Add"):
+                if c_make and c_model:
+                    new_row = pd.DataFrame([{"Make": c_make, "Model": c_model, "Fuel": c_fuel, "kmpl": c_kmpl}])
+                    st.session_state.mileage_db = pd.concat([st.session_state.mileage_db, new_row], ignore_index=True)
+                    st.rerun()
+
+        if "Fuel" in filtered.columns:
+            mask = filtered["Fuel"].str.lower().str.contains(p["fuel"].lower(), na=False)
+            if mask.any(): filtered = filtered[mask]
 
         brands = sorted(filtered["Make"].dropna().unique().tolist())
-        brand_options = ["Other"] + brands if brands else ["Other"]
-        # preserve previous selection index if present
-        try:
-            brand_idx = brand_options.index(p.get("brand","Other"))
-        except:
-            brand_idx = 0
-        p["brand"] = st.selectbox("Brand", brand_options, index=brand_idx)
+        brand_options = ["Other"] + brands
+        
+        p["brand"] = st.selectbox("Brand", brand_options, index=brand_options.index(p.get("brand","Other")) if p.get("brand") in brand_options else 0)
 
-        # models
         if p["brand"] != "Other":
             models = sorted(filtered[filtered["Make"] == p["brand"]]["Model"].dropna().unique().tolist())
-            model_options = ["My Car"] + models if models else ["My Car","Other"]
+            model_options = ["My Car"] + models
         else:
             model_options = ["My Car","Other"]
-        try:
-            model_idx = model_options.index(p.get("model","My Car"))
-        except:
-            model_idx = 0
-        p["model"] = st.selectbox("Model", model_options, index=model_idx)
+        p["model"] = st.selectbox("Model", model_options, index=model_options.index(p.get("model","My Car")) if p.get("model") in model_options else 0)
 
-        # autofill mileage if possible
-        detected = None
+        detected_kmpl = None
         if p["brand"] != "Other" and p["model"] not in ["My Car","Other"]:
             match = filtered[(filtered["Make"]==p["brand"]) & (filtered["Model"]==p["model"])]
-            if not match.empty and pd.notna(match.iloc[0]["kmpl"]):
-                detected = parse_float(match.iloc[0]["kmpl"])
-        if detected:
-            st.success(f"Detected mileage: {detected:.2f} km/L")
-            p["mileage"] = st.number_input("Enter Mileage (km/L)", value=float(detected), min_value=0.0, format="%.2f")
+            if not match.empty: detected_kmpl = parse_float(match.iloc[0]["kmpl"])
+        
+        if detected_kmpl:
+            p["mileage"] = st.number_input("Mileage (km/L)", value=float(detected_kmpl))
         else:
-            st.info("No mileage found — enter manually or switch to segment mode.")
-            p["mileage"] = st.number_input("Enter Mileage (km/L)", value=float(p["mileage"]), min_value=0.0, format="%.2f")
+            p["mileage"] = st.number_input("Mileage (km/L)", value=float(p["mileage"]))
 
     st.markdown("---")
     st.subheader("3. Target EV")
@@ -232,17 +435,11 @@ with st.sidebar:
         ev_opts = list(EV_SEGMENT.keys())
         p["ev_choice"] = st.selectbox("EV Type", ev_opts, index=ev_opts.index(p["ev_choice"]) if p["ev_choice"] in ev_opts else 0)
         p["ev_eff"] = EV_SEGMENT[p["ev_choice"]]
-        st.info(f"Estimated efficiency: {p['ev_eff']} kWh/100km")
     else:
-        if ev_df.empty:
-            st.warning("EV database missing; fallback to manual spec.")
-            p["ev_name"] = st.text_input("EV name", value=p.get("ev_name","Manual EV"))
-            p["ev_eff"] = st.number_input("Efficiency (kWh/100km)", value=p.get("ev_eff",15.0))
-        else:
-            # user friendly EV pick
+        if not ev_df.empty:
             ev_brand_col = next((c for c in ev_df.columns if re.search("brand|make", c, re.I)), None)
             ev_model_col = next((c for c in ev_df.columns if re.search("model|name", c, re.I)), None)
-            if ev_brand_col and ev_model_col:
+            if ev_brand_col:
                 brands_ev = sorted(ev_df[ev_brand_col].dropna().unique())
                 p["ev_brand"] = st.selectbox("EV Brand", brands_ev, index=brands_ev.index(p.get("ev_brand", brands_ev[0])) if p.get("ev_brand") in brands_ev else 0)
                 models_ev = sorted(ev_df[ev_df[ev_brand_col]==p["ev_brand"]][ev_model_col].dropna().unique())
@@ -251,78 +448,58 @@ with st.sidebar:
                 if not row.empty and 'kwh_per_100km' in row.columns:
                     p["ev_eff"] = float(row.iloc[0]['kwh_per_100km'])
                 else:
-                    p["ev_eff"] = p.get("ev_eff", 15.0)
-                st.success(f"EV efficiency: {p['ev_eff']:.1f} kWh/100km")
-            else:
-                p["ev_name"] = st.text_input("EV name", value=p.get("ev_name","Manual EV"))
-                p["ev_eff"] = st.number_input("Efficiency (kWh/100km)", value=p.get("ev_eff",15.0))
+                    p["ev_eff"] = 15.0
+                st.caption(f"Efficiency: {p['ev_eff']} kWh/100km")
+        else:
+            p["ev_eff"] = st.number_input("Efficiency", value=15.0)
 
     st.markdown("---")
     st.subheader("4. Driving & Costs")
     p["daily_km"] = st.slider("Daily Driving (km)", 10, 200, value=int(p.get("daily_km",40)))
-    p["use_avg_elec"] = st.checkbox("Use national avg electricity price?", value=p.get("use_avg_elec", True))
+    
+    p["use_avg_elec"] = st.checkbox(f"Use avg price for {p['country']}?", value=p.get("use_avg_elec", True))
+    
     if p["use_avg_elec"]:
-        p["elec_price"] = ELEC_DEFAULTS.get(p["country"], 8.0)
-        st.markdown(f"Electricity price used: **{p['elec_price']}**")
+        info = get_country_info(p["country"])
+        p["elec_price"] = info["elec_price"]
+        p["currency_symbol"] = info["currency"]
+        st.markdown(f"Elec Price: **{p['currency_symbol']}{p['elec_price']} / kWh**")
     else:
-        p["elec_price"] = st.number_input("Electricity rate (per kWh)", value=float(p.get("elec_price",8.0)))
+        c1, c2 = st.columns([1,2])
+        with c1: p["currency_symbol"] = st.text_input("Sym", value=p.get("currency_symbol","$"))
+        with c2: p["elec_price"] = st.number_input("Elec Rate", value=float(p.get("elec_price",8.0)))
+    
     st.markdown("---")
-
-    # Run simulation button (doesn't reset inputs because we use session_state)
     run_sim = st.button("Run Simulation 🚀")
 
-# ---------- COMPUTATION: runs when user clicks ----------
-
-def compute_simulation(params, sensitivity=None):
-    # params is st.session_state.params
-    country = params["country"]
-    fuel_type = params["fuel"]
+# ---------- COMPUTATION ----------
+def compute_simulation(params):
     daily_km = params["daily_km"]
     current_mileage = float(params["mileage"])
     ev_eff = float(params.get("ev_eff", 15.0))
     elec_price = float(params["elec_price"])
-
-    # adjust prices if sensitivity (percentage) provided
-    if sensitivity is None:
-        sens_multiplier = 1.0
-    else:
-        # sensitivity is a dict like {"fuel": +10, "elec": -5} percentage
-        sens_multiplier = 1.0
-
-    # fuel price predictions
-    years, prices = [], []
-    if not preds_df.empty and 'country' in preds_df.columns and 'fuel' in preds_df.columns:
-        try:
-            cp = preds_df[preds_df['country'].str.lower() == country.lower()]
-            if not cp.empty:
-                fp = cp[cp['fuel'].str.lower().str.contains(fuel_type.lower(), na=False)].sort_values('year')
-                if not fp.empty:
-                    years = fp['year'].tolist()
-                    prices = fp['predicted_price'].tolist()
-        except Exception:
-            years, prices = [], []
-    if not years:
-        years = list(range(2025,2031))
-        # placeholder price base
-        base = 100.0
-        prices = [base * (1.04**i) for i in range(len(years))]
+    curr = params.get("currency_symbol", "$")
+    
+    # USE THE MANUAL (OR DETECTED) PRICE
+    base_price = float(params["manual_fuel_price"])
+    
+    years = list(range(2025, 2031))
+    # 4% Inflation Projection
+    prices = [base_price * (1.04 ** (y - 2025)) for y in years]
 
     # GEF
     gef = 0.7
     if not gef_df.empty and 'country' in gef_df.columns and 'gef' in gef_df.columns:
-        row = gef_df[gef_df['country'].str.lower() == country.lower()]
-        if not row.empty:
-            gef = float(row.iloc[0]['gef'])
+        row = gef_df[gef_df['country'].str.lower() == params["country"].lower()]
+        if not row.empty: gef = float(row.iloc[0]['gef'])
 
-    co2_factor = 2.3 if fuel_type == "Petrol" else 2.7
+    co2_factor = 2.3 if params["fuel"] == "Petrol" else 2.7
 
     records = []
     cumulative = 0.0
     for yr, price in zip(years, prices):
-        # optionally apply sensitivity adjustments to fuel price
-        p_price = price
         liters = (daily_km * 365) / current_mileage
-        cost_fuel = liters * p_price
+        cost_fuel = liters * price
         co2_fuel = liters * co2_factor
 
         kwh_needed = (daily_km * 365 / 100.0) * ev_eff
@@ -334,7 +511,8 @@ def compute_simulation(params, sensitivity=None):
 
         records.append({
             "Year": int(yr),
-            "Fuel Price": round(p_price,2),
+            "Currency": curr,
+            "Fuel Price": round(price,2),
             "Liters per year": round(liters,2),
             "Cost Fuel": round(cost_fuel,2),
             "Cost EV": round(cost_ev,2),
@@ -347,105 +525,61 @@ def compute_simulation(params, sensitivity=None):
 
     return pd.DataFrame(records), gef
 
-# store last results in session state
 if "last_results" not in st.session_state:
     st.session_state.last_results = None
 if "last_gef" not in st.session_state:
     st.session_state.last_gef = None
 
-# Run calculation if button clicked
 if 'run_sim' in locals() and run_sim:
     df_results, gef_val = compute_simulation(p)
     st.session_state.last_results = df_results
     st.session_state.last_gef = gef_val
 
-# ---------- MAIN: show results if exist ----------
+# ---------- MAIN UI ----------
 col_main_left, col_main_right = st.columns([1,3])
 with col_main_left:
-    st.header("🌱 Eco-Switch Pro")
-    st.markdown(f"Comparing your **{p['fuel']}** car vs **{p.get('ev_choice', p.get('ev_name','EV'))}** in **{p['country']}**")
-    st.markdown("<div class='muted'>Use the sidebar to change inputs. Results persist until you change parameters.</div>", unsafe_allow_html=True)
+    st.title("🌱 Eco-Switch")
+    st.markdown(f"**{p['fuel']}** vs **{p.get('ev_choice', p.get('ev_name','EV'))}**")
+    st.caption(f"Location: {p['country']}")
 
 with col_main_right:
     if st.session_state.last_results is None:
-        st.write("")  # placeholder
+        st.markdown("<div style='text-align: center; padding: 50px; opacity: 0.6;'><h2>Ready to Switch?</h2><p>Click 'Run Simulation' to start.</p></div>", unsafe_allow_html=True)
     else:
         res = st.session_state.last_results
         total_saved = res["Cumulative"].iloc[-1]
         total_co2 = res["CO2 Avoided (kg)"].sum()
         gef_val = st.session_state.last_gef or 0.7
+        curr = p.get("currency_symbol", "$")
 
-        # KPI row
-        k1, k2, k3 = st.columns([1,1,1])
-        k1.markdown(f'<div class="kpi-card"><div class="kpi-label">Total 5-Year Savings</div><div class="kpi-value">{total_saved:,.0f}</div></div>', unsafe_allow_html=True)
-        k2.markdown(f'<div class="kpi-card"><div class="kpi-label">CO₂ Reduction (kg)</div><div class="kpi-value">{total_co2:,.0f}</div></div>', unsafe_allow_html=True)
-        k3.markdown(f'<div class="kpi-card"><div class="kpi-label">Grid Emission Factor (kg/kWh)</div><div class="kpi-value">{gef_val:.3f}</div></div>', unsafe_allow_html=True)
+        st.markdown(f"""
+        <div class="kpi-container">
+            <div class="kpi-card"><div class="kpi-label">💰 5-Year Savings</div><div class="kpi-value">{curr}{total_saved:,.0f}</div></div>
+            <div class="kpi-card"><div class="kpi-label">🌍 CO₂ Reduced (kg)</div><div class="kpi-value">{total_co2:,.0f}</div></div>
+            <div class="kpi-card"><div class="kpi-label">⚡ Grid Emission Factor</div><div class="kpi-value" style="-webkit-text-fill-color: #FAFAFA;">{gef_val:.3f}</div></div>
+        </div>
+        """, unsafe_allow_html=True)
 
-        st.markdown("---")
-        # Charts
-        fig = px.area(res, x="Year", y="Cumulative", title="Cumulative Savings", color_discrete_sequence=["#00E676"])
-        fig.update_layout(plot_bgcolor="rgba(0,0,0,0)", paper_bgcolor="rgba(0,0,0,0)", font_color="white", title_x=0.02)
-        st.plotly_chart(fig, use_container_width=True, height=420)
+        tab1, tab2 = st.tabs(["💸 Financial Savings", "🌿 CO₂ Analysis"])
+        with tab1:
+            fig = px.area(res, x="Year", y="Cumulative", title=f"Cumulative Savings ({curr})", color_discrete_sequence=["#00E676"])
+            fig.update_layout(plot_bgcolor="rgba(0,0,0,0)", paper_bgcolor="rgba(0,0,0,0)", font=dict(color="white"))
+            st.plotly_chart(fig, use_container_width=True)
+        with tab2:
+            fig2 = px.bar(res, x="Year", y="CO2 Avoided (kg)", title="Yearly CO₂ Avoided", color_discrete_sequence=["#00E676"])
+            fig2.update_layout(plot_bgcolor="rgba(0,0,0,0)", paper_bgcolor="rgba(0,0,0,0)", font=dict(color="white"))
+            st.plotly_chart(fig2, use_container_width=True)
 
-        # CO2 chart
-        fig2 = px.bar(res, x="Year", y="CO2 Avoided (kg)", title="Yearly CO₂ Avoided", color_discrete_sequence=["#66CCFF"])
-        fig2.update_layout(plot_bgcolor="rgba(0,0,0,0)", paper_bgcolor="rgba(0,0,0,0)", font_color="white", title_x=0.02)
-        st.plotly_chart(fig2, use_container_width=True, height=260)
-
-        st.markdown("""
-         <div style='background:#2a2b2d; padding:12px; border-radius:8px;'>
-         <b>⚠ Disclaimer:</b> All results are estimates based on past 10 years of data.
-         Actual prices and conditions may vary.
-         </div>
-         """, unsafe_allow_html=True)
-
-
-        # Recommendation + actions
-        st.markdown("### Recommendation")
         if total_saved > 0:
-            st.success(f"Switching to the selected EV is likely to save about **{total_saved:,.0f}** over 5 years and avoid **{total_co2:,.0f} kg** CO₂.")
+            st.markdown(f"""<div class="success-box"><h3>✅ Switch Recommended</h3><p>Estimated savings: <b>{curr}{total_saved:,.0f}</b></p></div>""", unsafe_allow_html=True)
         else:
-            st.warning("Savings are negative — EV may not save money with current assumptions. Check electricity/fuel prices and mileage.")
+            st.markdown(f"""<div class="warning-box"><h3>⚠️ Keep Current Car</h3><p>Negative savings: <b>{curr}{total_saved:,.0f}</b></p></div>""", unsafe_allow_html=True)
 
-        # download CSV and report
-        def to_csv_bytes(df):
-            return df.to_csv(index=False).encode("utf-8")
-
-        st.download_button("Download year-by-year CSV", to_csv_bytes(res), file_name="eco_switch_results.csv", mime="text/csv")
-
-        # Advanced details expander
-        with st.expander("Advanced details & sensitivity analysis (open)"):
-            st.subheader("Year-by-year breakdown")
-            st.dataframe(res.style.format({"Fuel Price":"{:.2f}", "Cost Fuel":"{:.2f}", "Cost EV":"{:.2f}", "Savings":"{:.2f}", "Cumulative":"{:.2f}"}))
-
-            st.markdown("#### Sensitivity analysis")
-            st.markdown("Slide to see how savings change when electricity price or fuel price changes.")
-            c1,c2 = st.columns(2)
-            with c1:
-                fuel_delta = st.slider("Fuel price change (%)", -30, 100, 0, help="Apply +/- percent change to fuel prices used in simulation")
-            with c2:
-                elec_delta = st.slider("Electricity price change (%)", -50, 100, 0, help="Apply +/- percent change to electricity cost")
-
-            if st.button("Run sensitivity"):
-                # recompute with adjustments
-                df_sens, _ = compute_simulation(p)  # base to copy
-                # apply adjustments
-                df_sens["Fuel Price"] = df_sens["Fuel Price"] * (1 + fuel_delta/100.0)
-                df_sens["Cost Fuel"] = df_sens["Liters per year"] * df_sens["Fuel Price"]
-                df_sens["Cost EV"] = df_sens["Cost EV"] * (1 + elec_delta/100.0)
-                df_sens["Savings"] = df_sens["Cost Fuel"] - df_sens["Cost EV"]
-                df_sens["Cumulative"] = df_sens["Savings"].cumsum()
-                st.markdown("**Sensitivity results**")
-                st.dataframe(df_sens.style.format({"Fuel Price":"{:.2f}", "Savings":"{:.2f}", "Cumulative":"{:.2f}"}))
-                st.download_button("Download sensitivity CSV", df_sens.to_csv(index=False).encode("utf-8"), file_name="sensitivity_results.csv", mime="text/csv")
-
-# ---------- FOOTER / DEBUG ----------
-st.markdown("<hr/>", unsafe_allow_html=True)
-with st.container():
-    left, right = st.columns([3,1])
-    with left:
-        st.markdown("<div class='muted'>Tip: Use Advanced mode to select exact make/model if available. Results will persist until you change inputs.</div>", unsafe_allow_html=True)
-    with right:
-        if st.checkbox("Show cleaned mileage sample (debug)", value=False):
-            st.dataframe(mileage_df.head(12))
-
+        col_d1, col_d2 = st.columns(2)
+        with col_d1: st.download_button("📥 Download CSV", res.to_csv(index=False).encode("utf-8"), "eco_switch_report.csv", "text/csv")
+        
+        with st.expander("🔍 View Detailed Data"):
+            disp = res.copy()
+            for c in ["Fuel Price", "Cost Fuel", "Cost EV", "Savings", "Cumulative"]:
+                disp[c] = disp[c].apply(lambda x: f"{curr}{x:,.2f}")
+            st.dataframe(disp, use_container_width=True)

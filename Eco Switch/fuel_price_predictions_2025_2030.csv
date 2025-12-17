@@ -1,10 +1,10 @@
 country,fuel,year,predicted_price
-Algeria,petrol_price,2025,60.184642857142535
-Algeria,petrol_price,2026,63.768571428570795
-Algeria,petrol_price,2027,67.35249999999996
-Algeria,petrol_price,2028,70.93642857142822
-Algeria,petrol_price,2029,74.52035714285739
-Algeria,petrol_price,2030,78.10428571428565
+Algeria,petrol_price,2025,52.660000000000764
+Algeria,petrol_price,2026,55.2601818181829
+Algeria,petrol_price,2027,57.86036363636413
+Algeria,petrol_price,2028,60.46054545454626
+Algeria,petrol_price,2029,63.0607272727284
+Algeria,petrol_price,2030,65.66090909090963
 Algeria,diesel_price,2025,33.26999999999998
 Algeria,diesel_price,2026,34.925636363636386
 Algeria,diesel_price,2027,36.58127272727279
@@ -29,1176 +29,1446 @@ Argentina,diesel_price,2027,797.0174545454502
 Argentina,diesel_price,2028,877.4775151515205
 Argentina,diesel_price,2029,957.9375757575617
 Argentina,diesel_price,2030,1038.397636363632
-Aruba,diesel_price,2025,2.5055555555555316
-Aruba,diesel_price,2026,2.6328888888888855
-Aruba,diesel_price,2027,2.7602222222222395
-Aruba,diesel_price,2028,2.8875555555555366
-Aruba,diesel_price,2029,3.0148888888888905
-Aruba,diesel_price,2030,3.1422222222222445
-Australia,diesel_price,2025,189.8826666666646
-Australia,diesel_price,2026,199.35933333333014
-Australia,diesel_price,2027,208.83599999999933
-Australia,diesel_price,2028,218.31266666666488
-Australia,diesel_price,2029,227.78933333333043
-Australia,diesel_price,2030,237.26599999999598
-Austria,diesel_price,2025,1.721333333333348
-Austria,diesel_price,2026,1.799030303030321
-Austria,diesel_price,2027,1.8767272727272655
-Austria,diesel_price,2028,1.9544242424242384
-Austria,diesel_price,2029,2.0321212121212113
-Austria,diesel_price,2030,2.1098181818181843
-Azerbaijan,petrol_price,2025,1.1066666666666691
-Azerbaijan,petrol_price,2026,1.134242424242423
-Azerbaijan,petrol_price,2027,1.1618181818181839
-Azerbaijan,petrol_price,2028,1.1893939393939377
-Azerbaijan,petrol_price,2029,1.2169696969696986
-Azerbaijan,petrol_price,2030,1.2445454545454524
-Azerbaijan,diesel_price,2025,0.9066666666666734
-Azerbaijan,diesel_price,2026,0.931515151515157
-Azerbaijan,diesel_price,2027,0.9563636363636405
-Azerbaijan,diesel_price,2028,0.9812121212121241
-Azerbaijan,diesel_price,2029,1.0060606060606148
-Azerbaijan,diesel_price,2030,1.0309090909090983
-Bahrain,petrol_price,2025,155.0
-Bahrain,petrol_price,2026,159.36363636363603
-Bahrain,petrol_price,2027,163.72727272727207
-Bahrain,petrol_price,2028,168.0909090909081
-Bahrain,petrol_price,2029,172.45454545454595
-Bahrain,petrol_price,2030,176.81818181818198
-Bahrain,diesel_price,2025,196.0
-Bahrain,diesel_price,2026,201.45454545454595
-Bahrain,diesel_price,2027,206.9090909090919
-Bahrain,diesel_price,2028,212.36363636363603
-Bahrain,diesel_price,2029,217.81818181818198
-Bahrain,diesel_price,2030,223.27272727272793
-Bangladesh,petrol_price,2025,119.32799999999952
-Bangladesh,petrol_price,2026,123.63381818181915
-Bangladesh,petrol_price,2027,127.93963636363696
-Bangladesh,petrol_price,2028,132.24545454545478
-Bangladesh,petrol_price,2029,136.5512727272726
-Bangladesh,petrol_price,2030,140.8570909090904
-Bangladesh,diesel_price,2025,110.65555555555511
-Bangladesh,diesel_price,2026,116.86288888888885
-Bangladesh,diesel_price,2027,123.07022222222258
-Bangladesh,diesel_price,2028,129.2775555555545
-Bangladesh,diesel_price,2029,135.48488888888824
-Bangladesh,diesel_price,2030,141.69222222222197
-Barbados,diesel_price,2025,3.8264285714285506
-Barbados,diesel_price,2026,3.989523809523746
-Barbados,diesel_price,2027,4.152619047618998
-Barbados,diesel_price,2028,4.31571428571425
-Barbados,diesel_price,2029,4.4788095238095025
-Barbados,diesel_price,2030,4.641904761904698
-Belgium,diesel_price,2025,1.9133333333333553
-Belgium,diesel_price,2026,1.9977575757575892
-Belgium,diesel_price,2027,2.0821818181818514
-Belgium,diesel_price,2028,2.1666060606060853
-Belgium,diesel_price,2029,2.251030303030319
-Belgium,diesel_price,2030,2.3354545454545814
-Belize,petrol_price,2025,13.317333333333409
-Belize,petrol_price,2026,13.82121212121217
-Belize,petrol_price,2027,14.325090909090932
-Belize,petrol_price,2028,14.828969696969693
-Belize,petrol_price,2029,15.332848484848569
-Belize,petrol_price,2030,15.83672727272733
-Belize,diesel_price,2025,13.47199999999998
-Belize,diesel_price,2026,14.089090909090828
-Belize,diesel_price,2027,14.706181818181676
-Belize,diesel_price,2028,15.323272727272752
-Belize,diesel_price,2029,15.9403636363636
-Belize,diesel_price,2030,16.557454545454448
-Benin,petrol_price,2025,671.3047222222231
-Benin,petrol_price,2026,710.51455555555
-Benin,petrol_price,2027,749.7243888888916
-Benin,petrol_price,2028,788.9342222222185
-Benin,petrol_price,2029,828.14405555556
-Benin,petrol_price,2030,867.353888888887
-Benin,diesel_price,2025,729.9727631578862
-Benin,diesel_price,2026,765.1194078947301
-Benin,diesel_price,2027,800.266052631574
-Benin,diesel_price,2028,835.4126973684033
-Benin,diesel_price,2029,870.5593421052472
-Benin,diesel_price,2030,905.7059868420911
-Bolivia,petrol_price,2025,5.22199999999998
-Bolivia,petrol_price,2026,5.121636363636355
-Bolivia,petrol_price,2027,5.021272727272731
-Bolivia,petrol_price,2028,4.920909090909078
-Bolivia,petrol_price,2029,4.820545454545453
-Bolivia,petrol_price,2030,4.7201818181818
-Bolivia,diesel_price,2025,5.302666666666653
-Bolivia,diesel_price,2026,5.202242424242428
-Bolivia,diesel_price,2027,5.1018181818181745
-Bolivia,diesel_price,2028,5.001393939393921
-Bolivia,diesel_price,2029,4.900969696969696
-Bolivia,diesel_price,2030,4.800545454545443
-Bosnia & Herzegovina,diesel_price,2025,2.903611111111104
-Bosnia & Herzegovina,diesel_price,2026,3.024777777777757
-Bosnia & Herzegovina,diesel_price,2027,3.1459444444444387
-Bosnia & Herzegovina,diesel_price,2028,3.2671111111110918
-Bosnia & Herzegovina,diesel_price,2029,3.3882777777777733
-Bosnia & Herzegovina,diesel_price,2030,3.5094444444444264
-Botswana,petrol_price,2025,1742.072142857156
-Botswana,petrol_price,2026,1863.7376190476352
-Botswana,petrol_price,2027,1985.4030952381145
-Botswana,petrol_price,2028,2107.0685714285937
-Botswana,petrol_price,2029,2228.734047619073
-Botswana,petrol_price,2030,2350.399523809552
-Botswana,diesel_price,2025,1733.1580434782372
-Botswana,diesel_price,2026,1861.6602536231803
-Botswana,diesel_price,2027,1990.1624637680943
-Botswana,diesel_price,2028,2118.6646739130374
-Botswana,diesel_price,2029,2247.1668840579514
-Botswana,diesel_price,2030,2375.6690942028945
-Brazil,petrol_price,2025,6.432666666666705
-Brazil,petrol_price,2026,6.720242424242429
-Brazil,petrol_price,2027,7.007818181818266
-Brazil,petrol_price,2028,7.295393939393989
-Brazil,petrol_price,2029,7.5829696969697125
-Brazil,petrol_price,2030,7.8705454545455495
-Brazil,diesel_price,2025,6.445333333333224
-Brazil,diesel_price,2026,6.828666666666663
-Brazil,diesel_price,2027,7.211999999999989
-Brazil,diesel_price,2028,7.595333333333315
-Brazil,diesel_price,2029,7.978666666666641
-Brazil,diesel_price,2030,8.361999999999966
-Bulgaria,diesel_price,2025,1.4020000000000152
-Bulgaria,diesel_price,2026,1.448363636363652
-Bulgaria,diesel_price,2027,1.494727272727289
-Bulgaria,diesel_price,2028,1.5410909090909257
-Bulgaria,diesel_price,2029,1.5874545454545625
-Bulgaria,diesel_price,2030,1.6338181818181994
-Burkina Faso,petrol_price,2025,803.2166666666672
-Burkina Faso,petrol_price,2026,826.0984242424238
-Burkina Faso,petrol_price,2027,848.9801818181804
-Burkina Faso,petrol_price,2028,871.8619393939371
-Burkina Faso,petrol_price,2029,894.743696969701
-Burkina Faso,petrol_price,2030,917.6254545454576
-Burkina Faso,diesel_price,2025,658.8159999999989
-Burkina Faso,diesel_price,2026,672.741636363633
-Burkina Faso,diesel_price,2027,686.6672727272708
-Burkina Faso,diesel_price,2028,700.5929090909085
-Burkina Faso,diesel_price,2029,714.5185454545426
-Burkina Faso,diesel_price,2030,728.4441818181804
-Cabo Verde,petrol_price,2025,150.5599999999995
-Cabo Verde,petrol_price,2026,155.39733333333243
-Cabo Verde,petrol_price,2027,160.23466666666536
-Cabo Verde,petrol_price,2028,165.07200000000012
-Cabo Verde,petrol_price,2029,169.90933333333305
-Cabo Verde,petrol_price,2030,174.746666666666
-Cabo Verde,diesel_price,2025,137.3183333333327
-Cabo Verde,diesel_price,2026,143.41466666666565
-Cabo Verde,diesel_price,2027,149.51100000000042
-Cabo Verde,diesel_price,2028,155.60733333333337
-Cabo Verde,diesel_price,2029,161.70366666666632
-Cabo Verde,diesel_price,2030,167.79999999999927
-Cameroon,petrol_price,2025,736.8886666666658
-Cameroon,petrol_price,2026,750.6411515151522
-Cameroon,petrol_price,2027,764.3936363636385
-Cameroon,petrol_price,2028,778.1461212121212
-Cameroon,petrol_price,2029,791.8986060606076
-Cameroon,petrol_price,2030,805.6510909090903
-Cameroon,diesel_price,2025,711.9066666666695
-Cameroon,diesel_price,2026,729.4911515151543
-Cameroon,diesel_price,2027,747.0756363636392
-Cameroon,diesel_price,2028,764.6601212121241
-Cameroon,diesel_price,2029,782.2446060606089
-Cameroon,diesel_price,2030,799.8290909090938
-Canada,petrol_price,2025,174.35472222222234
-Canada,petrol_price,2026,182.29455555555614
-Canada,petrol_price,2027,190.23438888888813
-Canada,petrol_price,2028,198.17422222222194
-Canada,petrol_price,2029,206.11405555555575
-Canada,petrol_price,2030,214.05388888888956
-Canada,diesel_price,2025,183.3847222222248
-Canada,diesel_price,2026,193.37322222222429
-Canada,diesel_price,2027,203.36172222222376
-Canada,diesel_price,2028,213.35022222222324
-Canada,diesel_price,2029,223.3387222222227
-Canada,diesel_price,2030,233.3272222222222
-Cayman Islands,diesel_price,2025,6.010357142857174
-Cayman Islands,diesel_price,2026,6.259880952380968
-Cayman Islands,diesel_price,2027,6.5094047619047615
-Cayman Islands,diesel_price,2028,6.758928571428555
-Cayman Islands,diesel_price,2029,7.008452380952406
-Cayman Islands,diesel_price,2030,7.2579761904761995
-Central African Republic,petrol_price,2025,1114.107142857145
-Central African Republic,petrol_price,2026,1153.6309523809468
-Central African Republic,petrol_price,2027,1193.1547619047633
-Central African Republic,petrol_price,2028,1232.6785714285797
-Central African Republic,petrol_price,2029,1272.2023809523816
-Central African Republic,petrol_price,2030,1311.726190476198
-Central African Republic,diesel_price,2025,1316.6071428571595
-Central African Republic,diesel_price,2026,1390.297619047633
-Central African Republic,diesel_price,2027,1463.9880952381063
-Central African Republic,diesel_price,2028,1537.6785714285797
-Central African Republic,diesel_price,2029,1611.3690476190532
-Central African Republic,diesel_price,2030,1685.0595238095266
-Chile,petrol_price,2025,1274.3753333333589
-Chile,petrol_price,2026,1343.5821212121518
-Chile,petrol_price,2027,1412.7889090909448
-Chile,petrol_price,2028,1481.9956969697087
-Chile,petrol_price,2029,1551.2024848485016
-Chile,petrol_price,2030,1620.4092727272946
-Chile,diesel_price,2025,1060.315333333303
-Chile,diesel_price,2026,1129.9584848484665
-Chile,diesel_price,2027,1199.60163636363
-Chile,diesel_price,2028,1269.2447878787643
-Chile,diesel_price,2029,1338.8879393939278
-Chile,diesel_price,2030,1408.5310909090622
-China,petrol_price,2025,7.936666666666667
-China,petrol_price,2026,8.173515151515176
-China,petrol_price,2027,8.410363636363684
-China,petrol_price,2028,8.647212121212135
-China,petrol_price,2029,8.884060606060643
-China,petrol_price,2030,9.120909090909095
-China,diesel_price,2025,7.934000000000083
-China,diesel_price,2026,8.191272727272803
-China,diesel_price,2027,8.448545454545524
-China,diesel_price,2028,8.705818181818245
-China,diesel_price,2029,8.963090909090965
-China,diesel_price,2030,9.220363636363686
-Colombia,diesel_price,2025,9971.830000000016
-Colombia,diesel_price,2026,10218.453090909112
-Colombia,diesel_price,2027,10465.076181818207
-Colombia,diesel_price,2028,10711.699272727303
-Colombia,diesel_price,2029,10958.32236363634
-Colombia,diesel_price,2030,11204.945454545435
-Congo,diesel_price,2025,553.0566666666673
-Congo,diesel_price,2026,563.5366060606066
-Congo,diesel_price,2027,574.0165454545458
-Congo,diesel_price,2028,584.4964848484851
-Congo,diesel_price,2029,594.9764242424244
-Congo,diesel_price,2030,605.4563636363637
-Congo (Dem. Rep.),petrol_price,2025,2932.0002777777845
-Congo (Dem. Rep.),petrol_price,2026,3037.3141111111036
-Congo (Dem. Rep.),petrol_price,2027,3142.6279444444517
-Congo (Dem. Rep.),petrol_price,2028,3247.9417777777708
-Congo (Dem. Rep.),petrol_price,2029,3353.255611111119
-Congo (Dem. Rep.),petrol_price,2030,3458.569444444438
-Congo (Rep.),petrol_price,2025,701.1666666666679
-Congo (Rep.),petrol_price,2026,715.3333333333321
-Congo (Rep.),petrol_price,2027,729.5
-Congo (Rep.),petrol_price,2028,743.6666666666679
-Congo (Rep.),petrol_price,2029,757.8333333333321
-Congo (Rep.),petrol_price,2030,772.0
-Costa Rica,petrol_price,2025,596.2339999999967
-Costa Rica,petrol_price,2026,619.8354545454495
-Costa Rica,petrol_price,2027,643.4369090909095
-Costa Rica,petrol_price,2028,667.0383636363622
-Costa Rica,petrol_price,2029,690.6398181818149
-Costa Rica,petrol_price,2030,714.2412727272676
-Costa Rica,diesel_price,2025,559.5200000000041
-Costa Rica,diesel_price,2026,599.3843636363599
-Costa Rica,diesel_price,2027,639.2487272727303
-Costa Rica,diesel_price,2028,679.1130909090862
-Costa Rica,diesel_price,2029,718.9774545454566
-Costa Rica,diesel_price,2030,758.8418181818124
-Cote d'Ivoire,petrol_price,2025,864.651428571422
-Cote d'Ivoire,petrol_price,2026,905.8145238095167
-Cote d'Ivoire,petrol_price,2027,946.9776190476114
-Cote d'Ivoire,petrol_price,2028,988.140714285706
-Cote d'Ivoire,petrol_price,2029,1029.3038095238007
-Cote d'Ivoire,petrol_price,2030,1070.4669047618954
-Cote d'Ivoire,diesel_price,2025,699.7657142857133
-Cote d'Ivoire,diesel_price,2026,716.1064285714237
-Cote d'Ivoire,diesel_price,2027,732.4471428571414
-Cote d'Ivoire,diesel_price,2028,748.7878571428519
-Cote d'Ivoire,diesel_price,2029,765.1285714285696
-Cote d'Ivoire,diesel_price,2030,781.46928571428
-Croatia,diesel_price,2025,1.6966666666666583
-Croatia,diesel_price,2026,1.761515151515141
-Croatia,diesel_price,2027,1.8263636363636238
-Croatia,diesel_price,2028,1.8912121212121065
-Croatia,diesel_price,2029,1.9560606060606176
-Croatia,diesel_price,2030,2.0209090909091003
-Curacao,diesel_price,2025,2.1166666666666742
-Curacao,diesel_price,2026,2.2306060606060782
-Curacao,diesel_price,2027,2.344545454545454
-Curacao,diesel_price,2028,2.458484848484858
-Curacao,diesel_price,2029,2.572424242424262
-Curacao,diesel_price,2030,2.6863636363636374
-Cyprus,diesel_price,2025,1.6059999999999803
-Cyprus,diesel_price,2026,1.6574545454545273
-Cyprus,diesel_price,2027,1.7089090909090743
-Cyprus,diesel_price,2028,1.7603636363636213
-Cyprus,diesel_price,2029,1.8118181818181682
-Cyprus,diesel_price,2030,1.8632727272727152
-Czech Republic,diesel_price,2025,1.593999999999994
-Czech Republic,diesel_price,2026,1.6534545454545366
-Czech Republic,diesel_price,2027,1.7129090909090934
-Czech Republic,diesel_price,2028,1.772363636363636
-Czech Republic,diesel_price,2029,1.8318181818181785
-Czech Republic,diesel_price,2030,1.891272727272721
-DRC,diesel_price,2025,2917.2352777777705
-DRC,diesel_price,2026,3021.9781111110933
-DRC,diesel_price,2027,3126.720944444416
-DRC,diesel_price,2028,3231.463777777768
-DRC,diesel_price,2029,3336.2066111110908
-DRC,diesel_price,2030,3440.9494444444135
-Denmark,diesel_price,2025,1.8499999999999943
-Denmark,diesel_price,2026,1.9247272727272673
-Denmark,diesel_price,2027,1.9994545454545403
-Denmark,diesel_price,2028,2.0741818181818132
-Denmark,diesel_price,2029,2.148909090909086
-Denmark,diesel_price,2030,2.223636363636359
-Dominican Republic,petrol_price,2025,290.13527777777927
-Dominican Republic,petrol_price,2026,302.4694444444467
-Dominican Republic,petrol_price,2027,314.8036111111105
-Dominican Republic,petrol_price,2028,327.13777777777796
-Dominican Republic,petrol_price,2029,339.4719444444454
-Dominican Republic,petrol_price,2030,351.80611111111284
-Dominican Republic,diesel_price,2025,248.42944444444583
-Dominican Republic,diesel_price,2026,259.7784444444442
-Dominican Republic,diesel_price,2027,271.1274444444425
-Dominican Republic,diesel_price,2028,282.4764444444445
-Dominican Republic,diesel_price,2029,293.82544444444284
-Dominican Republic,diesel_price,2030,305.1744444444448
-Ecuador,petrol_price,2025,2.6993333333333567
-Ecuador,petrol_price,2026,2.8413939393939245
-Ecuador,petrol_price,2027,2.983454545454549
-Ecuador,petrol_price,2028,3.125515151515174
-Ecuador,petrol_price,2029,3.2675757575757416
-Ecuador,petrol_price,2030,3.4096363636363662
-Ecuador,diesel_price,2025,1.889333333333326
-Ecuador,diesel_price,2026,1.99284848484848
-Ecuador,diesel_price,2027,2.096363636363634
-Ecuador,diesel_price,2028,2.199878787878788
-Ecuador,diesel_price,2029,2.303393939393942
-Ecuador,diesel_price,2030,2.406909090909096
-Egypt,petrol_price,2025,12.2826666666665
-Egypt,petrol_price,2026,13.342242424242158
-Egypt,petrol_price,2027,14.401818181817816
-Egypt,petrol_price,2028,15.461393939393929
-Egypt,petrol_price,2029,16.520969696969587
-Egypt,petrol_price,2030,17.580545454545245
-Egypt,diesel_price,2025,10.750666666666575
-Egypt,diesel_price,2026,11.666606060606
-Egypt,diesel_price,2027,12.582545454545425
-Egypt,diesel_price,2028,13.49848484848485
-Egypt,diesel_price,2029,14.414424242424275
-Egypt,diesel_price,2030,15.330363636363472
-El Salvador,petrol_price,2025,4.258000000000038
-El Salvador,petrol_price,2026,4.435636363636377
-El Salvador,petrol_price,2027,4.613272727272772
-El Salvador,petrol_price,2028,4.7909090909091105
-El Salvador,petrol_price,2029,4.968545454545506
-El Salvador,petrol_price,2030,5.146181818181844
-El Salvador,diesel_price,2025,4.135333333333335
-El Salvador,diesel_price,2026,4.334121212121204
-El Salvador,diesel_price,2027,4.532909090909072
-El Salvador,diesel_price,2028,4.731696969696941
-El Salvador,diesel_price,2029,4.930484848484866
-El Salvador,diesel_price,2030,5.129272727272735
-Equatorial Guinea,petrol_price,2025,496.9642857142853
-Equatorial Guinea,petrol_price,2026,499.55357142857156
-Equatorial Guinea,petrol_price,2027,502.1428571428569
-Equatorial Guinea,petrol_price,2028,504.7321428571422
-Equatorial Guinea,petrol_price,2029,507.32142857142844
-Equatorial Guinea,petrol_price,2030,509.91071428571377
-Equatorial Guinea,diesel_price,2025,485.7142857142826
-Equatorial Guinea,diesel_price,2026,506.42857142857247
-Equatorial Guinea,diesel_price,2027,527.1428571428551
-Equatorial Guinea,diesel_price,2028,547.8571428571377
-Equatorial Guinea,diesel_price,2029,568.5714285714275
-Equatorial Guinea,diesel_price,2030,589.2857142857101
-Estonia,diesel_price,2025,1.6893333333333374
-Estonia,diesel_price,2026,1.7570303030303194
-Estonia,diesel_price,2027,1.824727272727273
-Estonia,diesel_price,2028,1.892424242424255
-Estonia,diesel_price,2029,1.9601212121212086
-Estonia,diesel_price,2030,2.0278181818181906
-Ethiopia,petrol_price,2025,74.4275000000016
-Ethiopia,petrol_price,2026,82.27300000000105
-Ethiopia,petrol_price,2027,90.11850000000231
-Ethiopia,petrol_price,2028,97.96400000000176
-Ethiopia,petrol_price,2029,105.80950000000121
-Ethiopia,petrol_price,2030,113.65500000000247
-Ethiopia,diesel_price,2025,76.30138888888905
-Ethiopia,diesel_price,2026,84.80455555555454
-Ethiopia,diesel_price,2027,93.30772222222004
-Ethiopia,diesel_price,2028,101.81088888888917
-Ethiopia,diesel_price,2029,110.31405555555466
-Ethiopia,diesel_price,2030,118.81722222222015
-Fiji,petrol_price,2025,2.97799999999998
-Fiji,petrol_price,2026,3.1010909090908854
-Fiji,petrol_price,2027,3.2241818181817905
-Fiji,petrol_price,2028,3.3472727272726956
-Fiji,petrol_price,2029,3.470363636363601
-Fiji,petrol_price,2030,3.593454545454506
-Fiji,diesel_price,2025,2.7373333333333107
-Fiji,diesel_price,2026,2.875212121212087
-Fiji,diesel_price,2027,3.01309090909092
-Fiji,diesel_price,2028,3.150969696969696
-Fiji,diesel_price,2029,3.2888484848484723
-Fiji,diesel_price,2030,3.4267272727272484
-Finland,diesel_price,2025,1.9919999999999902
-Finland,diesel_price,2026,2.0785454545454627
-Finland,diesel_price,2027,2.1650909090909067
-Finland,diesel_price,2028,2.251636363636379
-Finland,diesel_price,2029,2.3381818181818232
-Finland,diesel_price,2030,2.4247272727272673
-France,diesel_price,2025,1.8826666666666938
-France,diesel_price,2026,1.964787878787888
-France,diesel_price,2027,2.0469090909091108
-France,diesel_price,2028,2.129030303030305
-France,diesel_price,2029,2.2111515151515277
-France,diesel_price,2030,2.2932727272727504
-French Guiana,diesel_price,2025,1.9185714285714255
-French Guiana,diesel_price,2026,2.001428571428562
-French Guiana,diesel_price,2027,2.0842857142856985
-French Guiana,diesel_price,2028,2.1671428571428635
-French Guiana,diesel_price,2029,2.25
-French Guiana,diesel_price,2030,2.3328571428571365
-Gabon,petrol_price,2025,631.4159999999993
-Gabon,petrol_price,2026,636.9840000000004
-Gabon,petrol_price,2027,642.5519999999997
-Gabon,petrol_price,2028,648.119999999999
-Gabon,petrol_price,2029,653.6880000000001
-Gabon,petrol_price,2030,659.2559999999994
-Gabon,diesel_price,2025,630.6940000000031
-Gabon,diesel_price,2026,643.2900000000009
-Gabon,diesel_price,2027,655.8860000000022
-Gabon,diesel_price,2028,668.4820000000036
-Gabon,diesel_price,2029,681.0780000000013
-Gabon,diesel_price,2030,693.6740000000027
-Gambia,petrol_price,2025,78.06964285714093
-Gambia,petrol_price,2026,82.37499999999818
-Gambia,petrol_price,2027,86.68035714285543
-Gambia,petrol_price,2028,90.98571428571267
-Gambia,petrol_price,2029,95.29107142856992
-Gambia,petrol_price,2030,99.59642857142717
-Gambia,diesel_price,2025,74.13107142857189
-Gambia,diesel_price,2026,77.86500000000069
-Gambia,diesel_price,2027,81.59892857142859
-Gambia,diesel_price,2028,85.33285714285739
-Gambia,diesel_price,2029,89.0667857142862
-Gambia,diesel_price,2030,92.800714285715
-Germany,diesel_price,2025,1.8306666666666729
-Germany,diesel_price,2026,1.9144242424242464
-Germany,diesel_price,2027,1.9981818181818198
-Germany,diesel_price,2028,2.0819393939393933
-Germany,diesel_price,2029,2.165696969696967
-Germany,diesel_price,2030,2.2494545454545687
-Ghana,petrol_price,2025,15.908214285714621
-Ghana,petrol_price,2026,17.59309523809543
-Ghana,petrol_price,2027,19.277976190476238
-Ghana,petrol_price,2028,20.9628571428575
-Ghana,petrol_price,2029,22.64773809523831
-Ghana,petrol_price,2030,24.33261904761912
-Ghana,diesel_price,2025,17.118928571429024
-Ghana,diesel_price,2026,18.972023809524217
-Ghana,diesel_price,2027,20.82511904761941
-Ghana,diesel_price,2028,22.678214285714603
-Ghana,diesel_price,2029,24.531309523809796
-Ghana,diesel_price,2030,26.38440476190499
-Greece,diesel_price,2025,1.7946666666666715
-Greece,diesel_price,2026,1.8669696969697043
-Greece,diesel_price,2027,1.939272727272737
-Greece,diesel_price,2028,2.01157575757577
-Greece,diesel_price,2029,2.0838787878788025
-Greece,diesel_price,2030,2.1561818181818353
-Greenland,petrol_price,2025,4.208666666666659
-Greenland,petrol_price,2026,4.048060606060631
-Greenland,petrol_price,2027,3.8874545454545455
-Greenland,petrol_price,2028,3.7268484848484604
-Greenland,petrol_price,2029,3.566242424242432
-Greenland,petrol_price,2030,3.405636363636347
-Greenland,diesel_price,2025,4.358666666666693
-Greenland,diesel_price,2026,4.198060606060665
-Greenland,diesel_price,2027,4.03745454545458
-Greenland,diesel_price,2028,3.8768484848484945
-Greenland,diesel_price,2029,3.7162424242424663
-Greenland,diesel_price,2030,3.5556363636363812
-Grenada,diesel_price,2025,15.633333333333326
-Grenada,diesel_price,2026,15.948484848484895
-Grenada,diesel_price,2027,16.26363636363635
-Grenada,diesel_price,2028,16.57878787878792
-Grenada,diesel_price,2029,16.893939393939377
-Grenada,diesel_price,2030,17.209090909090946
-Guatemala,petrol_price,2025,35.090000000000146
-Guatemala,petrol_price,2026,36.681090909090926
-Guatemala,petrol_price,2027,38.27218181818171
-Guatemala,petrol_price,2028,39.86327272727249
-Guatemala,petrol_price,2029,41.45436363636372
-Guatemala,petrol_price,2030,43.045454545454504
-Guatemala,diesel_price,2025,33.027333333333445
-Guatemala,diesel_price,2026,34.80812121212102
-Guatemala,diesel_price,2027,36.588909090909056
-Guatemala,diesel_price,2028,38.36969696969709
-Guatemala,diesel_price,2029,40.150484848484666
-Guatemala,diesel_price,2030,41.9312727272727
-Honduras,petrol_price,2025,100.61464285714374
-Honduras,petrol_price,2026,102.98095238095266
-Honduras,petrol_price,2027,105.34726190476249
-Honduras,petrol_price,2028,107.71357142857232
-Honduras,petrol_price,2029,110.07988095238125
-Honduras,petrol_price,2030,112.44619047619108
-Honduras,diesel_price,2025,99.1739285714284
-Honduras,diesel_price,2026,102.41535714285692
-Honduras,diesel_price,2027,105.65678571428543
-Honduras,diesel_price,2028,108.89821428571395
-Honduras,diesel_price,2029,112.13964285714246
-Honduras,diesel_price,2030,115.38107142857098
-Hungary,diesel_price,2025,1.600666666666669
-Hungary,diesel_price,2026,1.6604242424242415
-Hungary,diesel_price,2027,1.720181818181814
-Hungary,diesel_price,2028,1.7799393939394008
-Hungary,diesel_price,2029,1.8396969696969734
-Hungary,diesel_price,2030,1.899454545454546
-India,diesel_price,2025,103.32200000000012
-India,diesel_price,2026,108.82363636363698
-India,diesel_price,2027,114.32527272727384
-India,diesel_price,2028,119.82690909090888
-India,diesel_price,2029,125.32854545454575
-India,diesel_price,2030,130.8301818181826
-Indonesia,petrol_price,2025,11471.187999999966
-Indonesia,petrol_price,2026,11883.990181818139
-Indonesia,petrol_price,2027,12296.792363636312
-Indonesia,petrol_price,2028,12709.594545454602
-Indonesia,petrol_price,2029,13122.396727272775
-Indonesia,petrol_price,2030,13535.198909090948
-Indonesia,diesel_price,2025,15488.241999999853
-Indonesia,diesel_price,2026,16279.398363636341
-Indonesia,diesel_price,2027,17070.554727272596
-Indonesia,diesel_price,2028,17861.711090909084
-Indonesia,diesel_price,2029,18652.86745454534
-Indonesia,diesel_price,2030,19444.023818181828
-Iran,petrol_price,2025,15930.0
-Iran,petrol_price,2026,16328.571428571362
-Iran,petrol_price,2027,16727.14285714284
-Iran,petrol_price,2028,17125.71428571432
-Iran,petrol_price,2029,17524.28571428568
-Iran,petrol_price,2030,17922.85714285716
-Iraq,petrol_price,2025,450.0
-Iraq,petrol_price,2026,450.0
-Iraq,petrol_price,2027,450.0
-Iraq,petrol_price,2028,450.0
-Iraq,petrol_price,2029,450.0
-Iraq,petrol_price,2030,450.0
-Ireland,diesel_price,2025,1.7933333333333508
-Ireland,diesel_price,2026,1.8624848484848542
-Ireland,diesel_price,2027,1.9316363636363576
-Ireland,diesel_price,2028,2.0007878787878894
-Ireland,diesel_price,2029,2.069939393939393
-Ireland,diesel_price,2030,2.1390909090909247
-Israel,diesel_price,2025,2.7597777777777424
-Israel,diesel_price,2026,2.9151111111111163
-Israel,diesel_price,2027,3.0704444444444334
-Israel,diesel_price,2028,3.2257777777777505
-Israel,diesel_price,2029,3.3811111111111245
-Israel,diesel_price,2030,3.5364444444444416
-Italy,diesel_price,2025,1.8173333333333233
-Italy,diesel_price,2026,1.8733939393939352
-Italy,diesel_price,2027,1.929454545454547
-Italy,diesel_price,2028,1.9855151515151448
-Italy,diesel_price,2029,2.0415757575757567
-Italy,diesel_price,2030,2.0976363636363544
-Jamaica,petrol_price,2025,193.77666666666846
-Jamaica,petrol_price,2026,204.03006060606276
-Jamaica,petrol_price,2027,214.28345454545706
-Jamaica,petrol_price,2028,224.53684848485136
-Jamaica,petrol_price,2029,234.79024242424566
-Jamaica,petrol_price,2030,245.04363636363996
-Jamaica,diesel_price,2025,204.4406666666655
-Jamaica,diesel_price,2026,216.13860606060553
-Jamaica,diesel_price,2027,227.83654545454556
-Jamaica,diesel_price,2028,239.5344848484856
-Jamaica,diesel_price,2029,251.23242424242198
-Jamaica,diesel_price,2030,262.930363636362
-Japan,petrol_price,2025,181.7513333333336
-Japan,petrol_price,2026,187.7964848484844
-Japan,petrol_price,2027,193.841636363637
-Japan,petrol_price,2028,199.8867878787878
-Japan,petrol_price,2029,205.9319393939386
-Japan,petrol_price,2030,211.9770909090912
-Japan,diesel_price,2025,161.22800000000097
-Japan,diesel_price,2026,167.14636363636419
-Japan,diesel_price,2027,173.0647272727274
-Japan,diesel_price,2028,178.9830909090906
-Japan,diesel_price,2029,184.90145454545564
-Japan,diesel_price,2030,190.81981818181885
-Jordan,petrol_price,2025,0.9840000000000089
-Jordan,petrol_price,2026,1.0263636363636408
-Jordan,petrol_price,2027,1.0687272727272727
-Jordan,petrol_price,2028,1.111090909090919
-Jordan,petrol_price,2029,1.1534545454545508
-Jordan,petrol_price,2030,1.1958181818181828
-Jordan,diesel_price,2025,0.7873333333333363
-Jordan,diesel_price,2026,0.8259393939393931
-Jordan,diesel_price,2027,0.8645454545454498
-Jordan,diesel_price,2028,0.9031515151515208
-Jordan,diesel_price,2029,0.9417575757575776
-Jordan,diesel_price,2030,0.9803636363636343
-Kenya,diesel_price,2025,179.33277777777766
-Kenya,diesel_price,2026,191.24977777777895
-Kenya,diesel_price,2027,203.1667777777766
-Kenya,diesel_price,2028,215.08377777777787
-Kenya,diesel_price,2029,227.00077777777915
-Kenya,diesel_price,2030,238.9177777777768
-Kyrgyz Republic,petrol_price,2025,62.18533333333289
-Kyrgyz Republic,petrol_price,2026,65.32630303030328
-Kyrgyz Republic,petrol_price,2027,68.46727272727276
-Kyrgyz Republic,petrol_price,2028,71.60824242424223
-Kyrgyz Republic,petrol_price,2029,74.74921212121171
-Kyrgyz Republic,petrol_price,2030,77.8901818181821
-Kyrgyz Republic,diesel_price,2025,74.65533333333406
-Kyrgyz Republic,diesel_price,2026,79.2877575757575
-Kyrgyz Republic,diesel_price,2027,83.92018181818275
-Kyrgyz Republic,diesel_price,2028,88.5526060606062
-Kyrgyz Republic,diesel_price,2029,93.18503030303145
-Kyrgyz Republic,diesel_price,2030,97.8174545454549
-Lao PDR,petrol_price,2025,23555.242499999702
-Lao PDR,petrol_price,2026,25684.530999999493
-Lao PDR,petrol_price,2027,27813.819499999285
-Lao PDR,petrol_price,2028,29943.107999999076
-Lao PDR,petrol_price,2029,32072.3964999998
-Lao PDR,petrol_price,2030,34201.68499999959
-Laos,diesel_price,2025,21465.505833333358
-Laos,diesel_price,2026,23425.069666666444
-Laos,diesel_price,2027,25384.633499999996
-Laos,diesel_price,2028,27344.197333333082
-Laos,diesel_price,2029,29303.761166666634
-Laos,diesel_price,2030,31263.32499999972
-Latvia,diesel_price,2025,1.7139999999999986
-Latvia,diesel_price,2026,1.7961818181818217
-Latvia,diesel_price,2027,1.8783636363636447
-Latvia,diesel_price,2028,1.9605454545454393
-Latvia,diesel_price,2029,2.0427272727272623
-Latvia,diesel_price,2030,2.1249090909090853
-Lebanon,diesel_price,2025,63324.52066666633
-Lebanon,diesel_price,2026,71406.66078787856
-Lebanon,diesel_price,2027,79488.80090909079
-Lebanon,diesel_price,2028,87570.94103030302
-Lebanon,diesel_price,2029,95653.08115151525
-Lebanon,diesel_price,2030,103735.22127272747
-Lesotho,petrol_price,2025,21.79399999999987
-Lesotho,petrol_price,2026,23.20054545454559
-Lesotho,petrol_price,2027,24.607090909090857
-Lesotho,petrol_price,2028,26.01363636363658
-Lesotho,petrol_price,2029,27.420181818181845
-Lesotho,petrol_price,2030,28.826727272727567
-Lesotho,diesel_price,2025,23.31333333333305
-Lesotho,diesel_price,2026,24.84848484848453
-Lesotho,diesel_price,2027,26.38363636363647
-Lesotho,diesel_price,2028,27.918787878787953
-Lesotho,diesel_price,2029,29.453939393939436
-Lesotho,diesel_price,2030,30.98909090909092
-Liberia,petrol_price,2025,455.0003571428533
-Liberia,petrol_price,2026,510.7082142857107
-Liberia,petrol_price,2027,566.4160714285681
-Liberia,petrol_price,2028,622.1239285714255
-Liberia,petrol_price,2029,677.8317857142829
-Liberia,petrol_price,2030,733.5396428571403
-Liberia,diesel_price,2025,507.01535714285274
-Liberia,diesel_price,2026,569.2398809523729
-Liberia,diesel_price,2027,631.4644047619076
-Liberia,diesel_price,2028,693.6889285714278
-Liberia,diesel_price,2029,755.913452380948
-Liberia,diesel_price,2030,818.1379761904827
-Lithuania,diesel_price,2025,1.606666666666655
-Lithuania,diesel_price,2026,1.6782424242423986
-Lithuania,diesel_price,2027,1.7498181818181706
-Lithuania,diesel_price,2028,1.8213939393939143
-Lithuania,diesel_price,2029,1.8929696969696863
-Lithuania,diesel_price,2030,1.96454545454543
-Luxembourg,diesel_price,2025,1.6380000000000052
-Luxembourg,diesel_price,2026,1.7180000000000177
-Luxembourg,diesel_price,2027,1.7980000000000018
-Luxembourg,diesel_price,2028,1.8780000000000143
-Luxembourg,diesel_price,2029,1.9579999999999984
-Luxembourg,diesel_price,2030,2.038000000000011
-Madagascar,petrol_price,2025,5910.800555555616
-Madagascar,petrol_price,2026,6194.314222222194
-Madagascar,petrol_price,2027,6477.827888888889
-Madagascar,petrol_price,2028,6761.341555555584
-Madagascar,petrol_price,2029,7044.855222222279
-Madagascar,petrol_price,2030,7328.368888888857
-Madagascar,diesel_price,2025,4889.176111111126
-Madagascar,diesel_price,2026,5117.748444444442
-Madagascar,diesel_price,2027,5346.320777777757
-Madagascar,diesel_price,2028,5574.893111111131
-Madagascar,diesel_price,2029,5803.465444444446
-Madagascar,diesel_price,2030,6032.037777777761
-Malawi,diesel_price,2025,2580.625
-Malawi,diesel_price,2026,2797.492499999993
-Malawi,diesel_price,2027,3014.359999999986
-Malawi,diesel_price,2028,3231.2275000000373
-Malawi,diesel_price,2029,3448.0950000000303
-Malawi,diesel_price,2030,3664.9625000000233
-Malaysia,diesel_price,2025,2.4213333333333225
-Malaysia,diesel_price,2026,2.47703030303029
-Malaysia,diesel_price,2027,2.5327272727272714
-Malaysia,diesel_price,2028,2.5884242424242387
-Malaysia,diesel_price,2029,2.644121212121206
-Malaysia,diesel_price,2030,2.6998181818181735
-Maldives,diesel_price,2025,14.860666666666702
-Maldives,diesel_price,2026,15.455878787878873
-Maldives,diesel_price,2027,16.051090909091045
-Maldives,diesel_price,2028,16.646303030302988
-Maldives,diesel_price,2029,17.24151515151516
-Maldives,diesel_price,2030,17.83672727272733
-Mali,petrol_price,2025,866.6899999999987
-Mali,petrol_price,2026,881.8939999999966
-Mali,petrol_price,2027,897.0979999999981
-Mali,petrol_price,2028,912.301999999996
-Mali,petrol_price,2029,927.5059999999976
-Mali,petrol_price,2030,942.7099999999991
-Mali,diesel_price,2025,843.8568571428623
-Mali,diesel_price,2026,866.4414285714302
-Mali,diesel_price,2027,889.0260000000053
-Mali,diesel_price,2028,911.6105714285732
-Mali,diesel_price,2029,934.1951428571483
-Mali,diesel_price,2030,956.7797142857162
-Malta,diesel_price,2025,1.214
-Malta,diesel_price,2026,1.214
-Malta,diesel_price,2027,1.214
-Malta,diesel_price,2028,1.214
-Malta,diesel_price,2029,1.214
-Malta,diesel_price,2030,1.214
-Martinique,diesel_price,2025,1.813999999999993
-Martinique,diesel_price,2026,1.8992727272727166
-Martinique,diesel_price,2027,1.9845454545454402
-Martinique,diesel_price,2028,2.069818181818164
-Martinique,diesel_price,2029,2.155090909090916
-Martinique,diesel_price,2030,2.2403636363636394
-Mauritania,petrol_price,2025,53.281111111111386
-Mauritania,petrol_price,2026,54.662444444444645
-Mauritania,petrol_price,2027,56.04377777777836
-Mauritania,petrol_price,2028,57.42511111111162
-Mauritania,petrol_price,2029,58.80644444444488
-Mauritania,petrol_price,2030,60.18777777777814
-Mauritania,diesel_price,2025,49.94055555555542
-Mauritania,diesel_price,2026,51.556222222222004
-Mauritania,diesel_price,2027,53.17188888888859
-Mauritania,diesel_price,2028,54.78755555555517
-Mauritania,diesel_price,2029,56.40322222222221
-Mauritania,diesel_price,2030,58.018888888888796
-Mauritius,petrol_price,2025,70.97599999999966
-Mauritius,petrol_price,2026,74.46254545454576
-Mauritius,petrol_price,2027,77.94909090909096
-Mauritius,petrol_price,2028,81.43563636363615
-Mauritius,petrol_price,2029,84.92218181818225
-Mauritius,petrol_price,2030,88.40872727272745
-Mauritius,diesel_price,2025,59.65333333333274
-Mauritius,diesel_price,2026,62.95230303030257
-Mauritius,diesel_price,2027,66.25127272727241
-Mauritius,diesel_price,2028,69.55024242424224
-Mauritius,diesel_price,2029,72.84921212121208
-Mauritius,diesel_price,2030,76.14818181818191
-Mexico,petrol_price,2025,24.074642857142862
-Mexico,petrol_price,2026,24.98761904761909
-Mexico,petrol_price,2027,25.90059523809532
-Mexico,petrol_price,2028,26.813571428571322
-Mexico,petrol_price,2029,27.72654761904755
-Mexico,petrol_price,2030,28.63952380952378
-Mexico,diesel_price,2025,26.664999999999964
-Mexico,diesel_price,2026,27.587499999999864
-Mexico,diesel_price,2027,28.50999999999999
-Mexico,diesel_price,2028,29.43249999999989
-Mexico,diesel_price,2029,30.355000000000018
-Mexico,diesel_price,2030,31.277499999999918
-Mongolia,petrol_price,2025,2378.9713333333493
-Mongolia,petrol_price,2026,2478.81357575758
-Mongolia,petrol_price,2027,2578.65581818184
-Mongolia,petrol_price,2028,2678.498060606071
-Mongolia,petrol_price,2029,2778.3403030303016
-Mongolia,petrol_price,2030,2878.1825454545615
-Mongolia,diesel_price,2025,3726.8266666666605
-Mongolia,diesel_price,2026,3957.880060606054
-Mongolia,diesel_price,2027,4188.933454545448
-Mongolia,diesel_price,2028,4419.986848484841
-Mongolia,diesel_price,2029,4651.040242424235
-Mongolia,diesel_price,2030,4882.093636363628
-Mozambique,diesel_price,2025,96.46533333333355
-Mozambique,diesel_price,2026,102.42866666666669
-Mozambique,diesel_price,2027,108.39199999999983
-Mozambique,diesel_price,2028,114.35533333333296
-Mozambique,diesel_price,2029,120.3186666666661
-Mozambique,diesel_price,2030,126.28199999999924
-Myanmar,petrol_price,2025,2159.299333333329
-Myanmar,petrol_price,2026,2343.3357575757545
-Myanmar,petrol_price,2027,2527.3721818181803
-Myanmar,petrol_price,2028,2711.4086060605478
-Myanmar,petrol_price,2029,2895.4450303029735
-Myanmar,petrol_price,2030,3079.481454545399
-Myanmar,diesel_price,2025,1938.6353333333682
-Myanmar,diesel_price,2026,2060.7559393939737
-Myanmar,diesel_price,2027,2182.876545454579
-Myanmar,diesel_price,2028,2304.9971515151847
-Myanmar,diesel_price,2029,2427.11775757579
-Myanmar,diesel_price,2030,2549.2383636363957
-Namibia,diesel_price,2025,22.414444444444143
-Namibia,diesel_price,2026,23.89377777777736
-Namibia,diesel_price,2027,25.37311111111103
-Namibia,diesel_price,2028,26.852444444444245
-Namibia,diesel_price,2029,28.33177777777746
-Namibia,diesel_price,2030,29.811111111110677
-Nepal,petrol_price,2025,186.1800000000003
-Nepal,petrol_price,2026,198.11416666666628
-Nepal,petrol_price,2027,210.04833333333227
-Nepal,petrol_price,2028,221.98249999999825
-Nepal,petrol_price,2029,233.91666666666424
-Nepal,petrol_price,2030,245.85083333333387
-Nepal,diesel_price,2025,178.54785714285754
-Nepal,diesel_price,2026,192.2248809523844
-Nepal,diesel_price,2027,205.90190476190764
-Nepal,diesel_price,2028,219.57892857143088
-Nepal,diesel_price,2029,233.2559523809541
-Nepal,diesel_price,2030,246.93297619047735
-Netherlands,diesel_price,2025,1.8726666666666745
-Netherlands,diesel_price,2026,1.9533333333333474
-Netherlands,diesel_price,2027,2.0340000000000202
-Netherlands,diesel_price,2028,2.1146666666666647
-Netherlands,diesel_price,2029,2.1953333333333376
-Netherlands,diesel_price,2030,2.2760000000000105
-New Zealand,petrol_price,2025,220.39000000000306
-New Zealand,petrol_price,2026,229.5285454545483
-New Zealand,petrol_price,2027,238.66709090909353
-New Zealand,petrol_price,2028,247.80563636363877
-New Zealand,petrol_price,2029,256.944181818184
-New Zealand,petrol_price,2030,266.08272727272924
-New Zealand,diesel_price,2025,206.40066666666826
-New Zealand,diesel_price,2026,217.8180606060596
-New Zealand,diesel_price,2027,229.23545454545456
-New Zealand,diesel_price,2028,240.65284848484953
-New Zealand,diesel_price,2029,252.07024242424086
-New Zealand,diesel_price,2030,263.48763636363583
-Nicaragua,petrol_price,2025,50.824000000000524
-Nicaragua,petrol_price,2026,53.75218181818218
-Nicaragua,petrol_price,2027,56.680363636363836
-Nicaragua,petrol_price,2028,59.60854545454549
-Nicaragua,petrol_price,2029,62.53672727272806
-Nicaragua,petrol_price,2030,65.46490909090971
-Nicaragua,diesel_price,2025,46.266666666666424
-Nicaragua,diesel_price,2026,49.10733333333337
-Nicaragua,diesel_price,2027,51.94800000000032
-Nicaragua,diesel_price,2028,54.78866666666636
-Nicaragua,diesel_price,2029,57.62933333333331
-Nicaragua,diesel_price,2030,60.470000000000255
-Niger,petrol_price,2025,531.7999999999997
-Niger,petrol_price,2026,530.681818181818
-Niger,petrol_price,2027,529.5636363636363
-Niger,petrol_price,2028,528.4454545454546
-Niger,petrol_price,2029,527.3272727272724
-Niger,petrol_price,2030,526.2090909090907
-Niger,diesel_price,2025,637.7786666666689
-Niger,diesel_price,2026,650.6626060606068
-Niger,diesel_price,2027,663.5465454545447
-Niger,diesel_price,2028,676.4304848484862
-Niger,diesel_price,2029,689.3144242424241
-Niger,diesel_price,2030,702.1983636363657
-Nigeria,diesel_price,2025,1025.468666666682
-Nigeria,diesel_price,2026,1133.178242424241
-Nigeria,diesel_price,2027,1240.887818181829
-Nigeria,diesel_price,2028,1348.597393939388
-Nigeria,diesel_price,2029,1456.306969696976
-Nigeria,diesel_price,2030,1564.016545454564
-North Macedonia,diesel_price,2025,82.88833333333332
-North Macedonia,diesel_price,2026,86.73066666666637
-North Macedonia,diesel_price,2027,90.57299999999941
-North Macedonia,diesel_price,2028,94.41533333333336
-North Macedonia,diesel_price,2029,98.25766666666641
-North Macedonia,diesel_price,2030,102.09999999999945
-Norway,diesel_price,2025,22.314666666666653
-Norway,diesel_price,2026,23.46987878787877
-Norway,diesel_price,2027,24.625090909090886
-Norway,diesel_price,2028,25.780303030303003
-Norway,diesel_price,2029,26.93551515151512
-Norway,diesel_price,2030,28.090727272727236
-Oman,petrol_price,2025,0.24444444444444358
-Oman,petrol_price,2026,0.25244444444444625
-Oman,petrol_price,2027,0.26044444444444537
-Oman,petrol_price,2028,0.2684444444444445
-Oman,petrol_price,2029,0.2764444444444436
-Oman,petrol_price,2030,0.2844444444444463
-Oman,diesel_price,2025,0.2840000000000025
-Oman,diesel_price,2026,0.2949090909090941
-Oman,diesel_price,2027,0.3058181818181822
-Oman,diesel_price,2028,0.31672727272727386
-Oman,diesel_price,2029,0.3276363636363655
-Oman,diesel_price,2030,0.33854545454545715
-Pakistan,petrol_price,2025,381.99904761904327
-Pakistan,petrol_price,2026,349.42678571428405
-Pakistan,petrol_price,2027,316.85452380952484
-Pakistan,petrol_price,2028,284.2822619047656
-Pakistan,petrol_price,2029,251.7100000000064
-Pakistan,petrol_price,2030,219.13773809523263
+Aruba,diesel_price,2025,2.4739999999999895
+Aruba,diesel_price,2026,2.5927272727272737
+Aruba,diesel_price,2027,2.7114545454545294
+Aruba,diesel_price,2028,2.8301818181818135
+Aruba,diesel_price,2029,2.9489090909090976
+Aruba,diesel_price,2030,3.0676363636363533
+Australia,petrol_price,2025,1.9773333333333483
+Australia,petrol_price,2026,2.0639393939393926
+Australia,petrol_price,2027,2.1505454545454654
+Australia,petrol_price,2028,2.237151515151538
+Australia,petrol_price,2029,2.3237575757575826
+Australia,petrol_price,2030,2.4103636363636554
+Australia,diesel_price,2025,2.0579999999999927
+Australia,diesel_price,2026,2.1509090909090673
+Australia,diesel_price,2027,2.2438181818181704
+Australia,diesel_price,2028,2.3367272727272734
+Australia,diesel_price,2029,2.429636363636348
+Australia,diesel_price,2030,2.522545454545451
+Austria,petrol_price,2025,1.711999999999989
+Austria,petrol_price,2026,1.7785454545454513
+Austria,petrol_price,2027,1.8450909090909136
+Austria,petrol_price,2028,1.9116363636363474
+Austria,petrol_price,2029,1.9781818181818096
+Austria,petrol_price,2030,2.044727272727272
+Austria,diesel_price,2025,1.76666666666668
+Austria,diesel_price,2026,1.8496969696969927
+Austria,diesel_price,2027,1.932727272727277
+Austria,diesel_price,2028,2.01575757575759
+Austria,diesel_price,2029,2.0987878787879026
+Austria,diesel_price,2030,2.181818181818187
+Bahamas,petrol_price,2025,1.5600000000000023
+Bahamas,petrol_price,2026,1.6200000000000045
+Bahamas,petrol_price,2027,1.6799999999999926
+Bahamas,petrol_price,2028,1.7399999999999949
+Bahamas,petrol_price,2029,1.7999999999999972
+Bahamas,petrol_price,2030,1.8599999999999994
+Bahamas,diesel_price,2025,1.578000000000003
+Bahamas,diesel_price,2026,1.6443636363636358
+Bahamas,diesel_price,2027,1.7107272727272687
+Bahamas,diesel_price,2028,1.77709090909093
+Bahamas,diesel_price,2029,1.8434545454545628
+Bahamas,diesel_price,2030,1.9098181818181956
+Bangladesh,petrol_price,2025,119.27733333333344
+Bangladesh,petrol_price,2026,122.80575757575753
+Bangladesh,petrol_price,2027,126.3341818181816
+Bangladesh,petrol_price,2028,129.86260606060569
+Bangladesh,petrol_price,2029,133.39103030303067
+Bangladesh,petrol_price,2030,136.91945454545476
+Bangladesh,diesel_price,2025,107.37199999999939
+Bangladesh,diesel_price,2026,112.6838181818166
+Bangladesh,diesel_price,2027,117.99563636363564
+Bangladesh,diesel_price,2028,123.30745454545286
+Bangladesh,diesel_price,2029,128.6192727272719
+Bangladesh,diesel_price,2030,133.9310909090891
+Barbados,petrol_price,2025,4.443333333333328
+Barbados,petrol_price,2026,4.607030303030285
+Barbados,petrol_price,2027,4.7707272727272425
+Barbados,petrol_price,2028,4.934424242424257
+Barbados,petrol_price,2029,5.098121212121214
+Barbados,petrol_price,2030,5.261818181818171
+Barbados,diesel_price,2025,3.8746666666666556
+Barbados,diesel_price,2026,4.051878787878763
+Barbados,diesel_price,2027,4.229090909090871
+Barbados,diesel_price,2028,4.406303030302979
+Barbados,diesel_price,2029,4.583515151515144
+Barbados,diesel_price,2030,4.760727272727252
+Belarus,petrol_price,2025,2.641333333333307
+Belarus,petrol_price,2026,2.8077575757575346
+Belarus,petrol_price,2027,2.974181818181762
+Belarus,petrol_price,2028,3.1406060606060464
+Belarus,petrol_price,2029,3.307030303030274
+Belarus,petrol_price,2030,3.4734545454545014
+Belarus,diesel_price,2025,2.650666666666609
+Belarus,diesel_price,2026,2.8076969696969627
+Belarus,diesel_price,2027,2.9647272727272593
+Belarus,diesel_price,2028,3.121757575757556
+Belarus,diesel_price,2029,3.2787878787878526
+Belarus,diesel_price,2030,3.4358181818181492
+Benin,petrol_price,2025,659.2376666666678
+Benin,petrol_price,2026,695.156484848485
+Benin,petrol_price,2027,731.0753030303167
+Benin,petrol_price,2028,766.9941212121339
+Benin,petrol_price,2029,802.9129393939511
+Benin,petrol_price,2030,838.8317575757683
+Benin,diesel_price,2025,727.6550000000134
+Benin,diesel_price,2026,762.2435454545484
+Benin,diesel_price,2027,796.832090909098
+Benin,diesel_price,2028,831.4206363636476
+Benin,diesel_price,2029,866.0091818181827
+Benin,diesel_price,2030,900.5977272727323
+Bhutan,petrol_price,2025,92.73266666666677
+Bhutan,petrol_price,2026,96.6407878787877
+Bhutan,petrol_price,2027,100.54890909090955
+Bhutan,petrol_price,2028,104.45703030303048
+Bhutan,petrol_price,2029,108.36515151515141
+Bhutan,petrol_price,2030,112.27327272727234
+Bhutan,diesel_price,2025,96.10599999999977
+Bhutan,diesel_price,2026,101.1476363636375
+Bhutan,diesel_price,2027,106.18927272727342
+Bhutan,diesel_price,2028,111.23090909090934
+Bhutan,diesel_price,2029,116.27254545454525
+Bhutan,diesel_price,2030,121.31418181818299
+Bosnia & Herzegovina,diesel_price,2025,2.890999999999991
+Bosnia & Herzegovina,diesel_price,2026,3.0087272727272705
+Bosnia & Herzegovina,diesel_price,2027,3.12645454545455
+Bosnia & Herzegovina,diesel_price,2028,3.244181818181829
+Bosnia & Herzegovina,diesel_price,2029,3.36190909090908
+Bosnia & Herzegovina,diesel_price,2030,3.4796363636363594
+Botswana,petrol_price,2025,1683.2793333333393
+Botswana,petrol_price,2026,1788.1887121212203
+Botswana,petrol_price,2027,1893.0980909091013
+Botswana,petrol_price,2028,1998.0074696969823
+Botswana,petrol_price,2029,2102.916848484834
+Botswana,petrol_price,2030,2207.826227272715
+Botswana,diesel_price,2025,1663.1956666666665
+Botswana,diesel_price,2026,1773.4761060606106
+Botswana,diesel_price,2027,1883.7565454545256
+Botswana,diesel_price,2028,1994.0369848484697
+Botswana,diesel_price,2029,2104.317424242414
+Botswana,diesel_price,2030,2214.597863636358
+Brazil,petrol_price,2025,6.509333333333416
+Brazil,petrol_price,2026,6.82393939393944
+Brazil,petrol_price,2027,7.138545454545465
+Brazil,petrol_price,2028,7.453151515151603
+Brazil,petrol_price,2029,7.767757575757628
+Brazil,petrol_price,2030,8.082363636363652
+Brazil,diesel_price,2025,6.583999999999946
+Brazil,diesel_price,2026,7.006727272727289
+Brazil,diesel_price,2027,7.429454545454519
+Brazil,diesel_price,2028,7.852181818181748
+Brazil,diesel_price,2029,8.274909090909091
+Brazil,diesel_price,2030,8.69763636363632
+Bulgaria,petrol_price,2025,2.6726666666666574
+Bulgaria,petrol_price,2026,2.754060606060591
+Bulgaria,petrol_price,2027,2.835454545454553
+Bulgaria,petrol_price,2028,2.9168484848484866
+Bulgaria,petrol_price,2029,2.99824242424242
+Bulgaria,petrol_price,2030,3.0796363636363537
+Bulgaria,diesel_price,2025,2.808000000000021
+Bulgaria,diesel_price,2026,2.9038181818181954
+Bulgaria,diesel_price,2027,2.9996363636363697
+Bulgaria,diesel_price,2028,3.0954545454545723
+Bulgaria,diesel_price,2029,3.1912727272727466
+Bulgaria,diesel_price,2030,3.287090909090921
+Burkina Faso,diesel_price,2025,658.282666666666
+Burkina Faso,diesel_price,2026,671.1584242424251
+Burkina Faso,diesel_price,2027,684.0341818181842
+Burkina Faso,diesel_price,2028,696.9099393939396
+Burkina Faso,diesel_price,2029,709.7856969696986
+Burkina Faso,diesel_price,2030,722.661454545454
+Cabo Verde,petrol_price,2025,150.2533333333322
+Cabo Verde,petrol_price,2026,155.00703030302975
+Cabo Verde,petrol_price,2027,159.7607272727273
+Cabo Verde,petrol_price,2028,164.51442424242305
+Cabo Verde,petrol_price,2029,169.2681212121206
+Cabo Verde,petrol_price,2030,174.02181818181816
+Cabo Verde,diesel_price,2025,135.96233333333475
+Cabo Verde,diesel_price,2026,141.6888484848496
+Cabo Verde,diesel_price,2027,147.41536363636442
+Cabo Verde,diesel_price,2028,153.14187878787925
+Cabo Verde,diesel_price,2029,158.8683939393959
+Cabo Verde,diesel_price,2030,164.59490909091073
+Cambodia,petrol_price,2025,1.0946666666666687
+Cambodia,petrol_price,2026,1.1047878787878815
+Cambodia,petrol_price,2027,1.1149090909090908
+Cambodia,petrol_price,2028,1.1250303030303037
+Cambodia,petrol_price,2029,1.1351515151515166
+Cambodia,petrol_price,2030,1.1452727272727294
+Cambodia,diesel_price,2025,1.110666666666667
+Cambodia,diesel_price,2026,1.1346060606060604
+Cambodia,diesel_price,2027,1.1585454545454539
+Cambodia,diesel_price,2028,1.1824848484848474
+Cambodia,diesel_price,2029,1.2064242424242408
+Cambodia,diesel_price,2030,1.2303636363636343
+Cameroon,petrol_price,2025,752.0
+Cameroon,petrol_price,2026,768.2727272727279
+Cameroon,petrol_price,2027,784.5454545454559
+Cameroon,petrol_price,2028,800.8181818181838
+Cameroon,petrol_price,2029,817.0909090909117
+Cameroon,petrol_price,2030,833.3636363636397
+Cameroon,diesel_price,2025,723.4233333333323
+Cameroon,diesel_price,2026,742.0517575757549
+Cameroon,diesel_price,2027,760.6801818181775
+Cameroon,diesel_price,2028,779.3086060606074
+Cameroon,diesel_price,2029,797.93703030303
+Cameroon,diesel_price,2030,816.5654545454527
+Canada,petrol_price,2025,172.90999999999985
+Canada,petrol_price,2026,180.45581818181745
+Canada,petrol_price,2027,188.00163636363504
+Canada,petrol_price,2028,195.54745454545446
+Canada,petrol_price,2029,203.09327272727205
+Canada,petrol_price,2030,210.63909090908965
+Canada,diesel_price,2025,181.5126666666656
+Canada,diesel_price,2026,190.99060606060448
+Canada,diesel_price,2027,200.46854545454335
+Canada,diesel_price,2028,209.9464848484822
+Canada,diesel_price,2029,219.42442424242108
+Canada,diesel_price,2030,228.90236363635995
+Cayman Islands,diesel_price,2025,5.849999999999966
+Cayman Islands,diesel_price,2026,6.053545454545429
+Cayman Islands,diesel_price,2027,6.257090909090891
+Cayman Islands,diesel_price,2028,6.460636363636354
+Cayman Islands,diesel_price,2029,6.664181818181817
+Cayman Islands,diesel_price,2030,6.867727272727279
+Central African Republic,petrol_price,2025,1070.6666666666715
+Central African Republic,petrol_price,2026,1097.6969696969754
+Central African Republic,petrol_price,2027,1124.7272727272793
+Central African Republic,petrol_price,2028,1151.757575757576
+Central African Republic,petrol_price,2029,1178.78787878788
+Central African Republic,petrol_price,2030,1205.8181818181838
+Central African Republic,diesel_price,2025,1234.6666666666715
+Central African Republic,diesel_price,2026,1284.7878787878726
+Central African Republic,diesel_price,2027,1334.9090909090883
+Central African Republic,diesel_price,2028,1385.030303030304
+Central African Republic,diesel_price,2029,1435.1515151515196
+Central African Republic,diesel_price,2030,1485.2727272727207
+Chile,petrol_price,2025,1290.8619999999937
+Chile,petrol_price,2026,1359.1874545454339
+Chile,petrol_price,2027,1427.5129090909031
+Chile,petrol_price,2028,1495.8383636363433
+Chile,petrol_price,2029,1564.1638181818125
+Chile,petrol_price,2030,1632.4892727272527
+Chile,diesel_price,2025,1055.9366666666756
+Chile,diesel_price,2026,1123.6035151515098
+Chile,diesel_price,2027,1191.270363636373
+Chile,diesel_price,2028,1258.9372121212073
+Chile,diesel_price,2029,1326.6040606060706
+Chile,diesel_price,2030,1394.2709090909048
+China,petrol_price,2025,8.903333333333308
+China,petrol_price,2026,9.170303030302989
+China,petrol_price,2027,9.43727272727267
+China,petrol_price,2028,9.704242424242352
+China,petrol_price,2029,9.971212121212034
+China,petrol_price,2030,10.238181818181829
+China,diesel_price,2025,8.159333333333336
+China,diesel_price,2026,8.408484848484818
+China,diesel_price,2027,8.657636363636357
+China,diesel_price,2028,8.906787878787839
+China,diesel_price,2029,9.155939393939377
+China,diesel_price,2030,9.405090909090859
+Colombia,petrol_price,2025,13146.757333333371
+Colombia,petrol_price,2026,13751.497393939411
+Colombia,petrol_price,2027,14356.237454545451
+Colombia,petrol_price,2028,14960.977515151491
+Colombia,petrol_price,2029,15565.717575757531
+Colombia,petrol_price,2030,16170.457636363572
+Colombia,diesel_price,2025,9679.303999999946
+Colombia,diesel_price,2026,9883.81545454543
+Colombia,diesel_price,2027,10088.326909090858
+Colombia,diesel_price,2028,10292.838363636343
+Colombia,diesel_price,2029,10497.34981818177
+Colombia,diesel_price,2030,10701.861272727256
+Congo (Dem. Rep.),petrol_price,2025,2859.772666666686
+Congo (Dem. Rep.),petrol_price,2026,2945.3880606060848
+Congo (Dem. Rep.),petrol_price,2027,3031.0034545454837
+Congo (Dem. Rep.),petrol_price,2028,3116.6188484848535
+Congo (Dem. Rep.),petrol_price,2029,3202.2342424242524
+Congo (Dem. Rep.),petrol_price,2030,3287.8496363636514
+Costa Rica,petrol_price,2025,797.644666666667
+Costa Rica,petrol_price,2026,824.0056969696961
+Costa Rica,petrol_price,2027,850.3667272727325
+Costa Rica,petrol_price,2028,876.7277575757616
+Costa Rica,petrol_price,2029,903.0887878787908
+Costa Rica,petrol_price,2030,929.4498181818199
+Costa Rica,diesel_price,2025,710.8346666666694
+Costa Rica,diesel_price,2026,739.1302424242458
+Costa Rica,diesel_price,2027,767.4258181818223
+Costa Rica,diesel_price,2028,795.7213939393987
+Costa Rica,diesel_price,2029,824.0169696969751
+Costa Rica,diesel_price,2030,852.3125454545516
+Cote d'Ivoire,petrol_price,2025,833.8819999999978
+Cote d'Ivoire,petrol_price,2026,866.2129090909075
+Cote d'Ivoire,petrol_price,2027,898.5438181818172
+Cote d'Ivoire,petrol_price,2028,930.8747272727269
+Cote d'Ivoire,petrol_price,2029,963.2056363636293
+Cote d'Ivoire,petrol_price,2030,995.5365454545463
+Cote d'Ivoire,diesel_price,2025,693.9893333333348
+Cote d'Ivoire,diesel_price,2026,708.6805303030342
+Cote d'Ivoire,diesel_price,2027,723.3717272727299
+Cote d'Ivoire,diesel_price,2028,738.0629242424257
+Cote d'Ivoire,diesel_price,2029,752.754121212125
+Cote d'Ivoire,diesel_price,2030,767.4453181818208
+Croatia,diesel_price,2025,4.960000000000036
+Croatia,diesel_price,2026,4.402000000000044
+Croatia,diesel_price,2027,3.844000000000051
+Croatia,diesel_price,2028,3.286000000000058
+Croatia,diesel_price,2029,2.7280000000000655
+Croatia,diesel_price,2030,2.1700000000000728
+Cyprus,petrol_price,2025,1.4379999999999953
+Cyprus,petrol_price,2026,1.4678181818181812
+Cyprus,petrol_price,2027,1.49763636363636
+Cyprus,petrol_price,2028,1.527454545454546
+Cyprus,petrol_price,2029,1.557272727272725
+Cyprus,petrol_price,2030,1.5870909090909038
+Cyprus,diesel_price,2025,1.576666666666668
+Cyprus,diesel_price,2026,1.6215151515151547
+Cyprus,diesel_price,2027,1.6663636363636414
+Cyprus,diesel_price,2028,1.711212121212128
+Cyprus,diesel_price,2029,1.7560606060606005
+Cyprus,diesel_price,2030,1.8009090909090872
+Czech Republic,petrol_price,2025,39.30600000000004
+Czech Republic,petrol_price,2026,40.47400000000016
+Czech Republic,petrol_price,2027,41.64200000000028
+Czech Republic,petrol_price,2028,42.809999999999945
+Czech Republic,petrol_price,2029,43.978000000000065
+Czech Republic,petrol_price,2030,45.146000000000186
+Czech Republic,diesel_price,2025,38.00199999999995
+Czech Republic,diesel_price,2026,39.09672727272755
+Czech Republic,diesel_price,2027,40.19145454545469
+Czech Republic,diesel_price,2028,41.28618181818183
+Czech Republic,diesel_price,2029,42.38090909090897
+Czech Republic,diesel_price,2030,43.47563636363657
+DRC,diesel_price,2025,2845.196666666656
+DRC,diesel_price,2026,2930.292606060597
+DRC,diesel_price,2027,3015.388545454538
+DRC,diesel_price,2028,3100.484484848479
+DRC,diesel_price,2029,3185.58042424242
+DRC,diesel_price,2030,3270.676363636361
+Denmark,diesel_price,2025,13.754000000000133
+Denmark,diesel_price,2026,14.272363636363707
+Denmark,diesel_price,2027,14.790727272727281
+Denmark,diesel_price,2028,15.309090909091083
+Denmark,diesel_price,2029,15.827454545454657
+Denmark,diesel_price,2030,16.34581818181823
+Dominican Republic,petrol_price,2025,290.6399999999994
+Dominican Republic,petrol_price,2026,303.1118181818165
+Dominican Republic,petrol_price,2027,315.5836363636372
+Dominican Republic,petrol_price,2028,328.05545454545427
+Dominican Republic,petrol_price,2029,340.52727272727134
+Dominican Republic,petrol_price,2030,352.9990909090884
+Dominican Republic,diesel_price,2025,248.990333333335
+Dominican Republic,diesel_price,2026,260.49230303030345
+Dominican Republic,diesel_price,2027,271.99427272727553
+Dominican Republic,diesel_price,2028,283.496242424244
+Dominican Republic,diesel_price,2029,294.9982121212124
+Dominican Republic,diesel_price,2030,306.5001818181845
+Ecuador,petrol_price,2025,2.7479999999999905
+Ecuador,petrol_price,2026,2.891636363636337
+Ecuador,petrol_price,2027,3.0352727272727407
+Ecuador,petrol_price,2028,3.1789090909090874
+Ecuador,petrol_price,2029,3.322545454545434
+Ecuador,petrol_price,2030,3.4661818181818376
+Ecuador,diesel_price,2025,1.926666666666648
+Ecuador,diesel_price,2026,2.034969696969682
+Ecuador,diesel_price,2027,2.1432727272727163
+Ecuador,diesel_price,2028,2.2515757575757505
+Ecuador,diesel_price,2029,2.3598787878787846
+Ecuador,diesel_price,2030,2.4681818181817903
+Egypt,petrol_price,2025,11.7826666666665
+Egypt,petrol_price,2026,12.676242424242218
+Egypt,petrol_price,2027,13.569818181817936
+Egypt,petrol_price,2028,14.463393939393882
+Egypt,petrol_price,2029,15.3569696969696
+Egypt,petrol_price,2030,16.250545454545318
+Egypt,diesel_price,2025,10.152666666666619
+Egypt,diesel_price,2026,10.990424242424297
+Egypt,diesel_price,2027,11.828181818181747
+Egypt,diesel_price,2028,12.665939393939425
+Egypt,diesel_price,2029,13.503696969697103
+Egypt,diesel_price,2030,14.341454545454553
+El Salvador,petrol_price,2025,4.389999999999986
+El Salvador,petrol_price,2026,4.540727272727281
+El Salvador,petrol_price,2027,4.691454545454519
+El Salvador,petrol_price,2028,4.842181818181814
+El Salvador,petrol_price,2029,4.992909090909052
+El Salvador,petrol_price,2030,5.143636363636347
+El Salvador,diesel_price,2025,4.122666666666646
+El Salvador,diesel_price,2026,4.2949696969697015
+El Salvador,diesel_price,2027,4.4672727272727
+El Salvador,diesel_price,2028,4.639575757575756
+El Salvador,diesel_price,2029,4.811878787878754
+El Salvador,diesel_price,2030,4.98418181818181
+Equatorial Guinea,petrol_price,2025,494.3333333333335
+Equatorial Guinea,petrol_price,2026,496.1666666666665
+Equatorial Guinea,petrol_price,2027,498.0
+Equatorial Guinea,petrol_price,2028,499.8333333333335
+Equatorial Guinea,petrol_price,2029,501.6666666666665
+Equatorial Guinea,petrol_price,2030,503.5
+Equatorial Guinea,diesel_price,2025,464.6666666666679
+Equatorial Guinea,diesel_price,2026,479.3333333333321
+Equatorial Guinea,diesel_price,2027,494.0
+Equatorial Guinea,diesel_price,2028,508.6666666666679
+Equatorial Guinea,diesel_price,2029,523.3333333333321
+Equatorial Guinea,diesel_price,2030,538.0
+Estonia,diesel_price,2025,1.6920000000000073
+Estonia,diesel_price,2026,1.7601818181818203
+Estonia,diesel_price,2027,1.8283636363636333
+Estonia,diesel_price,2028,1.8965454545454463
+Estonia,diesel_price,2029,1.9647272727272878
+Estonia,diesel_price,2030,2.0329090909091008
+Ethiopia,petrol_price,2025,70.71999999999935
+Ethiopia,petrol_price,2026,77.55436363636363
+Ethiopia,petrol_price,2027,84.38872727272792
+Ethiopia,petrol_price,2028,91.22309090909039
+Ethiopia,petrol_price,2029,98.05745454545468
+Ethiopia,petrol_price,2030,104.89181818181714
+Ethiopia,diesel_price,2025,72.52433333333283
+Ethiopia,diesel_price,2026,79.9973939393949
+Ethiopia,diesel_price,2027,87.47045454545514
+Ethiopia,diesel_price,2028,94.94351515151538
+Ethiopia,diesel_price,2029,102.41657575757563
+Ethiopia,diesel_price,2030,109.88963636363587
+Fiji,petrol_price,2025,2.7793333333333408
+Fiji,petrol_price,2026,2.8821212121212056
+Fiji,petrol_price,2027,2.984909090909099
+Fiji,petrol_price,2028,3.087696969696964
+Fiji,petrol_price,2029,3.190484848484857
+Fiji,petrol_price,2030,3.293272727272722
+Fiji,diesel_price,2025,2.5153333333333023
+Fiji,diesel_price,2026,2.624666666666627
+Fiji,diesel_price,2027,2.7339999999999804
+Fiji,diesel_price,2028,2.8433333333333053
+Fiji,diesel_price,2029,2.95266666666663
+Fiji,diesel_price,2030,3.0619999999999834
+Finland,petrol_price,2025,1.9699999999999989
+Finland,petrol_price,2026,2.0350909090909113
+Finland,petrol_price,2027,2.1001818181817953
+Finland,petrol_price,2028,2.1652727272727077
+Finland,petrol_price,2029,2.23036363636362
+Finland,petrol_price,2030,2.2954545454545325
+Finland,diesel_price,2025,1.9699999999999989
+Finland,diesel_price,2026,2.052363636363623
+Finland,diesel_price,2027,2.1347272727272752
+Finland,diesel_price,2028,2.2170909090908992
+Finland,diesel_price,2029,2.2994545454545516
+Finland,diesel_price,2030,2.3818181818181756
+French Guiana,diesel_price,2025,1.8086666666666673
+French Guiana,diesel_price,2026,1.8579242424242324
+French Guiana,diesel_price,2027,1.9071818181818116
+French Guiana,diesel_price,2028,1.956439393939391
+French Guiana,diesel_price,2029,2.00569696969697
+French Guiana,diesel_price,2030,2.0549545454545353
+Gabon,petrol_price,2025,639.5
+Gabon,petrol_price,2026,645.9469090909079
+Gabon,petrol_price,2027,652.3938181818176
+Gabon,petrol_price,2028,658.8407272727272
+Gabon,petrol_price,2029,665.2876363636351
+Gabon,petrol_price,2030,671.7345454545448
+Gabon,diesel_price,2025,618.8046666666669
+Gabon,diesel_price,2026,630.1706060606084
+Gabon,diesel_price,2027,641.5365454545463
+Gabon,diesel_price,2028,652.9024848484878
+Gabon,diesel_price,2029,664.2684242424257
+Gabon,diesel_price,2030,675.6343636363672
+Gambia,petrol_price,2025,75.6253333333334
+Gambia,petrol_price,2026,79.18098484848451
+Gambia,petrol_price,2027,82.73663636363653
+Gambia,petrol_price,2028,86.29228787878765
+Gambia,petrol_price,2029,89.84793939393967
+Gambia,petrol_price,2030,93.40359090909078
+Gambia,diesel_price,2025,73.65999999999985
+Gambia,diesel_price,2026,77.15254545454536
+Gambia,diesel_price,2027,80.64509090909087
+Gambia,diesel_price,2028,84.13763636363637
+Gambia,diesel_price,2029,87.63018181818188
+Gambia,diesel_price,2030,91.12272727272739
+Germany,diesel_price,2025,1.8106666666666626
+Germany,diesel_price,2026,1.8922424242424256
+Germany,diesel_price,2027,1.9738181818181886
+Germany,diesel_price,2028,2.0553939393939515
+Germany,diesel_price,2029,2.1369696969697145
+Germany,diesel_price,2030,2.218545454545449
+Ghana,petrol_price,2025,14.489333333333434
+Ghana,petrol_price,2026,15.766984848485208
+Ghana,petrol_price,2027,17.044636363636528
+Ghana,petrol_price,2028,18.322287878787847
+Ghana,petrol_price,2029,19.59993939393962
+Ghana,petrol_price,2030,20.87759090909094
+Ghana,diesel_price,2025,15.589333333333343
+Ghana,diesel_price,2026,17.00348484848473
+Ghana,diesel_price,2027,18.41763636363612
+Ghana,diesel_price,2028,19.83178787878751
+Ghana,diesel_price,2029,21.245939393939352
+Ghana,diesel_price,2030,22.66009090909074
+Greece,petrol_price,2025,1.9486666666666679
+Greece,petrol_price,2026,2.0024242424242544
+Greece,petrol_price,2027,2.0561818181818268
+Greece,petrol_price,2028,2.109939393939399
+Greece,petrol_price,2029,2.1636969696969715
+Greece,petrol_price,2030,2.217454545454558
+Greece,diesel_price,2025,1.768666666666661
+Greece,diesel_price,2026,1.8326060606060537
+Greece,diesel_price,2027,1.8965454545454463
+Greece,diesel_price,2028,1.960484848484839
+Greece,diesel_price,2029,2.0244242424242316
+Greece,diesel_price,2030,2.088363636363624
+Grenada,petrol_price,2025,3.8326666666666824
+Grenada,petrol_price,2026,3.936060606060636
+Grenada,petrol_price,2027,4.039454545454561
+Grenada,petrol_price,2028,4.142848484848514
+Grenada,petrol_price,2029,4.246242424242439
+Grenada,petrol_price,2030,4.349636363636392
+Grenada,diesel_price,2025,3.686000000000007
+Grenada,diesel_price,2026,3.8094545454545425
+Grenada,diesel_price,2027,3.9329090909091065
+Grenada,diesel_price,2028,4.056363636363642
+Grenada,diesel_price,2029,4.179818181818177
+Grenada,diesel_price,2030,4.303272727272741
+Guatemala,petrol_price,2025,30.98199999999997
+Guatemala,petrol_price,2026,32.11272727272717
+Guatemala,petrol_price,2027,33.243454545454824
+Guatemala,petrol_price,2028,34.374181818182024
+Guatemala,petrol_price,2029,35.50490909090922
+Guatemala,petrol_price,2030,36.63563636363642
+Guatemala,diesel_price,2025,28.057333333333645
+Guatemala,diesel_price,2026,29.29575757575776
+Guatemala,diesel_price,2027,30.534181818181878
+Guatemala,diesel_price,2028,31.772606060605995
+Guatemala,diesel_price,2029,33.011030303030566
+Guatemala,diesel_price,2030,34.24945454545468
+Honduras,petrol_price,2025,101.02666666666664
+Honduras,petrol_price,2026,103.51287878787844
+Honduras,petrol_price,2027,105.99909090909023
+Honduras,petrol_price,2028,108.48530303030293
+Honduras,petrol_price,2029,110.97151515151472
+Honduras,petrol_price,2030,113.45772727272652
+Honduras,diesel_price,2025,99.64933333333283
+Honduras,diesel_price,2026,103.02966666666634
+Honduras,diesel_price,2027,106.40999999999985
+Honduras,diesel_price,2028,109.79033333333336
+Honduras,diesel_price,2029,113.17066666666688
+Honduras,diesel_price,2030,116.55099999999948
+Hungary,petrol_price,2025,621.0426666666754
+Hungary,petrol_price,2026,654.9780606060667
+Hungary,petrol_price,2027,688.9134545454581
+Hungary,petrol_price,2028,722.8488484848494
+Hungary,petrol_price,2029,756.7842424242554
+Hungary,petrol_price,2030,790.7196363636467
+Hungary,diesel_price,2025,644.089999999982
+Hungary,diesel_price,2026,679.694727272712
+Hungary,diesel_price,2027,715.2994545454421
+Hungary,diesel_price,2028,750.9041818181722
+Hungary,diesel_price,2029,786.5089090909023
+Hungary,diesel_price,2030,822.1136363636178
+Iceland,petrol_price,2025,314.02000000000044
+Iceland,petrol_price,2026,328.7081818181832
+Iceland,petrol_price,2027,343.396363636366
+Iceland,petrol_price,2028,358.08454545454515
+Iceland,petrol_price,2029,372.77272727272793
+Iceland,petrol_price,2030,387.4609090909107
+Iceland,diesel_price,2025,307.492000000002
+Iceland,diesel_price,2026,322.76200000000244
+Iceland,diesel_price,2027,338.0320000000029
+Iceland,diesel_price,2028,353.3019999999997
+Iceland,diesel_price,2029,368.5720000000001
+Iceland,diesel_price,2030,383.84200000000055
+India,petrol_price,2025,108.14333333333161
+India,petrol_price,2026,112.85484848484703
+India,petrol_price,2027,117.56636363636244
+India,petrol_price,2028,122.27787878787785
+India,petrol_price,2029,126.98939393939327
+India,petrol_price,2030,131.70090909090868
+India,diesel_price,2025,100.57133333333331
+India,diesel_price,2026,105.49030303030304
+India,diesel_price,2027,110.40927272727276
+India,diesel_price,2028,115.32824242424249
+India,diesel_price,2029,120.24721212121221
+India,diesel_price,2030,125.16618181818194
+Indonesia,petrol_price,2025,13725.0
+Indonesia,petrol_price,2026,14393.530181818176
+Indonesia,petrol_price,2027,15062.060363636352
+Indonesia,petrol_price,2028,15730.590545454761
+Indonesia,petrol_price,2029,16399.120727272937
+Indonesia,petrol_price,2030,17067.650909091113
+Indonesia,diesel_price,2025,14313.054000000004
+Indonesia,diesel_price,2026,15006.798545454629
+Indonesia,diesel_price,2027,15700.543090909021
+Indonesia,diesel_price,2028,16394.287636363646
+Indonesia,diesel_price,2029,17088.03218181804
+Indonesia,diesel_price,2030,17781.776727272663
+Iran,petrol_price,2025,17015.0
+Iran,petrol_price,2026,17761.81818181812
+Iran,petrol_price,2027,18508.636363636237
+Iran,petrol_price,2028,19255.454545454588
+Iran,petrol_price,2029,20002.272727272706
+Iran,petrol_price,2030,20749.090909090824
+Iran,diesel_price,2025,4777.777777777781
+Iran,diesel_price,2026,4873.737373737356
+Iran,diesel_price,2027,4969.696969696961
+Iran,diesel_price,2028,5065.656565656565
+Iran,diesel_price,2029,5161.61616161617
+Iran,diesel_price,2030,5257.575757575745
+Ireland,petrol_price,2025,1.7906666666666666
+Ireland,petrol_price,2026,1.8467878787878789
+Ireland,petrol_price,2027,1.902909090909091
+Ireland,petrol_price,2028,1.9590303030303033
+Ireland,petrol_price,2029,2.0151515151515156
+Ireland,petrol_price,2030,2.071272727272728
+Ireland,diesel_price,2025,1.8106666666666342
+Ireland,diesel_price,2026,1.8815151515151456
+Ireland,diesel_price,2027,1.9523636363636285
+Ireland,diesel_price,2028,2.0232121212121115
+Ireland,diesel_price,2029,2.0940606060605944
+Ireland,diesel_price,2030,2.1649090909090773
+Israel,diesel_price,2025,2.7819999999999823
+Israel,diesel_price,2026,2.9403636363636565
+Israel,diesel_price,2027,3.098727272727274
+Israel,diesel_price,2028,3.2570909090908913
+Israel,diesel_price,2029,3.4154545454545655
+Israel,diesel_price,2030,3.573818181818183
+Italy,petrol_price,2025,1.8659999999999854
+Italy,petrol_price,2026,1.9116363636363474
+Italy,petrol_price,2027,1.9572727272727093
+Italy,petrol_price,2028,2.0029090909090854
+Italy,petrol_price,2029,2.0485454545454473
+Italy,petrol_price,2030,2.0941818181818093
+Italy,diesel_price,2025,1.8100000000000023
+Italy,diesel_price,2026,1.867090909090905
+Italy,diesel_price,2027,1.9241818181818076
+Italy,diesel_price,2028,1.9812727272727244
+Italy,diesel_price,2029,2.038363636363627
+Italy,diesel_price,2030,2.095454545454544
+Jamaica,petrol_price,2025,191.71333333333314
+Jamaica,petrol_price,2026,200.76484848484688
+Jamaica,petrol_price,2027,209.81636363636426
+Jamaica,petrol_price,2028,218.867878787878
+Jamaica,petrol_price,2029,227.91939393939538
+Jamaica,petrol_price,2030,236.97090909090912
+Jamaica,diesel_price,2025,198.09533333333093
+Jamaica,diesel_price,2026,208.51793939393974
+Jamaica,diesel_price,2027,218.94054545454492
+Jamaica,diesel_price,2028,229.3631515151501
+Jamaica,diesel_price,2029,239.78575757575527
+Jamaica,diesel_price,2030,250.20836363636408
+Japan,petrol_price,2025,178.98599999999897
+Japan,petrol_price,2026,184.44018181818137
+Japan,petrol_price,2027,189.89436363636378
+Japan,petrol_price,2028,195.34854545454436
+Japan,petrol_price,2029,200.80272727272677
+Japan,petrol_price,2030,206.25690909090918
+Japan,diesel_price,2025,161.88000000000102
+Japan,diesel_price,2026,168.05709090909113
+Japan,diesel_price,2027,174.23418181818306
+Japan,diesel_price,2028,180.41127272727317
+Japan,diesel_price,2029,186.5883636363651
+Japan,diesel_price,2030,192.7654545454552
+Jordan,petrol_price,2025,0.9933333333333252
+Jordan,petrol_price,2026,1.0353939393939413
+Jordan,petrol_price,2027,1.0774545454545432
+Jordan,petrol_price,2028,1.1195151515151451
+Jordan,petrol_price,2029,1.161575757575747
+Jordan,petrol_price,2030,1.2036363636363632
+Jordan,diesel_price,2025,0.7673333333333403
+Jordan,diesel_price,2026,0.800121212121212
+Jordan,diesel_price,2027,0.8329090909090979
+Jordan,diesel_price,2028,0.8656969696969696
+Jordan,diesel_price,2029,0.8984848484848555
+Jordan,diesel_price,2030,0.9312727272727273
+Kazakhstan,petrol_price,2025,199.16666666666788
+Kazakhstan,petrol_price,2026,204.66856060606187
+Kazakhstan,petrol_price,2027,210.17045454545587
+Kazakhstan,petrol_price,2028,215.67234848484986
+Kazakhstan,petrol_price,2029,221.17424242424386
+Kazakhstan,petrol_price,2030,226.67613636363785
+Kazakhstan,diesel_price,2025,288.98333333332994
+Kazakhstan,diesel_price,2026,300.3428030303003
+Kazakhstan,diesel_price,2027,311.7022727272706
+Kazakhstan,diesel_price,2028,323.06174242424095
+Kazakhstan,diesel_price,2029,334.42121212120765
+Kazakhstan,diesel_price,2030,345.780681818178
+Kenya,diesel_price,2025,174.58433333333232
+Kenya,diesel_price,2026,185.20630303029975
+Kenya,diesel_price,2027,195.82827272727081
+Kenya,diesel_price,2028,206.45024242424188
+Kenya,diesel_price,2029,217.0722121212093
+Kenya,diesel_price,2030,227.69418181818037
+Korea South,petrol_price,2025,1699.946666666663
+Korea South,petrol_price,2026,1726.7256969696973
+Korea South,petrol_price,2027,1753.5047272727243
+Korea South,petrol_price,2028,1780.2837575757585
+Korea South,petrol_price,2029,1807.0627878787855
+Korea South,petrol_price,2030,1833.8418181818197
+Korea South,diesel_price,2025,1650.8446666666568
+Korea South,diesel_price,2026,1695.7827878787793
+Korea South,diesel_price,2027,1740.7209090909018
+Korea South,diesel_price,2028,1785.6590303030243
+Korea South,diesel_price,2029,1830.5971515151468
+Korea South,diesel_price,2030,1875.5352727272693
+Kuwait,petrol_price,2025,0.10600000000000032
+Kuwait,petrol_price,2026,0.10800000000000098
+Kuwait,petrol_price,2027,0.11000000000000076
+Kuwait,petrol_price,2028,0.11200000000000054
+Kuwait,petrol_price,2029,0.11400000000000032
+Kuwait,petrol_price,2030,0.11600000000000099
+Kuwait,diesel_price,2025,0.11133333333333328
+Kuwait,diesel_price,2026,0.11175757575757572
+Kuwait,diesel_price,2027,0.11218181818181816
+Kuwait,diesel_price,2028,0.1126060606060606
+Kuwait,diesel_price,2029,0.11303030303030293
+Kuwait,diesel_price,2030,0.11345454545454536
+Kyrgyzstan,petrol_price,2025,62.29200000000037
+Kyrgyzstan,petrol_price,2026,65.0640000000003
+Kyrgyzstan,petrol_price,2027,67.83600000000024
+Kyrgyzstan,petrol_price,2028,70.60800000000108
+Kyrgyzstan,petrol_price,2029,73.38000000000102
+Kyrgyzstan,petrol_price,2030,76.15200000000095
+Kyrgyzstan,diesel_price,2025,70.88266666666641
+Kyrgyzstan,diesel_price,2026,75.00260606060692
+Kyrgyzstan,diesel_price,2027,79.12254545454562
+Kyrgyzstan,diesel_price,2028,83.24248484848431
+Kyrgyzstan,diesel_price,2029,87.36242424242482
+Kyrgyzstan,diesel_price,2030,91.48236363636352
+Lao PDR,petrol_price,2025,22680.466000000015
+Lao PDR,petrol_price,2026,24571.179090909194
+Lao PDR,petrol_price,2027,26461.892181818374
+Lao PDR,petrol_price,2028,28352.605272727553
+Lao PDR,petrol_price,2029,30243.318363636732
+Lao PDR,petrol_price,2030,32134.031454545446
+Laos,diesel_price,2025,20788.977333333343
+Laos,diesel_price,2026,22564.03339393949
+Laos,diesel_price,2027,24339.08945454564
+Laos,diesel_price,2028,26114.145515151788
+Laos,diesel_price,2029,27889.201575757936
+Laos,diesel_price,2030,29664.257636363618
+Latvia,petrol_price,2025,1.7386666666666883
+Latvia,petrol_price,2026,1.8098787878788016
+Latvia,petrol_price,2027,1.881090909090915
+Latvia,petrol_price,2028,1.9523030303030282
+Latvia,petrol_price,2029,2.02351515151517
+Latvia,petrol_price,2030,2.094727272727283
+Latvia,diesel_price,2025,1.6893333333333374
+Latvia,diesel_price,2026,1.7652121212121301
+Latvia,diesel_price,2027,1.8410909090909229
+Latvia,diesel_price,2028,1.9169696969696872
+Latvia,diesel_price,2029,1.99284848484848
+Latvia,diesel_price,2030,2.0687272727272727
+Lebanon,petrol_price,2025,25080.0
+Lebanon,petrol_price,2026,25109.09090909091
+Lebanon,petrol_price,2027,25138.181818181823
+Lebanon,petrol_price,2028,25167.272727272728
+Lebanon,petrol_price,2029,25196.36363636364
+Lebanon,petrol_price,2030,25225.45454545455
+Lebanon,diesel_price,2025,17180.0
+Lebanon,diesel_price,2026,17174.545454545452
+Lebanon,diesel_price,2027,17169.090909090904
+Lebanon,diesel_price,2028,17163.63636363636
+Lebanon,diesel_price,2029,17158.181818181816
+Lebanon,diesel_price,2030,17152.727272727272
+Lesotho,petrol_price,2025,20.373999999999796
+Lesotho,petrol_price,2026,21.547999999999774
+Lesotho,petrol_price,2027,22.721999999999753
+Lesotho,petrol_price,2028,23.89599999999973
+Lesotho,petrol_price,2029,25.06999999999971
+Lesotho,petrol_price,2030,26.243999999999687
+Lesotho,diesel_price,2025,22.583333333333485
+Lesotho,diesel_price,2026,24.077212121212597
+Lesotho,diesel_price,2027,25.571090909091254
+Lesotho,diesel_price,2028,27.06496969696991
+Lesotho,diesel_price,2029,28.558848484849022
+Lesotho,diesel_price,2030,30.05272727272768
+Liberia,petrol_price,2025,410.4320000000007
+Liberia,petrol_price,2026,453.3144545454561
+Liberia,petrol_price,2027,496.1969090909115
+Liberia,petrol_price,2028,539.0793636363669
+Liberia,petrol_price,2029,581.9618181818223
+Liberia,petrol_price,2030,624.8442727272777
+Liberia,diesel_price,2025,460.32866666666814
+Liberia,diesel_price,2026,509.1263333333336
+Liberia,diesel_price,2027,557.9239999999991
+Liberia,diesel_price,2028,606.7216666666645
+Liberia,diesel_price,2029,655.51933333333
+Liberia,diesel_price,2030,704.3169999999955
+Lithuania,petrol_price,2025,1.565333333333328
+Lithuania,petrol_price,2026,1.618303030303025
+Lithuania,petrol_price,2027,1.6712727272727221
+Lithuania,petrol_price,2028,1.7242424242424192
+Lithuania,petrol_price,2029,1.7772121212121164
+Lithuania,petrol_price,2030,1.8301818181818135
+Lithuania,diesel_price,2025,1.5833333333333144
+Lithuania,diesel_price,2026,1.6519393939393865
+Lithuania,diesel_price,2027,1.7205454545454302
+Lithuania,diesel_price,2028,1.7891515151515023
+Lithuania,diesel_price,2029,1.8577575757575744
+Lithuania,diesel_price,2030,1.926363636363618
+Luxembourg,petrol_price,2025,1.599333333333334
+Luxembourg,petrol_price,2026,1.6557575757575762
+Luxembourg,petrol_price,2027,1.7121818181818185
+Luxembourg,petrol_price,2028,1.7686060606060607
+Luxembourg,petrol_price,2029,1.825030303030303
+Luxembourg,petrol_price,2030,1.8814545454545453
+Luxembourg,diesel_price,2025,1.571333333333314
+Luxembourg,diesel_price,2026,1.639939393939386
+Luxembourg,diesel_price,2027,1.7085454545454581
+Luxembourg,diesel_price,2028,1.7771515151515018
+Luxembourg,diesel_price,2029,1.845757575757574
+Luxembourg,diesel_price,2030,1.9143636363636176
+Madagascar,petrol_price,2025,5824.467333333334
+Madagascar,petrol_price,2026,6084.435575757525
+Madagascar,petrol_price,2027,6344.403818181832
+Madagascar,petrol_price,2028,6604.372060606023
+Madagascar,petrol_price,2029,6864.340303030331
+Madagascar,petrol_price,2030,7124.308545454522
+Madagascar,diesel_price,2025,4816.766666666721
+Madagascar,diesel_price,2026,5025.59096969699
+Madagascar,diesel_price,2027,5234.415272727318
+Madagascar,diesel_price,2028,5443.239575757587
+Madagascar,diesel_price,2029,5652.063878787914
+Madagascar,diesel_price,2030,5860.888181818242
+Malawi,petrol_price,2025,2203.979333333322
+Malawi,petrol_price,2026,2383.3539393939427
+Malawi,petrol_price,2027,2562.7285454545054
+Malawi,petrol_price,2028,2742.1031515151262
+Malawi,petrol_price,2029,2921.477757575747
+Malawi,petrol_price,2030,3100.852363636368
+Malawi,diesel_price,2025,2728.722000000067
+Malawi,diesel_price,2026,2965.784545454604
+Malawi,diesel_price,2027,3202.847090909141
+Malawi,diesel_price,2028,3439.909636363678
+Malawi,diesel_price,2029,3676.972181818215
+Malawi,diesel_price,2030,3914.034727272752
+Malaysia,petrol_price,2025,2.0519999999999996
+Malaysia,petrol_price,2026,2.0609090909090924
+Malaysia,petrol_price,2027,2.0698181818181816
+Malaysia,petrol_price,2028,2.0787272727272743
+Malaysia,petrol_price,2029,2.0876363636363635
+Malaysia,petrol_price,2030,2.0965454545454527
+Malaysia,diesel_price,2025,2.490000000000009
+Malaysia,diesel_price,2026,2.558181818181822
+Malaysia,diesel_price,2027,2.626363636363635
+Malaysia,diesel_price,2028,2.694545454545448
+Malaysia,diesel_price,2029,2.7627272727272896
+Malaysia,diesel_price,2030,2.8309090909091026
+Maldives,petrol_price,2025,13.554666666666662
+Maldives,petrol_price,2026,13.958969696969689
+Maldives,petrol_price,2027,14.363272727272715
+Maldives,petrol_price,2028,14.767575757575742
+Maldives,petrol_price,2029,15.171878787878768
+Maldives,petrol_price,2030,15.576181818181794
+Maldives,diesel_price,2025,14.18999999999994
+Maldives,diesel_price,2026,14.629090909090905
+Maldives,diesel_price,2027,15.068181818181756
+Maldives,diesel_price,2028,15.50727272727272
+Maldives,diesel_price,2029,15.946363636363571
+Maldives,diesel_price,2030,16.385454545454536
+Mali,petrol_price,2025,866.1958888888912
+Mali,petrol_price,2026,882.1128686868688
+Mali,petrol_price,2027,898.0298484848499
+Mali,petrol_price,2028,913.9468282828311
+Mali,petrol_price,2029,929.8638080808087
+Mali,petrol_price,2030,945.7807878787899
+Mali,diesel_price,2025,852.9034444444478
+Mali,diesel_price,2026,876.8196161616215
+Mali,diesel_price,2027,900.7357878787952
+Mali,diesel_price,2028,924.6519595959617
+Mali,diesel_price,2029,948.5681313131354
+Mali,diesel_price,2030,972.4843030303091
+Malta,petrol_price,2025,1.3453333333333335
+Malta,petrol_price,2026,1.3453939393939396
+Malta,petrol_price,2027,1.3454545454545455
+Malta,petrol_price,2028,1.3455151515151516
+Malta,petrol_price,2029,1.3455757575757576
+Malta,petrol_price,2030,1.3456363636363637
+Malta,diesel_price,2025,1.1973333333333338
+Malta,diesel_price,2026,1.19339393939394
+Malta,diesel_price,2027,1.189454545454546
+Malta,diesel_price,2028,1.185515151515152
+Malta,diesel_price,2029,1.1815757575757582
+Malta,diesel_price,2030,1.1776363636363643
+Mauritania,petrol_price,2025,52.61866666666674
+Mauritania,petrol_price,2026,53.81933333333336
+Mauritania,petrol_price,2027,55.01999999999998
+Mauritania,petrol_price,2028,56.2206666666666
+Mauritania,petrol_price,2029,57.42133333333322
+Mauritania,petrol_price,2030,58.621999999999844
+Mauritania,diesel_price,2025,48.877333333333354
+Mauritania,diesel_price,2026,50.20303030303012
+Mauritania,diesel_price,2027,51.52872727272734
+Mauritania,diesel_price,2028,52.8544242424241
+Mauritania,diesel_price,2029,54.180121212120866
+Mauritania,diesel_price,2030,55.505818181818086
+Mauritius,petrol_price,2025,68.94866666666712
+Mauritius,petrol_price,2026,72.07133333333422
+Mauritius,petrol_price,2027,75.19400000000041
+Mauritius,petrol_price,2028,78.31666666666752
+Mauritius,petrol_price,2029,81.4393333333337
+Mauritius,petrol_price,2030,84.56200000000081
+Mauritius,diesel_price,2025,58.64066666666622
+Mauritius,diesel_price,2026,61.49387878787911
+Mauritius,diesel_price,2027,64.3470909090911
+Mauritius,diesel_price,2028,67.20030303030308
+Mauritius,diesel_price,2029,70.05351515151506
+Mauritius,diesel_price,2030,72.90672727272704
+Mexico,petrol_price,2025,24.49733333333279
+Mexico,petrol_price,2026,25.53189393939374
+Mexico,petrol_price,2027,26.566454545454235
+Mexico,petrol_price,2028,27.60101515151473
+Mexico,petrol_price,2029,28.635575757575225
+Mexico,petrol_price,2030,29.670136363636175
+Mexico,diesel_price,2025,26.046666666666624
+Mexico,diesel_price,2026,26.885878787878937
+Mexico,diesel_price,2027,27.725090909091023
+Mexico,diesel_price,2028,28.56430303030311
+Mexico,diesel_price,2029,29.403515151515194
+Mexico,diesel_price,2030,30.24272727272728
+Moldova,petrol_price,2025,25.667999999999665
+Moldova,petrol_price,2026,26.70309090909086
+Moldova,petrol_price,2027,27.7381818181816
+Moldova,petrol_price,2028,28.773272727272797
+Moldova,petrol_price,2029,29.808363636363538
+Moldova,petrol_price,2030,30.84345454545428
+Moldova,diesel_price,2025,24.396999999999935
+Moldova,diesel_price,2026,25.577409090908986
+Moldova,diesel_price,2027,26.75781818181804
+Moldova,diesel_price,2028,27.93822727272709
+Moldova,diesel_price,2029,29.118636363636142
+Moldova,diesel_price,2030,30.299045454545194
+Montenegro,petrol_price,2025,1.5673333333333375
+Montenegro,petrol_price,2026,1.6126666666666694
+Montenegro,petrol_price,2027,1.6580000000000013
+Montenegro,petrol_price,2028,1.7033333333333331
+Montenegro,petrol_price,2029,1.748666666666665
+Montenegro,petrol_price,2030,1.793999999999997
+Montenegro,diesel_price,2025,1.4853333333333296
+Montenegro,diesel_price,2026,1.5359393939393868
+Montenegro,diesel_price,2027,1.586545454545444
+Montenegro,diesel_price,2028,1.6371515151515013
+Montenegro,diesel_price,2029,1.6877575757575585
+Montenegro,diesel_price,2030,1.73836363636363
+Morocco,petrol_price,2025,14.711999999999989
+Morocco,petrol_price,2026,15.258000000000038
+Morocco,petrol_price,2027,15.804000000000087
+Morocco,petrol_price,2028,16.34999999999991
+Morocco,petrol_price,2029,16.895999999999958
+Morocco,petrol_price,2030,17.442000000000007
+Morocco,diesel_price,2025,13.143333333333317
+Morocco,diesel_price,2026,13.646666666666647
+Morocco,diesel_price,2027,14.149999999999977
+Morocco,diesel_price,2028,14.653333333333308
+Morocco,diesel_price,2029,15.156666666666638
+Morocco,diesel_price,2030,15.660000000000082
+Mozambique,petrol_price,2025,92.26933333333182
+Mozambique,petrol_price,2026,97.04448484848399
+Mozambique,petrol_price,2027,101.81963636363616
+Mozambique,petrol_price,2028,106.59478787878652
+Mozambique,petrol_price,2029,111.3699393939387
+Mozambique,petrol_price,2030,116.14509090909087
+Mozambique,diesel_price,2025,96.34066666666695
+Mozambique,diesel_price,2026,102.35642424242542
+Mozambique,diesel_price,2027,108.37218181818207
+Mozambique,diesel_price,2028,114.38793939394054
+Mozambique,diesel_price,2029,120.4036969696972
+Mozambique,diesel_price,2030,126.41945454545566
+Namibia,diesel_price,2025,21.978666666666868
+Namibia,diesel_price,2026,23.33915151515157
+Namibia,diesel_price,2027,24.699636363636273
+Namibia,diesel_price,2028,26.06012121212143
+Namibia,diesel_price,2029,27.420606060606133
+Namibia,diesel_price,2030,28.781090909090835
+Nepal,petrol_price,2025,179.36866666666538
+Nepal,petrol_price,2026,189.34724242424272
+Nepal,petrol_price,2027,199.32581818181643
+Nepal,petrol_price,2028,209.30439393939378
+Nepal,petrol_price,2029,219.28296969696748
+Nepal,petrol_price,2030,229.26154545454483
+Nepal,diesel_price,2025,171.50266666667085
+Nepal,diesel_price,2026,183.1623333333373
+Nepal,diesel_price,2027,194.82200000000375
+Nepal,diesel_price,2028,206.4816666666702
+Nepal,diesel_price,2029,218.14133333333666
+Nepal,diesel_price,2030,229.8010000000031
+Netherlands,petrol_price,2025,2.075333333333333
+Netherlands,petrol_price,2026,2.1339393939394
+Netherlands,petrol_price,2027,2.192545454545453
+Netherlands,petrol_price,2028,2.25115151515152
+Netherlands,petrol_price,2029,2.309757575757587
+Netherlands,petrol_price,2030,2.3683636363636396
+Netherlands,diesel_price,2025,1.8619999999999948
+Netherlands,diesel_price,2026,1.939454545454538
+Netherlands,diesel_price,2027,2.016909090909081
+Netherlands,diesel_price,2028,2.0943636363636244
+Netherlands,diesel_price,2029,2.171818181818196
+Netherlands,diesel_price,2030,2.2492727272727393
+New Zealand,petrol_price,2025,2.868666666666684
+New Zealand,petrol_price,2026,2.975696969696969
+New Zealand,petrol_price,2027,3.0827272727272828
+New Zealand,petrol_price,2028,3.189757575757568
+New Zealand,petrol_price,2029,3.2967878787878817
+New Zealand,petrol_price,2030,3.4038181818181954
+New Zealand,diesel_price,2025,2.229333333333358
+New Zealand,diesel_price,2026,2.3533939393939534
+New Zealand,diesel_price,2027,2.477454545454549
+New Zealand,diesel_price,2028,2.601515151515173
+New Zealand,diesel_price,2029,2.7255757575757684
+New Zealand,diesel_price,2030,2.849636363636364
+Nicaragua,petrol_price,2025,50.63799999999992
+Nicaragua,petrol_price,2026,53.184545454544605
+Nicaragua,petrol_price,2027,55.7310909090902
+Nicaragua,petrol_price,2028,58.27763636363579
+Nicaragua,petrol_price,2029,60.82418181818139
+Nicaragua,petrol_price,2030,63.37072727272698
+Nicaragua,diesel_price,2025,43.30266666666648
+Nicaragua,diesel_price,2026,45.41351515151473
+Nicaragua,diesel_price,2027,47.52436363636389
+Nicaragua,diesel_price,2028,49.635212121212135
+Nicaragua,diesel_price,2029,51.74606060606038
+Nicaragua,diesel_price,2030,53.85690909090863
+Nigeria,petrol_price,2025,443.91399999998976
+Nigeria,petrol_price,2026,485.6967272727197
+Nigeria,petrol_price,2027,527.4794545454497
+Nigeria,petrol_price,2028,569.2621818181797
+Nigeria,petrol_price,2029,611.0449090909096
+Nigeria,petrol_price,2030,652.8276363636251
+Nigeria,diesel_price,2025,979.0166666666919
+Nigeria,diesel_price,2026,1081.6424242424546
+Nigeria,diesel_price,2027,1184.2681818182173
+Nigeria,diesel_price,2028,1286.89393939398
+Nigeria,diesel_price,2029,1389.5196969697136
+Nigeria,diesel_price,2030,1492.1454545454762
+North Macedonia,petrol_price,2025,83.25866666666661
+North Macedonia,petrol_price,2026,85.61896969697045
+North Macedonia,petrol_price,2027,87.97927272727338
+North Macedonia,petrol_price,2028,90.33957575757631
+North Macedonia,petrol_price,2029,92.69987878787924
+North Macedonia,petrol_price,2030,95.06018181818217
+North Macedonia,diesel_price,2025,82.40933333333305
+North Macedonia,diesel_price,2026,86.12103030303024
+North Macedonia,diesel_price,2027,89.83272727272742
+North Macedonia,diesel_price,2028,93.54442424242461
+North Macedonia,diesel_price,2029,97.2561212121218
+North Macedonia,diesel_price,2030,100.96781818181807
+Norway,petrol_price,2025,22.55600000000004
+Norway,petrol_price,2026,23.48581818181833
+Norway,petrol_price,2027,24.415636363636395
+Norway,petrol_price,2028,25.345454545454686
+Norway,petrol_price,2029,26.27527272727275
+Norway,petrol_price,2030,27.20509090909104
+Norway,diesel_price,2025,21.66800000000012
+Norway,diesel_price,2026,22.648363636363683
+Norway,diesel_price,2027,23.628727272727247
+Norway,diesel_price,2028,24.609090909091037
+Norway,diesel_price,2029,25.5894545454546
+Norway,diesel_price,2030,26.569818181818164
+Oman,petrol_price,2025,0.24933333333333607
+Oman,petrol_price,2026,0.25866666666667015
+Oman,petrol_price,2027,0.2680000000000007
+Oman,petrol_price,2028,0.27733333333333476
+Oman,petrol_price,2029,0.28666666666666885
+Oman,petrol_price,2030,0.2960000000000029
+Pakistan,petrol_price,2025,269.98933333333116
+Pakistan,petrol_price,2026,294.3567575757552
+Pakistan,petrol_price,2027,318.7241818181792
+Pakistan,petrol_price,2028,343.0916060606032
+Pakistan,petrol_price,2029,367.45903030302725
+Pakistan,petrol_price,2030,391.82645454545127
 Pakistan,diesel_price,2025,221.477333333336
 Pakistan,diesel_price,2026,238.3077575757634
 Pakistan,diesel_price,2027,255.1381818181835
 Pakistan,diesel_price,2028,271.9686060606109
 Pakistan,diesel_price,2029,288.79903030303103
 Pakistan,diesel_price,2030,305.62945454545843
-Panama,petrol_price,2025,1.0367857142857133
-Panama,petrol_price,2026,1.078571428571422
-Panama,petrol_price,2027,1.120357142857145
-Panama,petrol_price,2028,1.1621428571428538
-Panama,petrol_price,2029,1.2039285714285768
-Panama,petrol_price,2030,1.2457142857142856
-Panama,diesel_price,2025,1.0267857142857224
-Panama,diesel_price,2026,1.0777380952381037
-Panama,diesel_price,2027,1.128690476190485
-Panama,diesel_price,2028,1.1796428571428663
-Panama,diesel_price,2029,1.2305952380952334
-Panama,diesel_price,2030,1.2815476190476147
-Papua New Guinea,diesel_price,2025,445.66428571428696
-Papua New Guinea,diesel_price,2026,468.83940476190764
-Papua New Guinea,diesel_price,2027,492.0145238095283
-Papua New Guinea,diesel_price,2028,515.1896428571417
-Papua New Guinea,diesel_price,2029,538.3647619047624
-Papua New Guinea,diesel_price,2030,561.5398809523831
-Peru,petrol_price,2025,15.594666666666626
-Peru,petrol_price,2026,16.324242424242357
-Peru,petrol_price,2027,17.053818181818087
-Peru,petrol_price,2028,17.783393939394045
-Peru,petrol_price,2029,18.512969696969776
-Peru,petrol_price,2030,19.242545454545507
-Peru,diesel_price,2025,13.657333333333327
-Peru,diesel_price,2026,14.19084848484863
-Peru,diesel_price,2027,14.724363636363705
-Peru,diesel_price,2028,15.25787878787878
-Peru,diesel_price,2029,15.791393939394084
-Peru,diesel_price,2030,16.32490909090916
-Philippines,petrol_price,2025,67.84928571428554
-Philippines,petrol_price,2026,70.67107142857094
-Philippines,petrol_price,2027,73.49285714285725
-Philippines,petrol_price,2028,76.31464285714264
-Philippines,petrol_price,2029,79.13642857142804
-Philippines,petrol_price,2030,81.95821428571435
-Philippines,diesel_price,2025,69.79785714285572
-Philippines,diesel_price,2026,74.22904761904647
-Philippines,diesel_price,2027,78.66023809523722
-Philippines,diesel_price,2028,83.09142857142797
-Philippines,diesel_price,2029,87.52261904761872
-Philippines,diesel_price,2030,91.95380952380947
-Poland,diesel_price,2025,1.5540000000000305
-Poland,diesel_price,2026,1.6187272727272841
-Poland,diesel_price,2027,1.6834545454545662
-Poland,diesel_price,2028,1.7481818181818483
-Poland,diesel_price,2029,1.812909090909102
-Poland,diesel_price,2030,1.877636363636384
-Portugal,diesel_price,2025,1.7266666666666737
-Portugal,diesel_price,2026,1.7893333333333459
-Portugal,diesel_price,2027,1.8520000000000039
-Portugal,diesel_price,2028,1.914666666666676
-Portugal,diesel_price,2029,1.977333333333334
-Portugal,diesel_price,2030,2.0400000000000063
-Qatar,petrol_price,2025,2.1080000000000325
-Qatar,petrol_price,2026,2.189090909090936
-Qatar,petrol_price,2027,2.2701818181818396
-Qatar,petrol_price,2028,2.351272727272743
-Qatar,petrol_price,2029,2.4323636363636467
-Qatar,petrol_price,2030,2.5134545454545503
-Qatar,diesel_price,2025,2.115333333333325
-Qatar,diesel_price,2026,2.1797575757575487
-Qatar,diesel_price,2027,2.2441818181818007
-Qatar,diesel_price,2028,2.308606060606053
-Qatar,diesel_price,2029,2.3730303030302764
-Qatar,diesel_price,2030,2.4374545454545284
-Romania,diesel_price,2025,1.519999999999996
-Romania,diesel_price,2026,1.5719999999999885
-Romania,diesel_price,2027,1.6239999999999952
-Romania,diesel_price,2028,1.6759999999999877
-Romania,diesel_price,2029,1.7279999999999944
-Romania,diesel_price,2030,1.7800000000000011
-Russia,diesel_price,2025,106.2433333333338
-Russia,diesel_price,2026,113.1624848484862
-Russia,diesel_price,2027,120.08163636363679
-Russia,diesel_price,2028,127.0007878787892
-Russia,diesel_price,2029,133.91993939393979
-Russia,diesel_price,2030,140.8390909090922
-Russian Federation,petrol_price,2025,53.27666666666664
-Russian Federation,petrol_price,2026,55.189878787879024
-Russian Federation,petrol_price,2027,57.10309090909095
-Russian Federation,petrol_price,2028,59.01630303030288
-Russian Federation,petrol_price,2029,60.92951515151526
-Russian Federation,petrol_price,2030,62.84272727272719
-Saint Lucia,diesel_price,2025,3.736785714285702
-Saint Lucia,diesel_price,2026,3.8710714285713834
-Saint Lucia,diesel_price,2027,4.005357142857122
-Saint Lucia,diesel_price,2028,4.139642857142803
-Saint Lucia,diesel_price,2029,4.2739285714285415
-Saint Lucia,diesel_price,2030,4.40821428571428
-Saudi Arabia,petrol_price,2025,2.626666666666665
-Saudi Arabia,petrol_price,2026,2.836787878787902
-Saudi Arabia,petrol_price,2027,3.0469090909090824
-Saudi Arabia,petrol_price,2028,3.2570303030303194
-Saudi Arabia,petrol_price,2029,3.4671515151514996
-Saudi Arabia,petrol_price,2030,3.6772727272727366
-Saudi Arabia,diesel_price,2025,0.9013333333333406
-Saudi Arabia,diesel_price,2026,0.9590303030303033
-Saudi Arabia,diesel_price,2027,1.0167272727272803
-Saudi Arabia,diesel_price,2028,1.074424242424243
-Saudi Arabia,diesel_price,2029,1.1321212121212199
-Saudi Arabia,diesel_price,2030,1.1898181818181826
-Senegal,petrol_price,2025,635.1666666666661
-Senegal,petrol_price,2026,628.2499999999982
-Senegal,petrol_price,2027,621.3333333333321
-Senegal,petrol_price,2028,614.4166666666661
-Senegal,petrol_price,2029,607.4999999999982
-Senegal,petrol_price,2030,600.5833333333321
+Panama,petrol_price,2025,1.0266666666666708
+Panama,petrol_price,2026,1.065515151515143
+Panama,petrol_price,2027,1.1043636363636296
+Panama,petrol_price,2028,1.143212121212116
+Panama,petrol_price,2029,1.1820606060606025
+Panama,petrol_price,2030,1.220909090909089
+Panama,diesel_price,2025,1.0306666666666615
+Panama,diesel_price,2026,1.0826969696969684
+Panama,diesel_price,2027,1.1347272727272752
+Panama,diesel_price,2028,1.186757575757568
+Panama,diesel_price,2029,1.2387878787878748
+Panama,diesel_price,2030,1.2908181818181816
+Papua New Guinea,petrol_price,2025,455.80733333333046
+Papua New Guinea,petrol_price,2026,474.42612121212005
+Papua New Guinea,petrol_price,2027,493.04490909090964
+Papua New Guinea,petrol_price,2028,511.66369696969923
+Papua New Guinea,petrol_price,2029,530.2824848484815
+Papua New Guinea,petrol_price,2030,548.9012727272711
+Papua New Guinea,diesel_price,2025,449.858666666667
+Papua New Guinea,diesel_price,2026,474.2217878787924
+Papua New Guinea,diesel_price,2027,498.5849090909105
+Papua New Guinea,diesel_price,2028,522.9480303030359
+Papua New Guinea,diesel_price,2029,547.311151515154
+Papua New Guinea,diesel_price,2030,571.6742727272722
+Paraguay,petrol_price,2025,7839.5
+Paraguay,petrol_price,2026,8164.227272727294
+Paraguay,petrol_price,2027,8488.954545454588
+Paraguay,petrol_price,2028,8813.681818181882
+Paraguay,petrol_price,2029,9138.40909090906
+Paraguay,petrol_price,2030,9463.136363636353
+Paraguay,diesel_price,2025,8316.946666666656
+Paraguay,diesel_price,2026,8776.512787878746
+Paraguay,diesel_price,2027,9236.078909090837
+Paraguay,diesel_price,2028,9695.645030303043
+Paraguay,diesel_price,2029,10155.211151515134
+Paraguay,diesel_price,2030,10614.777272727224
+Peru,petrol_price,2025,19.1873333333333
+Peru,petrol_price,2026,20.174121212121236
+Peru,petrol_price,2027,21.160909090908945
+Peru,petrol_price,2028,22.14769696969688
+Peru,petrol_price,2029,23.134484848484817
+Peru,petrol_price,2030,24.121272727272753
+Peru,diesel_price,2025,17.898666666666713
+Peru,diesel_price,2026,18.87806060606067
+Peru,diesel_price,2027,19.85745454545463
+Peru,diesel_price,2028,20.836848484848588
+Peru,diesel_price,2029,21.816242424242546
+Peru,diesel_price,2030,22.795636363636277
+Philippines,petrol_price,2025,68.9340000000002
+Philippines,petrol_price,2026,72.06609090909114
+Philippines,petrol_price,2027,75.19818181818209
+Philippines,petrol_price,2028,78.33027272727304
+Philippines,petrol_price,2029,81.46236363636399
+Philippines,petrol_price,2030,84.59445454545494
+Philippines,diesel_price,2025,70.27533333333304
+Philippines,diesel_price,2026,74.84257575757692
+Philippines,diesel_price,2027,79.40981818181899
+Philippines,diesel_price,2028,83.97706060606106
+Philippines,diesel_price,2029,88.54430303030313
+Philippines,diesel_price,2030,93.1115454545452
+Poland,petrol_price,2025,6.6913333333333185
+Poland,petrol_price,2026,6.954848484848526
+Poland,petrol_price,2027,7.21836363636362
+Poland,petrol_price,2028,7.481878787878827
+Poland,petrol_price,2029,7.745393939393921
+Poland,petrol_price,2030,8.008909090909128
+Poland,diesel_price,2025,6.807333333333304
+Poland,diesel_price,2026,7.1032121212120956
+Poland,diesel_price,2027,7.399090909090887
+Poland,diesel_price,2028,7.694969696969679
+Poland,diesel_price,2029,7.99084848484847
+Poland,diesel_price,2030,8.286727272727262
+Portugal,petrol_price,2025,1.8426666666666733
+Portugal,petrol_price,2026,1.8944242424242503
+Portugal,petrol_price,2027,1.9461818181818273
+Portugal,petrol_price,2028,1.9979393939394043
+Portugal,petrol_price,2029,2.0496969696969813
+Portugal,petrol_price,2030,2.1014545454545583
+Portugal,diesel_price,2025,1.7213333333333338
+Portugal,diesel_price,2026,1.7850303030302967
+Portugal,diesel_price,2027,1.8487272727272597
+Portugal,diesel_price,2028,1.9124242424242226
+Portugal,diesel_price,2029,1.9761212121211855
+Portugal,diesel_price,2030,2.039818181818177
+Qatar,petrol_price,2025,2.109999999999985
+Qatar,petrol_price,2026,2.1818181818181586
+Qatar,petrol_price,2027,2.2536363636363603
+Qatar,petrol_price,2028,2.3254545454545337
+Qatar,petrol_price,2029,2.397272727272707
+Qatar,petrol_price,2030,2.469090909090909
+Qatar,diesel_price,2025,2.1366666666666845
+Qatar,diesel_price,2026,2.202242424242428
+Qatar,diesel_price,2027,2.2678181818181997
+Qatar,diesel_price,2028,2.333393939393943
+Qatar,diesel_price,2029,2.398969696969715
+Qatar,diesel_price,2030,2.4645454545454584
+Romania,petrol_price,2025,7.169333333333327
+Romania,petrol_price,2026,7.417757575757605
+Romania,petrol_price,2027,7.666181818181826
+Romania,petrol_price,2028,7.914606060606104
+Romania,petrol_price,2029,8.163030303030325
+Romania,petrol_price,2030,8.411454545454546
+Romania,diesel_price,2025,7.582666666666569
+Romania,diesel_price,2026,7.891151515151478
+Romania,diesel_price,2027,8.199636363636273
+Romania,diesel_price,2028,8.508121212121182
+Romania,diesel_price,2029,8.816606060605977
+Romania,diesel_price,2030,9.125090909090886
+Russia,petrol_price,2025,57.50733333333301
+Russia,petrol_price,2026,59.863575757575745
+Russia,petrol_price,2027,62.21981818181757
+Russia,petrol_price,2028,64.57606060606031
+Russia,petrol_price,2029,66.93230303030305
+Russia,petrol_price,2030,69.28854545454487
+Russia,diesel_price,2025,65.78066666666655
+Russia,diesel_price,2026,69.09242424242348
+Russia,diesel_price,2027,72.40418181818131
+Russia,diesel_price,2028,75.71593939393915
+Russia,diesel_price,2029,79.02769696969608
+Russia,diesel_price,2030,82.33945454545392
+Rwanda,petrol_price,2025,1643.981999999989
+Rwanda,petrol_price,2026,1729.987999999983
+Rwanda,petrol_price,2027,1815.994000000006
+Rwanda,petrol_price,2028,1902.0
+Rwanda,petrol_price,2029,1988.005999999994
+Rwanda,petrol_price,2030,2074.011999999988
+Rwanda,diesel_price,2025,1639.15466666664
+Rwanda,diesel_price,2026,1730.032969696942
+Rwanda,diesel_price,2027,1820.911272727244
+Rwanda,diesel_price,2028,1911.7895757575461
+Rwanda,diesel_price,2029,2002.6678787878482
+Rwanda,diesel_price,2030,2093.54618181815
+Saint Lucia,petrol_price,2025,3.6619999999999777
+Saint Lucia,petrol_price,2026,3.767454545454541
+Saint Lucia,petrol_price,2027,3.8729090909090758
+Saint Lucia,petrol_price,2028,3.978363636363639
+Saint Lucia,petrol_price,2029,4.083818181818174
+Saint Lucia,petrol_price,2030,4.189272727272709
+Saint Lucia,diesel_price,2025,3.6673333333333176
+Saint Lucia,diesel_price,2026,3.7815757575757516
+Saint Lucia,diesel_price,2027,3.895818181818157
+Saint Lucia,diesel_price,2028,4.010060606060591
+Saint Lucia,diesel_price,2029,4.124303030303025
+Saint Lucia,diesel_price,2030,4.238545454545431
+Saudi Arabia,petrol_price,2025,2.731333333333339
+Saudi Arabia,petrol_price,2026,2.935575757575748
+Saudi Arabia,petrol_price,2027,3.139818181818157
+Saudi Arabia,petrol_price,2028,3.344060606060623
+Saudi Arabia,petrol_price,2029,3.548303030303032
+Saudi Arabia,petrol_price,2030,3.752545454545441
+Saudi Arabia,diesel_price,2025,0.938666666666677
+Saudi Arabia,diesel_price,2026,1.0069696969696906
+Saudi Arabia,diesel_price,2027,1.0752727272727327
+Saudi Arabia,diesel_price,2028,1.1435757575757464
+Saudi Arabia,diesel_price,2029,1.2118787878787884
+Saudi Arabia,diesel_price,2030,1.280181818181802
+Senegal,petrol_price,2025,746.3333333333358
+Senegal,petrol_price,2026,754.5757575757598
+Senegal,petrol_price,2027,762.8181818181838
+Senegal,petrol_price,2028,771.0606060606078
+Senegal,petrol_price,2029,779.3030303030318
+Senegal,petrol_price,2030,787.5454545454559
 Senegal,diesel_price,2025,730.8333333333358
 Senegal,diesel_price,2026,744.0984848484877
 Senegal,diesel_price,2027,757.3636363636397
 Senegal,diesel_price,2028,770.628787878788
 Senegal,diesel_price,2029,783.89393939394
 Senegal,diesel_price,2030,797.1590909090919
-Serbia,diesel_price,2025,207.28333333333285
-Serbia,diesel_price,2026,215.1919999999991
-Serbia,diesel_price,2027,223.10066666666535
-Serbia,diesel_price,2028,231.0093333333316
-Serbia,diesel_price,2029,238.91799999999967
-Serbia,diesel_price,2030,246.82666666666591
-Sierra Leone,diesel_price,2025,529.7891666668002
-Sierra Leone,diesel_price,2026,-307.47633333317935
-Sierra Leone,diesel_price,2027,-1144.7418333331589
-Sierra Leone,diesel_price,2028,-1982.0073333331384
-Sierra Leone,diesel_price,2029,-2819.272833333118
-Sierra Leone,diesel_price,2030,-3656.5383333330974
-Slovakia,diesel_price,2025,1.6199999999999903
-Slovakia,diesel_price,2026,1.681999999999988
-Slovakia,diesel_price,2027,1.7439999999999856
-Slovakia,diesel_price,2028,1.8059999999999974
-Slovakia,diesel_price,2029,1.867999999999995
-Slovakia,diesel_price,2030,1.9299999999999926
-Slovenia,diesel_price,2025,1.5940000000000083
-Slovenia,diesel_price,2026,1.6487272727272853
-Slovenia,diesel_price,2027,1.703454545454548
-Slovenia,diesel_price,2028,1.758181818181825
-Slovenia,diesel_price,2029,1.812909090909102
-Slovenia,diesel_price,2030,1.8676363636363646
-South Africa,petrol_price,2025,2481.5942857143236
-South Africa,petrol_price,2026,2633.2519047619426
-South Africa,petrol_price,2027,2784.9095238095615
-South Africa,petrol_price,2028,2936.5671428571804
-South Africa,petrol_price,2029,3088.2247619047994
-South Africa,petrol_price,2030,3239.8823809524183
-South Africa,diesel_price,2025,2551.5588095237617
-South Africa,diesel_price,2026,2697.387857142836
-South Africa,diesel_price,2027,2843.21690476191
-South Africa,diesel_price,2028,2989.045952380926
-South Africa,diesel_price,2029,3134.875
-South Africa,diesel_price,2030,3280.704047619016
-South Korea,diesel_price,2025,1652.6333333333314
-South Korea,diesel_price,2026,1700.5243030302954
-South Korea,diesel_price,2027,1748.415272727274
-South Korea,diesel_price,2028,1796.306242424238
-South Korea,diesel_price,2029,1844.1972121212166
-South Korea,diesel_price,2030,1892.0881818181806
-Spain,diesel_price,2025,1.6473333333333358
-Spain,diesel_price,2026,1.7163030303030382
-Spain,diesel_price,2027,1.7852727272727407
-Spain,diesel_price,2028,1.8542424242424431
-Spain,diesel_price,2029,1.9232121212121456
-Spain,diesel_price,2030,1.9921818181818196
-Sri Lanka,petrol_price,2025,362.52933333333203
-Sri Lanka,petrol_price,2026,392.72212121212215
-Sri Lanka,petrol_price,2027,422.914909090905
-Sri Lanka,petrol_price,2028,453.1076969696951
-Sri Lanka,petrol_price,2029,483.3004848484852
-Sri Lanka,petrol_price,2030,513.4932727272753
-Sri Lanka,diesel_price,2025,375.02399999999034
-Sri Lanka,diesel_price,2026,408.83690909089637
-Sri Lanka,diesel_price,2027,442.64981818181695
-Sri Lanka,diesel_price,2028,476.462727272723
-Sri Lanka,diesel_price,2029,510.275636363629
-Sri Lanka,diesel_price,2030,544.088545454535
-Sweden,diesel_price,2025,2.007333333333321
-Sweden,diesel_price,2026,2.0810303030303032
-Sweden,diesel_price,2027,2.154727272727257
-Sweden,diesel_price,2028,2.2284242424242393
-Sweden,diesel_price,2029,2.302121212121193
-Sweden,diesel_price,2030,2.3758181818181754
-Syria,diesel_price,2025,3039.344777777791
-Syria,diesel_price,2026,3400.9076111110626
-Syria,diesel_price,2027,3762.4704444444505
-Syria,diesel_price,2028,4124.033277777722
-Syria,diesel_price,2029,4485.59611111111
-Syria,diesel_price,2030,4847.158944444382
-Syrian Arab Republic,petrol_price,2025,4103.682101063896
-Syrian Arab Republic,petrol_price,2026,4580.987606383045
-Syrian Arab Republic,petrol_price,2027,5058.293111702194
-Syrian Arab Republic,petrol_price,2028,5535.598617021344
-Syrian Arab Republic,petrol_price,2029,6012.904122340493
-Syrian Arab Republic,petrol_price,2030,6490.209627659642
-Tanzania,petrol_price,2025,3130.8266666666605
-Tanzania,petrol_price,2026,3273.983151515189
-Tanzania,petrol_price,2027,3417.1396363636595
-Tanzania,petrol_price,2028,3560.29612121213
-Tanzania,petrol_price,2029,3703.4526060606004
-Tanzania,petrol_price,2030,3846.609090909129
-Tanzania,diesel_price,2025,3157.689722222276
-Tanzania,diesel_price,2026,3321.4092222222243
-Tanzania,diesel_price,2027,3485.128722222231
-Tanzania,diesel_price,2028,3648.8482222222374
-Tanzania,diesel_price,2029,3812.567722222244
-Tanzania,diesel_price,2030,3976.2872222222504
-Thailand,petrol_price,2025,29.77466666666669
-Thailand,petrol_price,2026,30.965878787878864
-Thailand,petrol_price,2027,32.157090909090584
-Thailand,petrol_price,2028,33.34830303030276
-Thailand,petrol_price,2029,34.539515151514934
-Thailand,petrol_price,2030,35.73072727272711
-Thailand,diesel_price,2025,32.94666666666626
-Thailand,diesel_price,2026,34.60624242424228
-Thailand,diesel_price,2027,36.26581818181785
-Thailand,diesel_price,2028,37.92539393939387
-Thailand,diesel_price,2029,39.58496969696944
-Thailand,diesel_price,2030,41.244545454545005
-Togo,petrol_price,2025,662.8699999999953
-Togo,petrol_price,2026,681.0730909090853
-Togo,petrol_price,2027,699.2761818181752
-Togo,petrol_price,2028,717.4792727272652
-Togo,petrol_price,2029,735.6823636363551
-Togo,petrol_price,2030,753.8854545454524
-Togo,diesel_price,2025,735.0520000000033
-Togo,diesel_price,2026,760.0807272727325
-Togo,diesel_price,2027,785.1094545454544
-Togo,diesel_price,2028,810.1381818181835
-Togo,diesel_price,2029,835.1669090909127
-Togo,diesel_price,2030,860.1956363636418
-Tunisia,petrol_price,2025,2.178000000000054
-Tunisia,petrol_price,2026,2.316000000000031
-Tunisia,petrol_price,2027,2.4540000000000077
-Tunisia,petrol_price,2028,2.5920000000000414
-Tunisia,petrol_price,2029,2.730000000000018
-Tunisia,petrol_price,2030,2.868000000000052
-Tunisia,diesel_price,2025,2.3999999999999773
-Tunisia,diesel_price,2026,2.5400000000000205
-Tunisia,diesel_price,2027,2.680000000000007
-Tunisia,diesel_price,2028,2.819999999999993
-Tunisia,diesel_price,2029,2.9599999999999795
-Tunisia,diesel_price,2030,3.1000000000000227
-Turkey,diesel_price,2025,34.0580000000009
-Turkey,diesel_price,2026,37.845090909091596
-Turkey,diesel_price,2027,41.63218181818229
-Turkey,diesel_price,2028,45.41927272727298
-Turkey,diesel_price,2029,49.206363636363676
-Turkey,diesel_price,2030,52.99345454545528
-UAE,diesel_price,2025,3.400666666666609
-UAE,diesel_price,2026,3.568242424242385
-UAE,diesel_price,2027,3.7358181818181606
-UAE,diesel_price,2028,3.9033939393938795
-UAE,diesel_price,2029,4.070969696969655
-UAE,diesel_price,2030,4.238545454545431
-USA,diesel_price,2025,4.495333333333349
-USA,diesel_price,2026,4.725030303030337
-USA,diesel_price,2027,4.954727272727325
-USA,diesel_price,2028,5.184424242424313
-USA,diesel_price,2029,5.414121212121245
-USA,diesel_price,2030,5.643818181818233
-Uganda,petrol_price,2025,5345.703555555607
-Uganda,petrol_price,2026,5551.604888888891
-Uganda,petrol_price,2027,5757.506222222233
-Uganda,petrol_price,2028,5963.4075555555755
-Uganda,petrol_price,2029,6169.308888888918
-Uganda,petrol_price,2030,6375.21022222226
-Uganda,diesel_price,2025,4947.809555555519
-Uganda,diesel_price,2026,5176.003555555537
-Uganda,diesel_price,2027,5404.197555555496
-Uganda,diesel_price,2028,5632.391555555514
-Uganda,diesel_price,2029,5860.585555555532
-Uganda,diesel_price,2030,6088.779555555491
+Serbia,diesel_price,2025,208.2566666666662
+Serbia,diesel_price,2026,216.4307878787895
+Serbia,diesel_price,2027,224.60490909090913
+Serbia,diesel_price,2028,232.77903030302878
+Serbia,diesel_price,2029,240.95315151515206
+Serbia,diesel_price,2030,249.1272727272717
+Sierra Leone,petrol_price,2025,1491.5139999999665
+Sierra Leone,petrol_price,2026,934.877636363497
+Sierra Leone,petrol_price,2027,378.24127272702754
+Sierra Leone,petrol_price,2028,-178.3950909092091
+Sierra Leone,petrol_price,2029,-735.0314545456786
+Sierra Leone,petrol_price,2030,-1291.6678181819152
+Sierra Leone,diesel_price,2025,1560.2779999997001
+Sierra Leone,diesel_price,2026,1004.0549090907443
+Sierra Leone,diesel_price,2027,447.8318181815557
+Sierra Leone,diesel_price,2028,-108.39127272740006
+Sierra Leone,diesel_price,2029,-664.6143636365887
+Sierra Leone,diesel_price,2030,-1220.8374545457773
+Singapore,petrol_price,2025,2.906666666666638
+Singapore,petrol_price,2026,3.0240606060606012
+Singapore,petrol_price,2027,3.141454545454536
+Singapore,petrol_price,2028,3.258848484848471
+Singapore,petrol_price,2029,3.376242424242406
+Singapore,petrol_price,2030,3.493636363636341
+Singapore,diesel_price,2025,2.444666666666649
+Singapore,diesel_price,2026,2.5913333333332957
+Singapore,diesel_price,2027,2.7379999999999995
+Singapore,diesel_price,2028,2.8846666666666465
+Singapore,diesel_price,2029,3.0313333333332935
+Singapore,diesel_price,2030,3.1779999999999973
+Slovakia,petrol_price,2025,1.6479999999999961
+Slovakia,petrol_price,2026,1.7010909090908939
+Slovakia,petrol_price,2027,1.7541818181818059
+Slovakia,petrol_price,2028,1.8072727272727178
+Slovakia,petrol_price,2029,1.8603636363636298
+Slovakia,petrol_price,2030,1.9134545454545417
+Slovakia,diesel_price,2025,1.6260000000000048
+Slovakia,diesel_price,2026,1.691818181818178
+Slovakia,diesel_price,2027,1.7576363636363794
+Slovakia,diesel_price,2028,1.8234545454545525
+Slovakia,diesel_price,2029,1.8892727272727257
+Slovakia,diesel_price,2030,1.9550909090908988
+Slovenia,petrol_price,2025,1.4340000000000046
+Slovenia,petrol_price,2026,1.4590909090909108
+Slovenia,petrol_price,2027,1.484181818181817
+Slovenia,petrol_price,2028,1.5092727272727302
+Slovenia,petrol_price,2029,1.5343636363636364
+Slovenia,petrol_price,2030,1.5594545454545496
+Slovenia,diesel_price,2025,1.5573333333333323
+Slovenia,diesel_price,2026,1.6052121212121193
+Slovenia,diesel_price,2027,1.6530909090909063
+Slovenia,diesel_price,2028,1.7009696969696932
+Slovenia,diesel_price,2029,1.7488484848484802
+Slovenia,diesel_price,2030,1.7967272727272672
+South Africa,petrol_price,2025,2377.127999999997
+South Africa,petrol_price,2026,2498.9469090909115
+South Africa,petrol_price,2027,2620.765818181826
+South Africa,petrol_price,2028,2742.5847272727406
+South Africa,petrol_price,2029,2864.403636363655
+South Africa,petrol_price,2030,2986.2225454545405
+South Africa,diesel_price,2025,2432.6333333333023
+South Africa,diesel_price,2026,2562.5783030302846
+South Africa,diesel_price,2027,2692.523272727267
+South Africa,diesel_price,2028,2822.468242424191
+South Africa,diesel_price,2029,2952.4132121211733
+South Africa,diesel_price,2030,3082.3581818181556
+Spain,petrol_price,2025,1.649333333333331
+Spain,petrol_price,2026,1.7024848484848576
+Spain,petrol_price,2027,1.7556363636363699
+Spain,petrol_price,2028,1.8087878787878822
+Spain,petrol_price,2029,1.8619393939393944
+Spain,petrol_price,2030,1.9150909090909067
+Spain,diesel_price,2025,1.5913333333333242
+Spain,diesel_price,2026,1.651393939393941
+Spain,diesel_price,2027,1.7114545454545436
+Spain,diesel_price,2028,1.7715151515151462
+Spain,diesel_price,2029,1.8315757575757488
+Spain,diesel_price,2030,1.8916363636363656
+Sri Lanka,petrol_price,2025,362.53399999999965
+Sri Lanka,petrol_price,2026,392.0203636363658
+Sri Lanka,petrol_price,2027,421.5067272727247
+Sri Lanka,petrol_price,2028,450.9930909090908
+Sri Lanka,petrol_price,2029,480.479454545457
+Sri Lanka,petrol_price,2030,509.96581818181585
+Sri Lanka,diesel_price,2025,329.98666666666395
+Sri Lanka,diesel_price,2026,359.25533333332714
+Sri Lanka,diesel_price,2027,388.5239999999976
+Sri Lanka,diesel_price,2028,417.7926666666608
+Sri Lanka,diesel_price,2029,447.0613333333313
+Sri Lanka,diesel_price,2030,476.32999999999447
+Sudan,petrol_price,2025,649.2066666666942
+Sudan,petrol_price,2026,730.4893333333603
+Sudan,petrol_price,2027,811.7720000000263
+Sudan,petrol_price,2028,893.0546666666924
+Sudan,petrol_price,2029,974.3373333333584
+Sudan,petrol_price,2030,1055.6200000000244
+Sudan,diesel_price,2025,556.1273333333083
+Sudan,diesel_price,2026,625.4299393939145
+Sudan,diesel_price,2027,694.7325454545207
+Sudan,diesel_price,2028,764.0351515151269
+Sudan,diesel_price,2029,833.3377575757331
+Sudan,diesel_price,2030,902.6403636363393
+Suriname,petrol_price,2025,35.31066666666629
+Suriname,petrol_price,2026,39.08042424242376
+Suriname,petrol_price,2027,42.85018181818123
+Suriname,petrol_price,2028,46.6199393939396
+Suriname,petrol_price,2029,50.38969696969707
+Suriname,petrol_price,2030,54.15945454545454
+Suriname,diesel_price,2025,33.378666666666504
+Suriname,diesel_price,2026,36.95315151515115
+Suriname,diesel_price,2027,40.52763636363579
+Suriname,diesel_price,2028,44.10212121212135
+Suriname,diesel_price,2029,47.67660606060599
+Suriname,diesel_price,2030,51.251090909090635
+Sweden,petrol_price,2025,20.098000000000184
+Sweden,petrol_price,2026,20.828000000000202
+Sweden,petrol_price,2027,21.55800000000022
+Sweden,petrol_price,2028,22.28800000000024
+Sweden,petrol_price,2029,23.018000000000256
+Sweden,petrol_price,2030,23.748000000000047
+Sweden,diesel_price,2025,22.15333333333342
+Sweden,diesel_price,2026,23.13303030303041
+Sweden,diesel_price,2027,24.112727272727398
+Sweden,diesel_price,2028,25.092424242424386
+Sweden,diesel_price,2029,26.072121212121374
+Sweden,diesel_price,2030,27.051818181818135
+Switzerland,petrol_price,2025,1.8753333333333302
+Switzerland,petrol_price,2026,1.9243030303030366
+Switzerland,petrol_price,2027,1.9732727272727288
+Switzerland,petrol_price,2028,2.022242424242421
+Switzerland,petrol_price,2029,2.0712121212121275
+Switzerland,petrol_price,2030,2.1201818181818197
+Switzerland,diesel_price,2025,2.038000000000011
+Switzerland,diesel_price,2026,2.0983636363636435
+Switzerland,diesel_price,2027,2.158727272727276
+Switzerland,diesel_price,2028,2.219090909090923
+Switzerland,diesel_price,2029,2.2794545454545556
+Switzerland,diesel_price,2030,2.3398181818181882
+Syria,diesel_price,2025,3657.23199999996
+Syria,diesel_price,2026,4103.052181818173
+Syria,diesel_price,2027,4548.872363636387
+Syria,diesel_price,2028,4994.6925454544835
+Syria,diesel_price,2029,5440.512727272697
+Syria,diesel_price,2030,5886.33290909091
+Syrian Arab Republic,petrol_price,2025,4668.620888888836
+Syrian Arab Republic,petrol_price,2026,5228.884323232342
+Syrian Arab Republic,petrol_price,2027,5789.147757575614
+Syrian Arab Republic,petrol_price,2028,6349.41119191912
+Syrian Arab Republic,petrol_price,2029,6909.674626262626
+Syrian Arab Republic,petrol_price,2030,7469.938060606131
+Taiwan,petrol_price,2025,30.540666666666766
+Taiwan,petrol_price,2026,31.332606060606167
+Taiwan,petrol_price,2027,32.12454545454557
+Taiwan,petrol_price,2028,32.91648484848497
+Taiwan,petrol_price,2029,33.70842424242437
+Taiwan,petrol_price,2030,34.50036363636377
+Taiwan,diesel_price,2025,27.882000000000062
+Taiwan,diesel_price,2026,28.651090909090954
+Taiwan,diesel_price,2027,29.420181818181845
+Taiwan,diesel_price,2028,30.189272727272737
+Taiwan,diesel_price,2029,30.958363636363856
+Taiwan,diesel_price,2030,31.727454545454748
+Tanzania,petrol_price,2025,3086.173999999999
+Tanzania,petrol_price,2026,3220.154363636335
+Tanzania,petrol_price,2027,3354.134727272729
+Tanzania,petrol_price,2028,3488.1150909090647
+Tanzania,petrol_price,2029,3622.095454545459
+Tanzania,petrol_price,2030,3756.0758181817946
+Tanzania,diesel_price,2025,3119.254666666675
+Tanzania,diesel_price,2026,3272.4918787879287
+Tanzania,diesel_price,2027,3425.7290909091244
+Tanzania,diesel_price,2028,3578.96630303032
+Tanzania,diesel_price,2029,3732.203515151574
+Tanzania,diesel_price,2030,3885.4407272727694
+Thailand,petrol_price,2025,46.35333333333347
+Thailand,petrol_price,2026,47.99921212121217
+Thailand,petrol_price,2027,49.64509090909087
+Thailand,petrol_price,2028,51.29096969696957
+Thailand,petrol_price,2029,52.93684848484827
+Thailand,petrol_price,2030,54.582727272727425
+Thailand,diesel_price,2025,32.13599999999997
+Thailand,diesel_price,2026,33.017636363636484
+Thailand,diesel_price,2027,33.89927272727277
+Thailand,diesel_price,2028,34.78090909090906
+Thailand,diesel_price,2029,35.66254545454558
+Thailand,diesel_price,2030,36.54418181818187
+Tunisia,petrol_price,2025,1.9683333333333337
+Tunisia,petrol_price,2026,2.0344848484848512
+Tunisia,petrol_price,2027,2.1006363636363687
+Tunisia,petrol_price,2028,2.1667878787878863
+Tunisia,petrol_price,2029,2.2329393939394038
+Tunisia,petrol_price,2030,2.299090909090893
+Tunisia,diesel_price,2025,2.177333333333337
+Tunisia,diesel_price,2026,2.240303030303025
+Tunisia,diesel_price,2027,2.303272727272727
+Tunisia,diesel_price,2028,2.366242424242415
+Tunisia,diesel_price,2029,2.4292121212121174
+Tunisia,diesel_price,2030,2.4921818181818196
+Turkey,petrol_price,2025,32.8126666666667
+Turkey,petrol_price,2026,36.38333333333321
+Turkey,petrol_price,2027,39.95399999999972
+Turkey,petrol_price,2028,43.524666666667144
+Turkey,petrol_price,2029,47.095333333333656
+Turkey,petrol_price,2030,50.66600000000017
+Turkey,diesel_price,2025,33.02400000000034
+Turkey,diesel_price,2026,36.670909090909845
+Turkey,diesel_price,2027,40.31781818181935
+Turkey,diesel_price,2028,43.96472727272794
+Turkey,diesel_price,2029,47.611636363637444
+Turkey,diesel_price,2030,51.25854545454604
+Uganda,petrol_price,2025,5609.782666666724
+Uganda,petrol_price,2026,5851.694787878834
+Uganda,petrol_price,2027,6093.606909090944
+Uganda,petrol_price,2028,6335.519030303054
+Uganda,petrol_price,2029,6577.431151515164
+Uganda,petrol_price,2030,6819.343272727332
+Uganda,diesel_price,2025,4939.963333333377
+Uganda,diesel_price,2026,5167.087393939437
+Uganda,diesel_price,2027,5394.211454545497
+Uganda,diesel_price,2028,5621.335515151557
+Uganda,diesel_price,2029,5848.459575757617
+Uganda,diesel_price,2030,6075.583636363677
 Ukraine,petrol_price,2025,50.77666666666664
 Ukraine,petrol_price,2026,54.26406060606041
 Ukraine,petrol_price,2027,57.75145454545418
@@ -1211,78 +1481,96 @@ Ukraine,diesel_price,2027,61.651454545454726
 Ukraine,diesel_price,2028,65.6415151515148
 Ukraine,diesel_price,2029,69.63157575757577
 Ukraine,diesel_price,2030,73.62163636363584
-United Arab Emirates,petrol_price,2025,3.1772972972973434
-United Arab Emirates,petrol_price,2026,3.3458108108108604
-United Arab Emirates,petrol_price,2027,3.5143243243243774
-United Arab Emirates,petrol_price,2028,3.6828378378378943
-United Arab Emirates,petrol_price,2029,3.8513513513514113
-United Arab Emirates,petrol_price,2030,4.019864864864928
-United Kingdom,diesel_price,2025,104.4900000000016
-United Kingdom,diesel_price,2026,109.94363636363778
-United Kingdom,diesel_price,2027,115.39727272727396
-United Kingdom,diesel_price,2028,120.85090909091014
-United Kingdom,diesel_price,2029,126.30454545454631
-United Kingdom,diesel_price,2030,131.7581818181825
-United States,petrol_price,2025,4.163999999999987
-United States,petrol_price,2026,4.371999999999957
-United States,petrol_price,2027,4.579999999999984
-United States,petrol_price,2028,4.787999999999954
-United States,petrol_price,2029,4.995999999999981
-United States,petrol_price,2030,5.203999999999951
-Uruguay,diesel_price,2025,64.40142857142882
-Uruguay,diesel_price,2026,66.42678571428632
-Uruguay,diesel_price,2027,68.45214285714292
-Uruguay,diesel_price,2028,70.47750000000042
-Uruguay,diesel_price,2029,72.50285714285701
-Uruguay,diesel_price,2030,74.52821428571451
-Uzbekistan,petrol_price,2025,9662.426666666754
-Uzbekistan,petrol_price,2026,10500.667333333287
-Uzbekistan,petrol_price,2027,11338.908000000054
-Uzbekistan,petrol_price,2028,12177.14866666682
-Uzbekistan,petrol_price,2029,13015.389333333354
-Uzbekistan,petrol_price,2030,13853.630000000121
-Uzbekistan,diesel_price,2025,14008.839166666381
-Uzbekistan,diesel_price,2026,15388.673666666262
-Uzbekistan,diesel_price,2027,16768.50816666661
-Uzbekistan,diesel_price,2028,18148.34266666649
-Uzbekistan,diesel_price,2029,19528.17716666637
-Uzbekistan,diesel_price,2030,20908.01166666625
-Vanuatu,diesel_price,2025,214.04399999999805
-Vanuatu,diesel_price,2026,228.59999999999854
-Vanuatu,diesel_price,2027,243.15599999999904
-Vanuatu,diesel_price,2028,257.71199999999953
-Vanuatu,diesel_price,2029,272.26800000000003
-Vanuatu,diesel_price,2030,286.8239999999969
-Venezuela,petrol_price,2025,569.8506666666799
-Venezuela,petrol_price,2026,612.7455151515314
-Venezuela,petrol_price,2027,655.6403636363684
-Venezuela,petrol_price,2028,698.53521212122
-Venezuela,petrol_price,2029,741.4300606060715
-Venezuela,petrol_price,2030,784.324909090923
-Venezuela,diesel_price,2025,0.052666666666667084
-Venezuela,diesel_price,2026,0.05878787878788039
-Venezuela,diesel_price,2027,0.06490909090909192
-Venezuela,diesel_price,2028,0.07103030303030344
-Venezuela,diesel_price,2029,0.07715151515151675
-Venezuela,diesel_price,2030,0.08327272727272828
-Viet Nam,petrol_price,2025,23115.327333333204
-Viet Nam,petrol_price,2026,23853.61448484822
-Viet Nam,petrol_price,2027,24591.901636363473
-Viet Nam,petrol_price,2028,25330.188787878724
-Viet Nam,petrol_price,2029,26068.475939393742
-Viet Nam,petrol_price,2030,26806.763090908993
-Vietnam,diesel_price,2025,21606.695999999996
-Vietnam,diesel_price,2026,22559.176181818126
-Vietnam,diesel_price,2027,23511.656363636255
-Vietnam,diesel_price,2028,24464.136545454385
-Vietnam,diesel_price,2029,25416.616727272747
-Vietnam,diesel_price,2030,26369.096909090877
-West Bank & Gaza,diesel_price,2025,6.077500000000015
-West Bank & Gaza,diesel_price,2026,6.182333333333361
-West Bank & Gaza,diesel_price,2027,6.287166666666678
-West Bank & Gaza,diesel_price,2028,6.392000000000024
-West Bank & Gaza,diesel_price,2029,6.496833333333342
-West Bank & Gaza,diesel_price,2030,6.601666666666688
+United Arab Emirates,petrol_price,2025,3.1153333333333535
+United Arab Emirates,petrol_price,2026,3.2810303030303203
+United Arab Emirates,petrol_price,2027,3.446727272727287
+United Arab Emirates,petrol_price,2028,3.612424242424254
+United Arab Emirates,petrol_price,2029,3.7781212121212207
+United Arab Emirates,petrol_price,2030,3.9438181818181874
+United Kingdom,petrol_price,2025,154.0773333333309
+United Kingdom,petrol_price,2026,158.79339393939154
+United Kingdom,petrol_price,2027,163.50945454545217
+United Kingdom,petrol_price,2028,168.2255151515128
+United Kingdom,petrol_price,2029,172.94157575757345
+United Kingdom,petrol_price,2030,177.65763636363408
+United Kingdom,diesel_price,2025,167.0493333333343
+United Kingdom,diesel_price,2026,172.94593939393963
+United Kingdom,diesel_price,2027,178.84254545454678
+United Kingdom,diesel_price,2028,184.73915151515212
+United Kingdom,diesel_price,2029,190.63575757575745
+United Kingdom,diesel_price,2030,196.5323636363646
+United States,petrol_price,2025,3.8173333333333517
+United States,petrol_price,2026,3.9957575757575796
+United States,petrol_price,2027,4.174181818181864
+United States,petrol_price,2028,4.352606060606092
+United States,petrol_price,2029,4.53103030303032
+United States,petrol_price,2030,4.709454545454548
+United States,diesel_price,2025,1.1693333333333413
+United States,diesel_price,2026,1.2248484848484935
+United States,diesel_price,2027,1.2803636363636457
+United States,diesel_price,2028,1.3358787878787979
+United States,diesel_price,2029,1.39139393939395
+United States,diesel_price,2030,1.4469090909091022
+Uruguay,petrol_price,2025,80.3760000000002
+Uruguay,petrol_price,2026,84.17363636363643
+Uruguay,petrol_price,2027,87.97127272727266
+Uruguay,petrol_price,2028,91.76890909090889
+Uruguay,petrol_price,2029,95.56654545454512
+Uruguay,petrol_price,2030,99.36418181818135
+Uruguay,diesel_price,2025,63.43168888888886
+Uruguay,diesel_price,2026,65.16523232323243
+Uruguay,diesel_price,2027,66.89877575757555
+Uruguay,diesel_price,2028,68.63231919191912
+Uruguay,diesel_price,2029,70.3658626262627
+Uruguay,diesel_price,2030,72.09940606060582
+Uzbekistan,petrol_price,2025,9545.568666666513
+Uzbekistan,petrol_price,2026,10351.938969696872
+Uzbekistan,petrol_price,2027,11158.30927272723
+Uzbekistan,petrol_price,2028,11964.67957575759
+Uzbekistan,petrol_price,2029,12771.049878787948
+Uzbekistan,petrol_price,2030,13577.420181818074
+Uzbekistan,diesel_price,2025,13631.358000000473
+Uzbekistan,diesel_price,2026,14908.24309090944
+Uzbekistan,diesel_price,2027,16185.128181818407
+Uzbekistan,diesel_price,2028,17462.01327272784
+Uzbekistan,diesel_price,2029,18738.898363636807
+Uzbekistan,diesel_price,2030,20015.783454545774
+Vanuatu,diesel_price,2025,201.22466666666514
+Vanuatu,diesel_price,2026,211.61631515151385
+Vanuatu,diesel_price,2027,222.00796363636255
+Vanuatu,diesel_price,2028,232.39961212121125
+Vanuatu,diesel_price,2029,242.79126060605995
+Vanuatu,diesel_price,2030,253.18290909090865
+Venezuela,petrol_price,2025,0.0903333333333336
+Venezuela,petrol_price,2026,0.09712121212121261
+Venezuela,petrol_price,2027,0.10390909090909162
+Venezuela,petrol_price,2028,0.11069696969696885
+Venezuela,petrol_price,2029,0.11748484848484786
+Venezuela,petrol_price,2030,0.12427272727272687
+Venezuela,diesel_price,2025,0.10679999999999978
+Venezuela,diesel_price,2026,0.11541818181818186
+Venezuela,diesel_price,2027,0.12403636363636394
+Venezuela,diesel_price,2028,0.13265454545454247
+Venezuela,diesel_price,2029,0.14127272727272455
+Venezuela,diesel_price,2030,0.14989090909090663
+Vietnam,petrol_price,2025,24284.687333333306
+Vietnam,petrol_price,2026,25114.5170303029
+Vietnam,petrol_price,2027,25944.34672727273
+Vietnam,petrol_price,2028,26774.176424242323
+Vietnam,petrol_price,2029,27604.00612121215
+Vietnam,petrol_price,2030,28433.835818181746
+Vietnam,diesel_price,2025,22009.748000000138
+Vietnam,diesel_price,2026,23014.132363636512
+Vietnam,diesel_price,2027,24018.516727272887
+Vietnam,diesel_price,2028,25022.90109090926
+Vietnam,diesel_price,2029,26027.285454545636
+Vietnam,diesel_price,2030,27031.66981818201
+West Bank & Gaza,diesel_price,2025,6.015333333333331
+West Bank & Gaza,diesel_price,2026,6.103212121212124
+West Bank & Gaza,diesel_price,2027,6.191090909090917
+West Bank & Gaza,diesel_price,2028,6.27896969696971
+West Bank & Gaza,diesel_price,2029,6.366848484848504
+West Bank & Gaza,diesel_price,2030,6.454727272727268
 Zambia,petrol_price,2025,32.01066666666611
 Zambia,petrol_price,2026,34.44187878787852
 Zambia,petrol_price,2027,36.873090909090934
@@ -1295,15 +1583,15 @@ Zambia,diesel_price,2027,35.64672727272773
 Zambia,diesel_price,2028,37.857757575758114
 Zambia,diesel_price,2029,40.0687878787885
 Zambia,diesel_price,2030,42.27981818181888
-Zimbabwe,petrol_price,2025,1635.5283333333791
-Zimbabwe,petrol_price,2026,1865.8160000000498
-Zimbabwe,petrol_price,2027,2096.1036666666623
-Zimbabwe,petrol_price,2028,2326.391333333333
-Zimbabwe,petrol_price,2029,2556.6790000000037
-Zimbabwe,petrol_price,2030,2786.9666666666744
-Zimbabwe,diesel_price,2025,3351.5678571427707
-Zimbabwe,diesel_price,2026,3887.6540476190858
-Zimbabwe,diesel_price,2027,4423.740238095168
-Zimbabwe,diesel_price,2028,4959.826428571483
-Zimbabwe,diesel_price,2029,5495.912619047565
-Zimbabwe,diesel_price,2030,6031.9988095238805
+Zimbabwe,petrol_price,2025,1501.7966666666325
+Zimbabwe,petrol_price,2026,1695.612060606014
+Zimbabwe,petrol_price,2027,1889.4274545453954
+Zimbabwe,petrol_price,2028,2083.242848484835
+Zimbabwe,petrol_price,2029,2277.0582424242166
+Zimbabwe,petrol_price,2030,2470.873636363598
+Zimbabwe,diesel_price,2025,2752.8413333332865
+Zimbabwe,diesel_price,2026,3116.7019393938826
+Zimbabwe,diesel_price,2027,3480.562545454479
+Zimbabwe,diesel_price,2028,3844.423151515075
+Zimbabwe,diesel_price,2029,4208.283757575671
+Zimbabwe,diesel_price,2030,4572.144363636267

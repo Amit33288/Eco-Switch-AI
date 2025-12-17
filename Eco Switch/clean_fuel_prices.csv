@@ -6,9 +6,9 @@ Algeria,2018,38.95,23.06
 Algeria,2019,38.95,23.06
 Algeria,2020,41.73,26.53
 Algeria,2021,43.71,29.01
-Algeria,2022,,29.01
-Algeria,2023,,29.01
-Algeria,2024,,29.01
+Algeria,2022,45.97,29.01
+Algeria,2023,45.97,29.01
+Algeria,2024,45.97,29.01
 Angola,2015,,90.0
 Angola,2016,,135.0
 Angola,2017,,135.0
@@ -29,6 +29,7 @@ Argentina,2021,93.91,95.37
 Argentina,2022,137.95,162.77
 Argentina,2023,279.5,339.13
 Argentina,2024,1030.54,1141.57
+Aruba,2015,,1.39
 Aruba,2016,,1.39
 Aruba,2017,,1.47
 Aruba,2018,,1.76
@@ -38,103 +39,87 @@ Aruba,2021,,1.8
 Aruba,2022,,2.63
 Aruba,2023,,2.36
 Aruba,2024,,2.19
-Australia,2015,,102.34
-Australia,2016,,102.66
-Australia,2017,,114.36
-Australia,2018,,134.77
-Australia,2019,,135.11
-Australia,2020,,108.39
-Australia,2021,,129.97
-Australia,2022,,191.58
-Australia,2023,,183.76
-Australia,2024,,174.67
-Austria,2015,,1.03
-Austria,2016,,1.03
-Austria,2017,,1.11
-Austria,2018,,1.22
-Austria,2019,,1.21
-Austria,2020,,1.05
-Austria,2021,,1.23
-Austria,2022,,1.82
-Austria,2023,,1.64
-Austria,2024,,1.6
-Azerbaijan,2015,0.7,0.6
-Azerbaijan,2016,0.8,0.6
-Azerbaijan,2017,1.0,0.8
-Azerbaijan,2018,1.0,0.8
-Azerbaijan,2019,1.0,0.8
-Azerbaijan,2020,1.0,0.8
-Azerbaijan,2021,1.0,0.8
-Azerbaijan,2022,1.0,0.8
-Azerbaijan,2023,1.0,0.8
-Azerbaijan,2024,1.05,0.9
-Bahrain,2015,80.0,140.0
-Bahrain,2016,125.0,140.0
-Bahrain,2017,125.0,140.0
-Bahrain,2018,140.0,160.0
-Bahrain,2019,140.0,180.0
-Bahrain,2020,140.0,180.0
-Bahrain,2021,140.0,180.0
-Bahrain,2022,140.0,180.0
-Bahrain,2023,140.0,180.0
-Bahrain,2024,140.0,180.0
-Bangladesh,2015,86.0,
-Bangladesh,2016,86.0,65.0
-Bangladesh,2017,86.0,65.0
-Bangladesh,2018,86.0,65.0
-Bangladesh,2019,86.0,65.0
-Bangladesh,2020,86.0,66.25
-Bangladesh,2021,86.0,80.0
-Bangladesh,2022,105.92,94.92
-Bangladesh,2023,125.0,109.0
-Bangladesh,2024,123.54,106.4
-Barbados,2017,,2.34
-Barbados,2018,,2.9
-Barbados,2019,,3.04
-Barbados,2020,,2.64
-Barbados,2021,,3.03
-Barbados,2022,,3.79
-Barbados,2023,,3.53
-Barbados,2024,,3.47
-Belgium,2015,,1.07
-Belgium,2016,,1.11
-Belgium,2017,,1.25
-Belgium,2018,,1.42
-Belgium,2019,,1.44
-Belgium,2020,,1.29
-Belgium,2021,,1.49
-Belgium,2022,,1.93
-Belgium,2023,,1.77
-Belgium,2024,,1.72
-Belize,2015,7.55,6.3
-Belize,2016,9.06,8.08
-Belize,2017,10.12,9.23
-Belize,2018,10.64,10.49
-Belize,2019,10.16,10.06
-Belize,2020,8.9,8.53
-Belize,2021,10.93,10.25
-Belize,2022,13.08,13.0
-Belize,2023,12.54,12.54
-Belize,2024,12.48,12.3
+Australia,2015,1.28,1.29
+Australia,2016,1.16,1.18
+Australia,2017,1.28,1.3
+Australia,2018,1.43,1.49
+Australia,2019,1.42,1.48
+Australia,2020,1.21,1.22
+Australia,2021,1.46,1.48
+Australia,2022,1.91,2.06
+Australia,2023,1.92,2.02
+Australia,2024,1.94,1.95
+Austria,2015,1.18,1.09
+Austria,2016,1.1,1.0
+Austria,2017,1.18,1.09
+Austria,2018,1.27,1.22
+Austria,2019,1.24,1.21
+Austria,2020,1.08,1.03
+Austria,2021,1.31,1.23
+Austria,2022,1.85,1.9
+Austria,2023,1.63,1.68
+Austria,2024,1.62,1.65
+Bahamas,2015,1.08,1.03
+Bahamas,2016,0.99,0.95
+Bahamas,2017,1.04,0.96
+Bahamas,2018,1.16,1.17
+Bahamas,2019,1.18,1.24
+Bahamas,2020,1.06,1.03
+Bahamas,2021,1.25,1.21
+Bahamas,2022,1.58,1.52
+Bahamas,2023,1.47,1.51
+Bahamas,2024,1.49,1.51
+Bangladesh,2015,92.67,65.0
+Bangladesh,2016,93.33,65.0
+Bangladesh,2017,91.33,65.0
+Bangladesh,2018,92.0,65.0
+Bangladesh,2019,91.67,65.0
+Bangladesh,2020,90.8,66.25
+Bangladesh,2021,92.08,80.0
+Bangladesh,2022,103.0,94.92
+Bangladesh,2023,127.33,109.0
+Bangladesh,2024,124.5,106.4
+Barbados,2015,2.775,2.06
+Barbados,2016,2.89,2.2
+Barbados,2017,3.005,2.34
+Barbados,2018,3.58,2.9
+Barbados,2019,3.69,3.04
+Barbados,2020,3.22,2.64
+Barbados,2021,3.75,3.03
+Barbados,2022,4.32,3.79
+Barbados,2023,4.1,3.53
+Barbados,2024,4.1,3.47
+Belarus,2015,1.15,1.23
+Belarus,2016,1.17,1.24
+Belarus,2017,1.22,1.3
+Belarus,2018,1.33,1.41
+Belarus,2019,1.53,1.63
+Belarus,2020,1.72,1.82
+Belarus,2021,1.98,2.08
+Belarus,2022,2.44,2.44
+Belarus,2023,2.36,2.36
+Belarus,2024,2.36,2.36
+Benin,2015,339.5416666666667,394.375
 Benin,2016,348.75,440.0
-Benin,2017,331.92,
-Benin,2018,387.52,
+Benin,2017,331.92,435.96
+Benin,2018,387.52,488.435
 Benin,2019,464.61,540.91
 Benin,2020,485.92,512.5
 Benin,2021,449.62,500.0
 Benin,2022,539.0,662.0
 Benin,2023,624.46,700.0
 Benin,2024,645.5,700.0
-Bolivia,2015,6.21,6.3
-Bolivia,2016,6.21,6.3
-Bolivia,2017,6.21,6.3
-Bolivia,2018,6.21,6.3
-Bolivia,2019,6.21,6.3
-Bolivia,2020,6.21,6.3
-Bolivia,2021,3.74,3.72
-Bolivia,2022,4.17,4.17
-Bolivia,2023,6.36,6.56
-Bolivia,2024,6.21,6.3
+Bhutan,2015,56.57,47.11
+Bhutan,2016,55.36,48.24
+Bhutan,2017,60.85,54.76
+Bhutan,2018,67.76,64.21
+Bhutan,2019,65.49,63.46
+Bhutan,2020,63.14,61.94
+Bhutan,2021,79.8,76.51
+Bhutan,2022,98.67,102.76
+Bhutan,2023,82.02,82.43
+Bhutan,2024,82.72,82.35
+Bosnia & Herzegovina,2015,,1.755
 Bosnia & Herzegovina,2016,,1.8
 Bosnia & Herzegovina,2017,,1.89
 Bosnia & Herzegovina,2018,,2.21
@@ -144,44 +129,47 @@ Bosnia & Herzegovina,2021,,2.13
 Bosnia & Herzegovina,2022,,3.13
 Bosnia & Herzegovina,2023,,2.75
 Bosnia & Herzegovina,2024,,2.55
+Botswana,2015,739.995,676.9950000000001
+Botswana,2016,766.1625,722.1625
 Botswana,2017,792.33,767.33
 Botswana,2018,897.0,948.0
-Botswana,2019,826.67,
+Botswana,2019,826.67,890.335
 Botswana,2020,1036.2,832.67
 Botswana,2021,1554.5,979.42
 Botswana,2022,1509.17,1611.08
 Botswana,2023,1449.92,1578.92
 Botswana,2024,1490.83,1559.62
-Brazil,2015,3.75,3.11
-Brazil,2016,3.76,3.16
-Brazil,2017,3.87,3.3
-Brazil,2018,4.57,3.63
-Brazil,2019,4.51,3.69
-Brazil,2020,4.41,3.51
-Brazil,2021,6.02,4.62
-Brazil,2022,6.25,6.62
-Brazil,2023,5.48,5.8
-Brazil,2024,5.89,5.93
-Bulgaria,2015,,1.06
-Bulgaria,2016,,0.95
-Bulgaria,2017,,1.01
-Bulgaria,2018,,1.11
-Bulgaria,2019,,1.11
-Bulgaria,2020,,0.92
-Bulgaria,2021,,1.06
-Bulgaria,2022,,1.57
-Bulgaria,2023,,1.37
-Bulgaria,2024,,1.31
-Burkina Faso,2015,652.0,576.0
-Burkina Faso,2016,618.67,542.67
-Burkina Faso,2017,602.0,526.0
-Burkina Faso,2018,614.5,538.5
-Burkina Faso,2019,660.25,573.25
-Burkina Faso,2020,625.0,548.33
-Burkina Faso,2021,613.33,543.33
-Burkina Faso,2022,696.25,624.17
-Burkina Faso,2023,841.67,675.0
-Burkina Faso,2024,850.0,675.0
+Brazil,2015,3.34,2.83
+Brazil,2016,3.72,3.01
+Brazil,2017,3.95,3.16
+Brazil,2018,4.45,3.49
+Brazil,2019,4.38,3.54
+Brazil,2020,4.19,3.31
+Brazil,2021,5.84,4.61
+Brazil,2022,6.6,6.73
+Brazil,2023,5.55,5.94
+Brazil,2024,5.77,5.97
+Bulgaria,2015,2.08,2.07
+Bulgaria,2016,1.9,1.89
+Bulgaria,2017,2.0,1.98
+Bulgaria,2018,2.16,2.2
+Bulgaria,2019,2.13,2.24
+Bulgaria,2020,1.8,1.86
+Bulgaria,2021,2.13,2.15
+Bulgaria,2022,2.84,3.07
+Bulgaria,2023,2.61,2.7
+Bulgaria,2024,2.6,2.65
+Burkina Faso,2015,,593.5
+Burkina Faso,2016,,528.0
+Burkina Faso,2017,,529.58
+Burkina Faso,2018,,582.0
+Burkina Faso,2019,,577.0
+Burkina Faso,2020,,540.0
+Burkina Faso,2021,,540.0
+Burkina Faso,2022,,634.58
+Burkina Faso,2023,,675.0
+Burkina Faso,2024,,675.0
+Cabo Verde,2015,103.72,83.135
 Cabo Verde,2016,106.93,85.17
 Cabo Verde,2017,113.35,89.24
 Cabo Verde,2018,125.37,103.29
@@ -191,20 +179,27 @@ Cabo Verde,2021,124.89,97.52
 Cabo Verde,2022,159.31,150.33
 Cabo Verde,2023,143.82,132.1
 Cabo Verde,2024,138.95,121.95
+Cambodia,2015,0.98,0.88
+Cambodia,2016,0.994,0.896
+Cambodia,2017,1.008,0.912
+Cambodia,2018,1.0220000000000002,0.928
+Cambodia,2019,1.036,0.9440000000000002
+Cambodia,2020,1.05,0.96
 Cambodia,2021,1.05,0.96
 Cambodia,2022,1.19,1.27
 Cambodia,2023,1.05,1.06
 Cambodia,2024,1.01,0.98
-Cameroon,2015,650.0,600.0
+Cameroon,2015,630.0,615.0
 Cameroon,2016,630.0,575.0
 Cameroon,2017,630.0,575.0
 Cameroon,2018,630.0,575.0
 Cameroon,2019,630.0,575.0
 Cameroon,2020,630.0,575.0
 Cameroon,2021,630.0,575.0
-Cameroon,2022,630.0,575.0
-Cameroon,2023,721.67,707.92
-Cameroon,2024,830.83,819.0
+Cameroon,2022,635.0,580.0
+Cameroon,2023,740.0,736.67
+Cameroon,2024,840.0,828.0
+Canada,2015,102.18,92.86
 Canada,2016,106.41,97.62
 Canada,2017,114.87,107.14
 Canada,2018,129.2,125.58
@@ -214,6 +209,8 @@ Canada,2021,137.88,125.98
 Canada,2022,173.97,192.46
 Canada,2023,160.41,168.45
 Canada,2024,164.6,166.28
+Cayman Islands,2015,,4.07
+Cayman Islands,2016,,4.135
 Cayman Islands,2017,,4.2
 Cayman Islands,2018,,4.46
 Cayman Islands,2019,,4.5
@@ -222,6 +219,8 @@ Cayman Islands,2021,,4.44
 Cayman Islands,2022,,6.13
 Cayman Islands,2023,,5.81
 Cayman Islands,2024,,5.48
+Central African Republic,2015,865.0,855.0
+Central African Republic,2016,865.0,855.0
 Central African Republic,2017,865.0,855.0
 Central African Republic,2018,865.0,855.0
 Central African Republic,2019,865.0,855.0
@@ -230,46 +229,37 @@ Central African Republic,2021,865.0,855.0
 Central African Republic,2022,865.0,855.0
 Central African Republic,2023,1200.0,1400.0
 Central African Republic,2024,1100.0,1350.0
-Chile,2015,711.81,483.73
-Chile,2016,677.19,432.44
-Chile,2017,709.01,485.97
-Chile,2018,780.23,580.84
-Chile,2019,777.67,592.56
-Chile,2020,758.94,547.78
-Chile,2021,854.41,627.74
-Chile,2022,1163.79,977.69
-Chile,2023,1225.47,1039.51
-Chile,2024,1278.86,1004.52
-China,2015,5.49,5.28
-China,2016,5.7,5.5
-China,2017,6.18,6.02
-China,2018,7.0,6.9
-China,2019,6.58,6.47
-China,2020,5.53,5.34
-China,2021,6.65,6.55
-China,2022,8.07,8.07
-China,2023,7.61,7.57
-China,2024,7.53,7.49
-Colombia,2015,,7519.5
-Colombia,2016,,7423.17
-Colombia,2017,,7893.88
-Colombia,2018,,8581.08
-Colombia,2019,,9139.46
-Colombia,2020,,8494.79
-Colombia,2021,,8688.62
-Colombia,2022,,9232.04
-Colombia,2023,,9335.83
-Colombia,2024,,9845.66
-Congo,2015,,475.0
-Congo,2016,,475.0
-Congo,2017,,475.0
-Congo,2018,,475.0
-Congo,2019,,475.0
-Congo,2020,,475.0
-Congo,2021,,475.0
-Congo,2022,,475.0
-Congo,2023,,529.17
-Congo,2024,,625.0
+Chile,2015,728.32,519.23
+Chile,2016,714.28,454.76
+Chile,2017,735.25,499.04
+Chile,2018,807.51,562.9
+Chile,2019,802.72,595.66
+Chile,2020,752.61,547.01
+Chile,2021,878.07,623.59
+Chile,2022,1182.26,967.8
+Chile,2023,1257.69,1032.55
+Chile,2024,1292.01,1035.15
+China,2015,6.46,5.85
+China,2016,6.23,5.65
+China,2017,6.76,6.15
+China,2018,7.66,7.03
+China,2019,7.39,6.77
+China,2020,6.34,5.81
+China,2021,7.49,6.85
+China,2022,8.96,8.19
+China,2023,8.59,7.85
+China,2024,8.47,7.74
+Colombia,2015,8093.58,7759.5
+Colombia,2016,7991.67,7549.33
+Colombia,2017,8426.58,7670.67
+Colombia,2018,9132.58,8388.58
+Colombia,2019,9638.25,9163.67
+Colombia,2020,8763.5,8673.5
+Colombia,2021,8873.33,8605.25
+Colombia,2022,9626.5,9206.58
+Colombia,2023,12364.5,9082.33
+Colombia,2024,15296.38,9445.5
+Congo (Dem. Rep.),2015,2240.0,
 Congo (Dem. Rep.),2016,2240.0,
 Congo (Dem. Rep.),2017,2240.0,
 Congo (Dem. Rep.),2018,2240.0,
@@ -279,26 +269,18 @@ Congo (Dem. Rep.),2021,1995.0,
 Congo (Dem. Rep.),2022,2396.67,
 Congo (Dem. Rep.),2023,2951.67,
 Congo (Dem. Rep.),2024,3268.87,
-Congo (Rep.),2015,595.0,
-Congo (Rep.),2016,595.0,
-Congo (Rep.),2017,595.0,
-Congo (Rep.),2018,595.0,
-Congo (Rep.),2019,595.0,
-Congo (Rep.),2020,595.0,
-Congo (Rep.),2021,595.0,
-Congo (Rep.),2022,595.0,
-Congo (Rep.),2023,697.5,
-Congo (Rep.),2024,775.0,
-Costa Rica,2015,372.08,218.33
-Costa Rica,2016,362.97,198.69
-Costa Rica,2017,405.7,246.92
-Costa Rica,2018,465.91,318.7
-Costa Rica,2019,446.85,307.26
-Costa Rica,2020,376.82,204.92
-Costa Rica,2021,496.26,304.1
-Costa Rica,2022,687.96,570.22
-Costa Rica,2023,547.98,419.31
-Costa Rica,2024,501.73,614.21
+Costa Rica,2015,560.5,445.67
+Costa Rica,2016,537.92,429.58
+Costa Rica,2017,576.92,470.92
+Costa Rica,2018,642.08,540.83
+Costa Rica,2019,634.33,554.42
+Costa Rica,2020,561.42,476.5
+Costa Rica,2021,692.67,584.0
+Costa Rica,2022,860.5,795.58
+Costa Rica,2023,739.75,639.67
+Costa Rica,2024,720.5,614.92
+Cote d'Ivoire,2015,558.41,557.085
+Cote d'Ivoire,2016,566.8699999999999,564.9325
 Cote d'Ivoire,2017,575.33,572.78
 Cote d'Ivoire,2018,609.17,604.17
 Cote d'Ivoire,2019,623.75,613.33
@@ -307,46 +289,37 @@ Cote d'Ivoire,2021,611.25,611.25
 Cote d'Ivoire,2022,711.67,625.0
 Cote d'Ivoire,2023,826.67,670.0
 Cote d'Ivoire,2024,875.0,715.0
-Croatia,2015,,1.1
-Croatia,2016,,1.07
-Croatia,2017,,1.17
-Croatia,2018,,1.31
-Croatia,2019,,1.32
-Croatia,2020,,1.16
-Croatia,2021,,1.36
-Croatia,2022,,1.77
-Croatia,2023,,1.58
-Croatia,2024,,1.56
-Curacao,2015,,1.06
-Curacao,2016,,0.97
-Curacao,2017,,1.11
-Curacao,2018,,1.44
-Curacao,2019,,1.39
-Curacao,2020,,1.43
-Curacao,2021,,1.66
-Curacao,2022,,2.23
-Curacao,2023,,1.83
-Curacao,2024,,1.78
-Cyprus,2015,,1.17
-Cyprus,2016,,1.13
-Cyprus,2017,,1.2
-Cyprus,2018,,1.31
-Cyprus,2019,,1.23
-Cyprus,2020,,1.11
-Cyprus,2021,,1.28
-Cyprus,2022,,1.74
-Cyprus,2023,,1.55
-Cyprus,2024,,1.51
-Czech Republic,2015,,1.08
-Czech Republic,2016,,1.01
-Czech Republic,2017,,1.12
-Czech Republic,2018,,1.23
-Czech Republic,2019,,1.23
-Czech Republic,2020,,1.06
-Czech Republic,2021,,1.22
-Czech Republic,2022,,1.77
-Czech Republic,2023,,1.5
-Czech Republic,2024,,1.45
+Croatia,2015,,8.83
+Croatia,2016,,8.23
+Croatia,2017,,8.87
+Croatia,2018,,9.65
+Croatia,2019,,9.66
+Croatia,2020,,8.88
+Croatia,2021,,10.27
+Croatia,2022,,12.98
+Croatia,2023,,1.45
+Croatia,2024,,1.47
+Cyprus,2015,1.23,1.24
+Cyprus,2016,1.15,1.15
+Cyprus,2017,1.21,1.21
+Cyprus,2018,1.28,1.31
+Cyprus,2019,1.21,1.26
+Cyprus,2020,1.06,1.1
+Cyprus,2021,1.25,1.3
+Cyprus,2022,1.5,1.67
+Cyprus,2023,1.41,1.52
+Cyprus,2024,1.44,1.54
+Czech Republic,2015,30.7,29.98
+Czech Republic,2016,28.66,27.17
+Czech Republic,2017,29.47,28.7
+Czech Republic,2018,31.25,31.06
+Czech Republic,2019,30.98,30.82
+Czech Republic,2020,27.34,27.05
+Czech Republic,2021,32.84,30.56
+Czech Republic,2022,41.76,42.51
+Czech Republic,2023,37.66,35.39
+Czech Republic,2024,38.16,36.57
+DRC,2015,,2230.0
 DRC,2016,,2230.0
 DRC,2017,,2230.0
 DRC,2018,,2230.0
@@ -356,16 +329,17 @@ DRC,2021,,1985.0
 DRC,2022,,2386.67
 DRC,2023,,2907.17
 DRC,2024,,3276.18
-Denmark,2015,,1.17
-Denmark,2016,,1.17
-Denmark,2017,,1.25
-Denmark,2018,,1.37
-Denmark,2019,,1.39
-Denmark,2020,,1.21
-Denmark,2021,,1.42
-Denmark,2022,,1.97
-Denmark,2023,,1.74
-Denmark,2024,,1.7
+Denmark,2015,,9.45
+Denmark,2016,,8.88
+Denmark,2017,,9.45
+Denmark,2018,,10.37
+Denmark,2019,,10.22
+Denmark,2020,,9.36
+Denmark,2021,,10.87
+Denmark,2022,,14.73
+Denmark,2023,,12.8
+Denmark,2024,,12.9
+Dominican Republic,2015,164.26999999999998,132.135
 Dominican Republic,2016,175.83,141.2
 Dominican Republic,2017,198.95,159.33
 Dominican Republic,2018,221.16,189.72
@@ -375,36 +349,38 @@ Dominican Republic,2021,237.15,210.79
 Dominican Republic,2022,272.79,229.48
 Dominican Republic,2023,274.19,230.47
 Dominican Republic,2024,272.5,230.35
-Ecuador,2015,1.48,1.04
-Ecuador,2016,1.48,1.04
-Ecuador,2017,1.48,1.04
-Ecuador,2018,1.48,1.04
+Ecuador,2015,1.48,1.03
+Ecuador,2016,1.48,1.03
+Ecuador,2017,1.48,1.03
+Ecuador,2018,1.58,1.03
 Ecuador,2019,1.85,1.03
-Ecuador,2020,1.79,1.1
-Ecuador,2021,2.14,1.58
-Ecuador,2022,2.48,1.81
+Ecuador,2020,1.84,1.13
+Ecuador,2021,2.23,1.66
+Ecuador,2022,2.78,1.83
 Ecuador,2023,2.4,1.75
-Ecuador,2024,2.6,1.77
-Egypt,2015,2.1,1.8
-Egypt,2016,2.24,1.89
-Egypt,2017,3.62,3.0
-Egypt,2018,5.22,4.73
-Egypt,2019,6.85,6.33
-Egypt,2020,6.88,6.75
-Egypt,2021,7.25,6.75
-Egypt,2022,8.25,7.0
-Egypt,2023,9.56,7.92
-Egypt,2024,12.58,10.96
-El Salvador,2015,2.5,2.25
-El Salvador,2016,2.63,2.21
-El Salvador,2017,2.93,2.58
-El Salvador,2018,3.38,3.17
-El Salvador,2019,3.13,2.99
-El Salvador,2020,2.52,2.27
-El Salvador,2021,3.5,3.07
-El Salvador,2022,4.11,4.06
-El Salvador,2023,4.21,4.12
-El Salvador,2024,3.9,3.7
+Ecuador,2024,2.46,1.79
+Egypt,2015,2.6,1.8
+Egypt,2016,2.94,1.96
+Egypt,2017,4.25,2.5
+Egypt,2018,6.56,4.75
+Egypt,2019,7.88,6.58
+Egypt,2020,7.38,6.75
+Egypt,2021,7.63,6.75
+Egypt,2022,8.81,7.19
+Egypt,2023,9.88,8.0
+Egypt,2024,10.75,9.17
+El Salvador,2015,3.31,2.83
+El Salvador,2016,2.84,2.37
+El Salvador,2017,3.13,2.66
+El Salvador,2018,3.52,3.09
+El Salvador,2019,3.31,2.98
+El Salvador,2020,2.81,2.46
+El Salvador,2021,3.78,3.22
+El Salvador,2022,4.42,4.36
+El Salvador,2023,4.3,3.95
+El Salvador,2024,4.19,3.83
+Equatorial Guinea,2015,480.0,350.0
+Equatorial Guinea,2016,480.0,350.0
 Equatorial Guinea,2017,480.0,350.0
 Equatorial Guinea,2018,480.0,350.0
 Equatorial Guinea,2019,480.0,350.0
@@ -413,16 +389,17 @@ Equatorial Guinea,2021,480.0,350.0
 Equatorial Guinea,2022,492.5,450.0
 Equatorial Guinea,2023,495.0,470.0
 Equatorial Guinea,2024,495.0,470.0
-Estonia,2015,,1.04
-Estonia,2016,,1.03
-Estonia,2017,,1.18
-Estonia,2018,,1.31
-Estonia,2019,,1.33
-Estonia,2020,,1.1
-Estonia,2021,,1.24
-Estonia,2022,,1.79
-Estonia,2023,,1.61
-Estonia,2024,,1.54
+Estonia,2015,,1.07
+Estonia,2016,,1.02
+Estonia,2017,,1.13
+Estonia,2018,,1.3
+Estonia,2019,,1.32
+Estonia,2020,,1.14
+Estonia,2021,,1.29
+Estonia,2022,,1.76
+Estonia,2023,,1.59
+Estonia,2024,,1.55
+Ethiopia,2015,14.51,10.155
 Ethiopia,2016,15.93,12.22
 Ethiopia,2017,18.77,16.35
 Ethiopia,2018,18.85,16.47
@@ -432,36 +409,29 @@ Ethiopia,2021,25.96,23.17
 Ethiopia,2022,42.94,42.78
 Ethiopia,2023,69.26,72.44
 Ethiopia,2024,82.48,83.38
-Fiji,2015,2.11,1.64
-Fiji,2016,1.76,1.38
-Fiji,2017,1.89,1.54
-Fiji,2018,2.13,1.84
-Fiji,2019,2.11,1.86
-Fiji,2020,1.98,1.67
-Fiji,2021,2.35,1.94
-Fiji,2022,2.98,2.83
-Fiji,2023,2.83,2.6
-Fiji,2024,2.87,2.49
-Finland,2015,,1.24
-Finland,2016,,1.2
-Finland,2017,,1.3
-Finland,2018,,1.4
-Finland,2019,,1.41
-Finland,2020,,1.26
-Finland,2021,,1.51
-Finland,2022,,2.13
-Finland,2023,,1.94
-Finland,2024,,1.77
-France,2015,,1.06
-France,2016,,1.1
-France,2017,,1.23
-France,2018,,1.44
-France,2019,,1.44
-France,2020,,1.26
-France,2021,,1.43
-France,2022,,1.85
-France,2023,,1.8
-France,2024,,1.7
+Fiji,2015,1.93,1.6
+Fiji,2016,1.82,1.47
+Fiji,2017,1.95,1.59
+Fiji,2018,2.15,1.87
+Fiji,2019,2.05,1.86
+Fiji,2020,1.87,1.6
+Fiji,2021,2.25,1.82
+Fiji,2022,2.78,2.52
+Fiji,2023,2.63,2.4
+Fiji,2024,2.71,2.41
+Finland,2015,1.44,1.27
+Finland,2016,1.36,1.19
+Finland,2017,1.45,1.3
+Finland,2018,1.52,1.43
+Finland,2019,1.5,1.42
+Finland,2020,1.38,1.28
+Finland,2021,1.64,1.5
+Finland,2022,2.11,2.11
+Finland,2023,1.9,1.9
+Finland,2024,1.82,1.77
+French Guiana,2015,,1.4150000000000005
+French Guiana,2016,,1.4225
+French Guiana,2017,,1.43
 French Guiana,2018,,1.43
 French Guiana,2019,,1.46
 French Guiana,2020,,1.29
@@ -469,16 +439,18 @@ French Guiana,2021,,1.49
 French Guiana,2022,,1.86
 French Guiana,2023,,1.78
 French Guiana,2024,,1.8
-Gabon,2015,535.0,470.0
-Gabon,2016,543.33,470.83
-Gabon,2017,579.17,504.58
-Gabon,2018,646.67,591.67
-Gabon,2019,670.42,642.5
-Gabon,2020,625.0,606.25
-Gabon,2021,605.0,585.0
-Gabon,2022,605.0,585.0
-Gabon,2023,603.33,583.33
-Gabon,2024,595.0,575.0
+Gabon,2015,512.5,441.67
+Gabon,2016,561.25,495.0
+Gabon,2017,593.75,528.75
+Gabon,2018,640.42,595.42
+Gabon,2019,668.75,618.33
+Gabon,2020,643.75,593.75
+Gabon,2021,605.0,565.0
+Gabon,2022,605.0,575.0
+Gabon,2023,605.0,575.0
+Gabon,2024,605.0,575.0
+Gambia,2015,44.465,40.99
+Gambia,2016,45.8675,43.11
 Gambia,2017,47.27,45.23
 Gambia,2018,52.88,53.71
 Gambia,2019,51.44,53.27
@@ -486,16 +458,19 @@ Gambia,2020,45.11,46.09
 Gambia,2021,53.2,51.11
 Gambia,2022,71.34,66.64
 Gambia,2023,74.56,72.18
-Germany,2015,,1.08
-Germany,2016,,1.08
-Germany,2017,,1.17
-Germany,2018,,1.28
-Germany,2019,,1.25
-Germany,2020,,1.11
-Germany,2021,,1.39
-Germany,2022,,1.96
-Germany,2023,,1.73
-Germany,2024,,1.65
+Gambia,2024,74.56,72.18
+Germany,2015,,1.14
+Germany,2016,,1.06
+Germany,2017,,1.14
+Germany,2018,,1.27
+Germany,2019,,1.24
+Germany,2020,,1.09
+Germany,2021,,1.37
+Germany,2022,,1.92
+Germany,2023,,1.71
+Germany,2024,,1.68
+Ghana,2015,3.925,3.84
+Ghana,2016,4.0875,4.035
 Ghana,2017,4.25,4.23
 Ghana,2018,4.9,5.01
 Ghana,2019,5.23,5.34
@@ -504,46 +479,38 @@ Ghana,2021,6.21,6.2
 Ghana,2022,11.84,13.65
 Ghana,2023,15.16,15.86
 Ghana,2024,14.12,14.98
-Greece,2015,,1.1
-Greece,2016,,1.07
-Greece,2017,,1.27
-Greece,2018,,1.39
-Greece,2019,,1.38
-Greece,2020,,1.19
-Greece,2021,,1.37
-Greece,2022,,1.87
-Greece,2023,,1.7
-Greece,2024,,1.63
-Greenland,2015,6.05,6.2
-Greenland,2016,5.75,5.9
-Greenland,2017,5.45,5.6
-Greenland,2018,5.03,5.18
-Greenland,2019,5.12,5.27
-Greenland,2020,5.2,5.35
-Greenland,2021,4.67,4.82
-Greenland,2022,4.4,4.55
-Greenland,2023,4.4,4.55
-Greenland,2024,4.85,5.0
-Grenada,2015,,12.3
-Grenada,2016,,12.1
-Grenada,2017,,13.15
-Grenada,2018,,14.86
-Grenada,2019,,14.69
-Grenada,2020,,12.33
-Grenada,2021,,14.33
-Grenada,2022,,14.75
-Grenada,2023,,15.53
-Grenada,2024,,14.96
-Guatemala,2015,19.54,16.26
-Guatemala,2016,20.79,16.81
-Guatemala,2017,22.82,18.88
-Guatemala,2018,25.79,22.69
-Guatemala,2019,24.71,21.93
-Guatemala,2020,21.24,17.18
-Guatemala,2021,27.93,23.4
-Guatemala,2022,35.65,34.5
-Guatemala,2023,33.73,31.88
-Guatemala,2024,31.19,28.8
+Greece,2015,1.49,1.19
+Greece,2016,1.44,1.13
+Greece,2017,1.53,1.28
+Greece,2018,1.61,1.4
+Greece,2019,1.59,1.38
+Greece,2020,1.43,1.21
+Greece,2021,1.67,1.4
+Greece,2022,2.05,1.89
+Greece,2023,1.87,1.66
+Greece,2024,1.85,1.63
+Grenada,2015,2.9,2.6
+Grenada,2016,2.83,2.5
+Grenada,2017,3.0,2.61
+Grenada,2018,3.31,2.94
+Grenada,2019,3.17,3.0
+Grenada,2020,2.83,2.68
+Grenada,2021,3.32,3.0
+Grenada,2022,4.02,3.81
+Grenada,2023,3.58,3.48
+Grenada,2024,3.68,3.45
+Guatemala,2015,21.37,17.46
+Guatemala,2016,20.18,16.29
+Guatemala,2017,22.25,17.81
+Guatemala,2018,24.38,20.4
+Guatemala,2019,23.36,20.3
+Guatemala,2020,19.33,16.48
+Guatemala,2021,25.93,21.84
+Guatemala,2022,31.86,29.98
+Guatemala,2023,29.62,26.47
+Guatemala,2024,29.35,25.43
+Honduras,2015,75.72,65.4
+Honduras,2016,78.075,68.475
 Honduras,2017,80.43,71.55
 Honduras,2018,89.85,83.85
 Honduras,2019,86.14,81.31
@@ -552,62 +519,66 @@ Honduras,2021,92.25,80.74
 Honduras,2022,107.78,110.77
 Honduras,2023,96.51,94.93
 Honduras,2024,92.26,87.77
-Hungary,2015,,1.06
-Hungary,2016,,1.07
-Hungary,2017,,1.16
-Hungary,2018,,1.24
-Hungary,2019,,1.23
-Hungary,2020,,1.05
-Hungary,2021,,1.24
-Hungary,2022,,1.48
-Hungary,2023,,1.62
-Hungary,2024,,1.57
-India,2015,,46.32
-India,2016,,51.99
-India,2017,,59.0
-India,2018,,69.55
-India,2019,,67.51
-India,2020,,71.96
-India,2021,,88.94
-India,2022,,93.34
-India,2023,,91.96
-India,2024,,90.06
-Indonesia,2015,8750.0,9950.0
-Indonesia,2016,7318.18,7858.82
-Indonesia,2017,7845.83,7912.5
-Indonesia,2018,8545.83,9589.58
-Indonesia,2019,8772.92,10975.0
-Indonesia,2020,8333.33,9850.0
-Indonesia,2021,8700.0,10125.0
-Indonesia,2022,10829.17,15231.25
-Indonesia,2023,11531.25,15431.25
-Indonesia,2024,11381.25,14445.42
-Iran,2019,12210.0,
-Iran,2020,15000.0,
+Hungary,2015,346.72,343.43
+Hungary,2016,326.65,330.14
+Hungary,2017,343.83,354.54
+Hungary,2018,371.84,393.36
+Hungary,2019,375.25,394.38
+Hungary,2020,348.67,362.46
+Hungary,2021,440.0,442.22
+Hungary,2022,593.59,654.88
+Hungary,2023,598.6,602.4
+Hungary,2024,598.83,604.83
+Iceland,2015,190.72,183.1
+Iceland,2016,185.08,173.34
+Iceland,2017,185.73,171.74
+Iceland,2018,212.98,200.08
+Iceland,2019,217.43,206.68
+Iceland,2020,205.81,197.8
+Iceland,2021,230.13,218.4
+Iceland,2022,303.49,293.73
+Iceland,2023,300.93,293.5
+Iceland,2024,300.05,296.7
+India,2015,63.13,51.13
+India,2016,63.26,54.85
+India,2017,69.58,58.75
+India,2018,78.02,70.9
+India,2019,73.0,68.21
+India,2020,79.54,71.62
+India,2021,99.19,88.47
+India,2022,101.44,91.82
+India,2023,98.61,90.25
+India,2024,96.53,89.17
+Indonesia,2015,8116.67,9691.67
+Indonesia,2016,7691.67,7729.17
+Indonesia,2017,8208.33,8012.5
+Indonesia,2018,8950.0,7850.0
+Indonesia,2019,9850.0,9962.5
+Indonesia,2020,9000.0,9612.5
+Indonesia,2021,9150.0,9625.0
+Indonesia,2022,12604.17,15454.17
+Indonesia,2023,13360.0,14860.0
+Indonesia,2024,13550.0,12177.08
+Iran,2015,8722.5,3666.6666666666665
+Iran,2016,9885.0,3833.333333333333
+Iran,2017,11047.5,4000.0
+Iran,2018,12210.0,4166.666666666667
+Iran,2019,12210.0,4333.333333333333
+Iran,2020,15000.0,4500.0
 Iran,2021,15000.0,4500.0
 Iran,2022,15000.0,4500.0
 Iran,2023,15000.0,4500.0
 Iran,2024,15000.0,4500.0
-Iraq,2015,450.0,
-Iraq,2016,450.0,
-Iraq,2017,450.0,
-Iraq,2018,450.0,
-Iraq,2019,450.0,
-Iraq,2020,450.0,
-Iraq,2021,450.0,
-Iraq,2022,450.0,
-Iraq,2023,450.0,
-Iraq,2024,450.0,
-Ireland,2015,,1.2
-Ireland,2016,,1.15
-Ireland,2017,,1.25
-Ireland,2018,,1.34
-Ireland,2019,,1.32
-Ireland,2020,,1.2
-Ireland,2021,,1.41
-Ireland,2022,,1.9
-Ireland,2023,,1.66
-Ireland,2024,,1.7
+Ireland,2015,1.34,1.25
+Ireland,2016,1.26,1.14
+Ireland,2017,1.33,1.22
+Ireland,2018,1.43,1.34
+Ireland,2019,1.41,1.33
+Ireland,2020,1.3,1.21
+Ireland,2021,1.47,1.38
+Ireland,2022,1.84,1.9
+Ireland,2023,1.69,1.72
+Ireland,2024,1.75,1.72
 Israel,2015,,1.42
 Israel,2016,,1.3
 Israel,2017,,1.53
@@ -617,50 +588,58 @@ Israel,2020,,1.13
 Israel,2021,,1.59
 Israel,2022,,3.0
 Israel,2023,,2.66
-Italy,2015,,1.32
-Italy,2016,,1.28
-Italy,2017,,1.38
-Italy,2018,,1.49
-Italy,2019,,1.48
-Italy,2020,,1.32
-Italy,2021,,1.48
-Italy,2022,,1.82
-Italy,2023,,1.8
-Italy,2024,,1.72
-Jamaica,2015,93.32,89.77
-Jamaica,2016,99.49,96.01
-Jamaica,2017,112.27,110.45
-Jamaica,2018,131.18,133.16
-Jamaica,2019,129.75,135.3
-Jamaica,2020,117.7,118.0
-Jamaica,2021,148.03,143.27
-Jamaica,2022,194.3,212.7
-Jamaica,2023,175.32,187.68
-Jamaica,2024,172.47,174.68
-Japan,2015,125.83,107.8
-Japan,2016,120.73,102.04
-Japan,2017,133.5,112.24
-Japan,2018,149.69,128.35
-Japan,2019,146.04,126.89
-Japan,2020,136.21,116.91
-Japan,2021,154.68,134.75
-Japan,2022,170.53,150.45
-Japan,2023,172.82,152.66
-Japan,2024,175.0,154.68
-Jordan,2015,0.54,0.4
-Jordan,2016,0.55,0.4
-Jordan,2017,0.67,0.49
-Jordan,2018,0.8,0.6
-Jordan,2019,0.75,0.59
-Jordan,2020,0.67,0.49
-Jordan,2021,0.79,0.58
-Jordan,2022,0.91,0.72
-Jordan,2023,0.93,0.77
-Jordan,2024,0.9,0.71
+Israel,2024,,2.66
+Italy,2015,1.5,1.34
+Italy,2016,1.42,1.24
+Italy,2017,1.51,1.35
+Italy,2018,1.59,1.46
+Italy,2019,1.57,1.47
+Italy,2020,1.42,1.29
+Italy,2021,1.64,1.5
+Italy,2022,1.82,1.82
+Italy,2023,1.85,1.77
+Italy,2024,1.83,1.72
+Jamaica,2015,108.66,105.15
+Jamaica,2016,108.01,100.86
+Jamaica,2017,118.89,111.45
+Jamaica,2018,134.46,130.68
+Jamaica,2019,133.45,134.42
+Jamaica,2020,121.95,121.71
+Jamaica,2021,150.33,139.63
+Jamaica,2022,188.19,197.63
+Jamaica,2023,176.67,184.28
+Jamaica,2024,178.69,181.9
+Japan,2015,134.5,109.83
+Japan,2016,122.25,98.67
+Japan,2017,132.83,107.0
+Japan,2018,148.6,125.7
+Japan,2019,146.22,126.91
+Japan,2020,134.57,117.81
+Japan,2021,154.0,134.0
+Japan,2022,170.1,151.7
+Japan,2023,173.0,153.94
+Japan,2024,173.81,153.5
+Jordan,2015,0.59,0.48
+Jordan,2016,0.56,0.44
+Jordan,2017,0.67,0.48
+Jordan,2018,0.78,0.6
+Jordan,2019,0.76,0.6
+Jordan,2020,0.67,0.5
+Jordan,2021,0.78,0.57
+Jordan,2022,0.95,0.73
+Jordan,2023,0.94,0.74
+Jordan,2024,0.92,0.73
+Kazakhstan,2015,149.375,193.375
+Kazakhstan,2016,152.8125,196.8125
+Kazakhstan,2017,156.25,200.25
+Kazakhstan,2018,159.6875,203.6875
+Kazakhstan,2019,163.125,207.125
+Kazakhstan,2020,166.5625,210.5625
 Kazakhstan,2021,170.0,214.0
-Kazakhstan,2022,170.0,
+Kazakhstan,2022,170.0,252.75
 Kazakhstan,2023,196.25,291.5
 Kazakhstan,2024,205.0,295.0
+Kenya,2015,,83.905
 Kenya,2016,,87.22
 Kenya,2017,,87.93
 Kenya,2018,,103.84
@@ -670,16 +649,37 @@ Kenya,2021,,107.18
 Kenya,2022,,138.78
 Kenya,2023,,179.54
 Kenya,2024,,178.46
-Kyrgyz Republic,2015,37.27,36.14
-Kyrgyz Republic,2016,33.39,32.7
-Kyrgyz Republic,2017,36.95,36.79
-Kyrgyz Republic,2018,41.53,43.79
-Kyrgyz Republic,2019,38.87,44.73
-Kyrgyz Republic,2020,33.85,37.75
-Kyrgyz Republic,2021,48.17,47.13
-Kyrgyz Republic,2022,60.58,68.25
-Kyrgyz Republic,2023,56.02,71.12
-Kyrgyz Republic,2024,62.47,73.37
+Korea South,2015,1510.43,1299.64
+Korea South,2016,1402.63,1182.5
+Korea South,2017,1491.3,1282.8
+Korea South,2018,1581.37,1394.08
+Korea South,2019,1472.25,1355.33
+Korea South,2020,1381.39,1190.13
+Korea South,2021,1590.57,1391.6
+Korea South,2022,1812.89,1843.41
+Korea South,2023,1633.99,1558.8
+Korea South,2024,1649.8,1538.56
+Kuwait,2015,0.07,0.11
+Kuwait,2016,0.09,0.1
+Kuwait,2017,0.1,0.11
+Kuwait,2018,0.1,0.11
+Kuwait,2019,0.1,0.11
+Kuwait,2020,0.09,0.11
+Kuwait,2021,0.1,0.11
+Kuwait,2022,0.1,0.11
+Kuwait,2023,0.1,0.11
+Kuwait,2024,0.1,0.11
+Kyrgyzstan,2015,42.51,38.64
+Kyrgyzstan,2016,36.57,32.22
+Kyrgyzstan,2017,39.69,38.16
+Kyrgyzstan,2018,43.34,42.44
+Kyrgyzstan,2019,41.28,43.27
+Kyrgyzstan,2020,34.9,37.16
+Kyrgyzstan,2021,50.15,46.12
+Kyrgyzstan,2022,60.29,65.88
+Kyrgyzstan,2023,58.33,67.75
+Kyrgyzstan,2024,63.4,70.59
+Lao PDR,2015,6636.24,
 Lao PDR,2016,7192.08,
 Lao PDR,2017,7747.92,
 Lao PDR,2018,9285.0,
@@ -689,6 +689,7 @@ Lao PDR,2021,10491.39,
 Lao PDR,2022,18450.17,
 Lao PDR,2023,21591.25,
 Lao PDR,2024,23831.81,
+Laos,2015,,5252.509999999999
 Laos,2016,,5984.17
 Laos,2017,,6715.83
 Laos,2018,,8306.67
@@ -698,36 +699,38 @@ Laos,2021,,9278.33
 Laos,2022,,18298.4
 Laos,2023,,19739.38
 Laos,2024,,20430.56
-Latvia,2015,,0.99
-Latvia,2016,,0.95
-Latvia,2017,,1.05
-Latvia,2018,,1.19
-Latvia,2019,,1.2
-Latvia,2020,,1.04
-Latvia,2021,,1.23
-Latvia,2022,,1.78
-Latvia,2023,,1.6
-Latvia,2024,,1.59
-Lebanon,2015,,609.0
-Lebanon,2016,,619.54
-Lebanon,2017,,750.25
-Lebanon,2018,,955.19
-Lebanon,2019,,884.04
-Lebanon,2020,,726.97
-Lebanon,2021,,4748.32
-Lebanon,2022,,32201.12
-Lebanon,2023,,75101.7
-Lebanon,2024,,72131.37
-Lesotho,2015,9.5,9.95
-Lesotho,2016,9.52,9.63
-Lesotho,2017,10.32,10.61
-Lesotho,2018,12.2,12.99
-Lesotho,2019,12.32,13.5
-Lesotho,2020,10.95,11.6
-Lesotho,2021,14.08,14.08
-Lesotho,2022,20.69,22.67
-Lesotho,2023,20.45,22.22
-Lesotho,2024,20.55,21.45
+Latvia,2015,1.13,1.05
+Latvia,2016,1.08,0.98
+Latvia,2017,1.16,1.06
+Latvia,2018,1.28,1.21
+Latvia,2019,1.27,1.22
+Latvia,2020,1.12,1.04
+Latvia,2021,1.36,1.22
+Latvia,2022,1.79,1.75
+Latvia,2023,1.64,1.59
+Latvia,2024,1.64,1.6
+Lebanon,2015,25000.0,17300.0
+Lebanon,2016,24600.0,17200.0
+Lebanon,2017,24600.0,17200.0
+Lebanon,2018,25000.0,17200.0
+Lebanon,2019,25000.0,17200.0
+Lebanon,2020,25000.0,17200.0
+Lebanon,2021,25000.0,17200.0
+Lebanon,2022,25000.0,17200.0
+Lebanon,2023,25000.0,17200.0
+Lebanon,2024,25000.0,17200.0
+Lesotho,2015,10.15,9.6
+Lesotho,2016,10.02,9.26
+Lesotho,2017,10.59,10.23
+Lesotho,2018,12.26,12.39
+Lesotho,2019,12.6,13.27
+Lesotho,2020,11.54,11.59
+Lesotho,2021,14.65,13.34
+Lesotho,2022,19.34,21.61
+Lesotho,2023,18.42,20.89
+Lesotho,2024,19.6,21.49
+Liberia,2015,47.02,41.85
+Liberia,2016,64.24499999999999,61.52499999999999
 Liberia,2017,81.47,81.2
 Liberia,2018,115.92,120.55
 Liberia,2019,160.26,184.47
@@ -736,26 +739,27 @@ Liberia,2021,132.94,163.65
 Liberia,2022,176.75,194.84
 Liberia,2023,84.58,92.43
 Liberia,2024,763.33,840.0
-Lithuania,2015,,0.97
-Lithuania,2016,,0.95
-Lithuania,2017,,1.03
-Lithuania,2018,,1.15
-Lithuania,2019,,1.14
-Lithuania,2020,,1.0
-Lithuania,2021,,1.18
-Lithuania,2022,,1.75
-Lithuania,2023,,1.5
-Lithuania,2024,,1.46
-Luxembourg,2015,,0.93
-Luxembourg,2016,,0.92
-Luxembourg,2017,,0.99
-Luxembourg,2018,,1.1
-Luxembourg,2019,,1.1
-Luxembourg,2020,,0.97
-Luxembourg,2021,,1.22
-Luxembourg,2022,,1.74
-Luxembourg,2023,,1.53
-Luxembourg,2024,,1.48
+Lithuania,2015,1.14,1.02
+Lithuania,2016,1.07,0.94
+Lithuania,2017,1.14,1.02
+Lithuania,2018,1.22,1.15
+Lithuania,2019,1.19,1.13
+Lithuania,2020,1.06,0.96
+Lithuania,2021,1.28,1.16
+Lithuania,2022,1.65,1.7
+Lithuania,2023,1.51,1.5
+Lithuania,2024,1.48,1.48
+Luxembourg,2015,1.16,1.02
+Luxembourg,2016,1.09,0.94
+Luxembourg,2017,1.15,1.0
+Luxembourg,2018,1.19,1.1
+Luxembourg,2019,1.18,1.1
+Luxembourg,2020,1.07,0.99
+Luxembourg,2021,1.33,1.16
+Luxembourg,2022,1.65,1.67
+Luxembourg,2023,1.53,1.49
+Luxembourg,2024,1.54,1.47
+Madagascar,2015,3507.33,2965.5
 Madagascar,2016,3640.0,3070.0
 Madagascar,2017,3772.67,3174.5
 Madagascar,2018,4034.75,3384.83
@@ -765,60 +769,57 @@ Madagascar,2021,4100.0,3400.0
 Madagascar,2022,4850.0,4025.0
 Madagascar,2023,5900.0,4900.0
 Madagascar,2024,5900.0,4900.0
-Malawi,2015,,786.46
-Malawi,2016,,815.8
-Malawi,2017,,925.37
-Malawi,2018,,878.55
-Malawi,2019,,732.36
-Malawi,2020,,941.57
-Malawi,2021,,1645.0
-Malawi,2022,,2055.67
-Malawi,2023,,2734.0
-Malaysia,2015,,2.0
-Malaysia,2016,,1.72
-Malaysia,2017,,2.1
-Malaysia,2018,,2.2
-Malaysia,2019,,2.17
-Malaysia,2020,,1.8
-Malaysia,2021,,2.14
-Malaysia,2022,,2.15
-Malaysia,2023,,2.15
-Malaysia,2024,,2.72
-Maldives,2015,,11.0
-Maldives,2016,,9.31
-Maldives,2017,,9.01
-Maldives,2018,,11.07
-Maldives,2019,,11.21
-Maldives,2020,,9.1
-Maldives,2021,,10.35
-Maldives,2022,,15.17
-Maldives,2023,,15.5
-Maldives,2024,,14.15
+Malawi,2015,782.16,786.46
+Malawi,2016,793.8,815.8
+Malawi,2017,819.33,925.37
+Malawi,2018,836.85,878.55
+Malawi,2019,821.67,732.36
+Malawi,2020,801.38,941.57
+Malawi,2021,1075.0,1645.0
+Malawi,2022,1586.33,2055.67
+Malawi,2023,2127.67,2734.0
+Malawi,2024,2530.0,2734.0
+Malaysia,2015,1.95,1.96
+Malaysia,2016,1.79,1.67
+Malaysia,2017,2.13,2.05
+Malaysia,2018,2.2,2.18
+Malaysia,2019,2.08,2.18
+Malaysia,2020,1.68,1.83
+Malaysia,2021,2.05,2.15
+Malaysia,2022,2.05,2.15
+Malaysia,2023,2.05,2.15
+Malaysia,2024,2.05,2.83
+Maldives,2015,11.83,12.2
+Maldives,2016,9.75,10.23
+Maldives,2017,9.31,9.58
+Maldives,2018,10.54,10.74
+Maldives,2019,10.51,10.97
+Maldives,2020,9.0,9.75
+Maldives,2021,10.45,10.59
+Maldives,2022,14.94,15.11
+Maldives,2023,13.88,14.67
+Maldives,2024,13.1,13.91
 Mali,2015,730.0,637.0
 Mali,2016,710.0,608.5
+Mali,2017,728.8783333333333,642.9316666666667
+Mali,2018,747.7566666666667,677.3633333333333
+Mali,2019,766.635,711.795
+Mali,2020,785.5133333333333,746.2266666666667
+Mali,2021,804.3916666666667,780.6583333333333
 Mali,2022,823.27,815.09
 Mali,2023,852.58,806.58
 Mali,2024,837.5,787.5
-Malta,2015,,1.26
-Malta,2016,,1.17
-Malta,2017,,1.18
-Malta,2018,,1.2
-Malta,2019,,1.25
-Malta,2020,,1.24
-Malta,2021,,1.21
-Malta,2022,,1.21
-Malta,2023,,1.21
-Malta,2024,,1.21
-Martinique,2015,,1.04
-Martinique,2016,,0.98
-Martinique,2017,,1.15
-Martinique,2018,,1.27
-Martinique,2019,,1.32
-Martinique,2020,,1.16
-Martinique,2021,,1.36
-Martinique,2022,,1.81
-Martinique,2023,,1.68
-Martinique,2024,,1.68
+Malta,2015,1.38,1.29
+Malta,2016,1.29,1.21
+Malta,2017,1.31,1.18
+Malta,2018,1.36,1.23
+Malta,2019,1.41,1.23
+Malta,2020,1.34,1.21
+Malta,2021,1.34,1.21
+Malta,2022,1.34,1.21
+Malta,2023,1.34,1.21
+Malta,2024,1.34,1.21
+Mauritania,2015,42.78,39.10000000000001
 Mauritania,2016,43.21,38.78
 Mauritania,2017,43.64,38.46
 Mauritania,2018,43.64,38.46
@@ -828,60 +829,67 @@ Mauritania,2021,43.64,38.46
 Mauritania,2022,47.96,43.68
 Mauritania,2023,54.0,51.0
 Mauritania,2024,54.0,51.0
-Mauritius,2015,41.35,32.75
-Mauritius,2016,39.06,29.77
-Mauritius,2017,43.5,33.64
-Mauritius,2018,49.06,39.52
-Mauritius,2019,45.25,36.25
-Mauritius,2020,44.0,35.0
-Mauritius,2021,48.87,36.46
-Mauritius,2022,69.88,51.43
-Mauritius,2023,71.25,56.74
-Mauritius,2024,65.78,63.53
-Mexico,2015,,17.06
-Mexico,2016,,19.36
+Mauritius,2015,46.03,38.3
+Mauritius,2016,39.29,34.0
+Mauritius,2017,41.92,33.0
+Mauritius,2018,48.58,38.29
+Mauritius,2019,45.21,39.38
+Mauritius,2020,44.75,36.96
+Mauritius,2021,51.13,39.04
+Mauritius,2022,65.63,50.71
+Mauritius,2023,69.0,56.55
+Mauritius,2024,66.2,63.25
+Mexico,2015,13.525,17.06
+Mexico,2016,14.8175,19.36
 Mexico,2017,16.11,20.07
 Mexico,2018,18.69,18.87
 Mexico,2019,19.52,20.42
 Mexico,2020,18.05,22.22
 Mexico,2021,20.17,22.87
 Mexico,2022,21.66,24.48
-Mexico,2023,22.17,
-Mexico,2024,23.36,
-Moldova,2021,,17.71
-Moldova,2022,,25.93
-Moldova,2023,,21.95
-Moldova,2024,,20.86
-Mongolia,2015,1605.0,1790.0
-Mongolia,2016,1501.67,1656.67
-Mongolia,2017,1547.49,1710.65
-Mongolia,2018,1694.0,2078.66
-Mongolia,2019,1749.04,2336.81
-Mongolia,2020,1487.81,2136.92
-Mongolia,2021,1628.72,2266.49
-Mongolia,2022,2351.22,3481.67
-Mongolia,2023,2365.94,3655.17
-Mongolia,2024,2367.5,3447.29
-Mozambique,2015,,36.81
-Mozambique,2016,,39.07
-Mozambique,2017,,51.77
-Mozambique,2018,,62.42
-Mozambique,2019,,64.37
-Mozambique,2020,,60.32
-Mozambique,2021,,58.52
-Mozambique,2022,,81.43
-Mozambique,2023,,90.73
-Mozambique,2024,,91.23
-Myanmar,2015,748.57,662.5
-Myanmar,2016,662.84,2194.71
-Myanmar,2017,753.05,712.76
-Myanmar,2018,899.21,871.73
-Myanmar,2019,867.3,841.73
-Myanmar,2020,729.31,640.01
-Myanmar,2021,620.0,495.0
-Myanmar,2022,1238.02,1353.33
-Myanmar,2023,2140.21,2238.56
-Myanmar,2024,2812.48,2659.39
+Mexico,2023,22.17,24.48
+Mexico,2024,23.36,24.48
+Moldova,2015,17.47,12.245
+Moldova,2016,16.51,13.61125
+Moldova,2017,16.92,14.9775
+Moldova,2018,18.23,16.34375
+Moldova,2019,18.66,17.710000000000004
+Moldova,2020,16.22,17.71
+Moldova,2021,20.03,17.71
+Moldova,2022,26.75,25.93
+Moldova,2023,24.58,21.95
+Moldova,2024,24.38,20.86
+Montenegro,2015,1.18,1.06
+Montenegro,2016,1.1,0.96
+Montenegro,2017,1.24,1.09
+Montenegro,2018,1.32,1.21
+Montenegro,2019,1.29,1.19
+Montenegro,2020,1.13,1.0
+Montenegro,2021,1.34,1.19
+Montenegro,2022,1.52,1.54
+Montenegro,2023,1.52,1.43
+Montenegro,2024,1.54,1.4
+Morocco,2015,9.85,8.81
+Morocco,2016,10.05,8.66
+Morocco,2017,10.87,9.5
+Morocco,2018,11.08,9.75
+Morocco,2019,10.8,9.6
+Morocco,2020,9.78,8.76
+Morocco,2021,11.39,9.66
+Morocco,2022,14.28,13.52
+Morocco,2023,14.39,12.72
+Morocco,2024,14.6,12.77
+Mozambique,2015,42.82,34.42
+Mozambique,2016,46.7,39.34
+Mozambique,2017,56.7,51.84
+Mozambique,2018,65.86,62.88
+Mozambique,2019,65.25,62.91
+Mozambique,2020,62.77,59.33
+Mozambique,2021,66.28,60.84
+Mozambique,2022,81.43,81.33
+Mozambique,2023,86.25,88.42
+Mozambique,2024,86.0,91.23
+Namibia,2015,,9.8
 Namibia,2016,,10.3
 Namibia,2017,,10.8
 Namibia,2018,,12.75
@@ -891,6 +899,8 @@ Namibia,2021,,13.43
 Namibia,2022,,20.6
 Namibia,2023,,20.78
 Namibia,2024,,21.07
+Nepal,2015,90.12,66.44999999999999
+Nepal,2016,94.935,71.28500000000001
 Nepal,2017,99.75,76.12
 Nepal,2018,109.38,85.79
 Nepal,2019,109.02,96.81
@@ -899,95 +909,88 @@ Nepal,2021,125.22,108.22
 Nepal,2022,169.83,159.15
 Nepal,2023,174.99,164.33
 Nepal,2024,167.08,154.92
-Netherlands,2015,,1.14
-Netherlands,2016,,1.13
-Netherlands,2017,,1.22
-Netherlands,2018,,1.34
-Netherlands,2019,,1.36
-Netherlands,2020,,1.24
-Netherlands,2021,,1.46
-Netherlands,2022,,1.96
-Netherlands,2023,,1.71
-Netherlands,2024,,1.73
-New Zealand,2015,137.48,99.54
-New Zealand,2016,136.39,100.56
-New Zealand,2017,148.6,116.41
-New Zealand,2018,165.23,138.15
-New Zealand,2019,163.48,138.05
-New Zealand,2020,144.91,114.02
-New Zealand,2021,168.24,134.46
-New Zealand,2022,215.74,217.59
-New Zealand,2023,208.57,191.29
-New Zealand,2024,212.64,185.98
-Nicaragua,2015,23.24,18.93
-Nicaragua,2016,24.68,20.44
-Nicaragua,2017,27.89,24.02
-Nicaragua,2018,32.09,28.88
-Nicaragua,2019,31.72,29.12
-Nicaragua,2020,28.71,25.06
-Nicaragua,2021,37.65,32.18
-Nicaragua,2022,46.61,42.29
-Nicaragua,2023,46.8,42.31
-Nicaragua,2024,47.8,43.2
-Niger,2015,540.0,538.0
-Niger,2016,540.0,538.0
-Niger,2017,540.0,538.0
-Niger,2018,540.0,538.0
-Niger,2019,540.0,538.0
-Niger,2020,540.0,538.0
-Niger,2021,540.0,538.0
-Niger,2022,540.0,592.17
-Niger,2023,540.0,668.0
-Niger,2024,519.5,643.0
-Nigeria,2015,,152.14
-Nigeria,2016,,174.63
-Nigeria,2017,,214.78
-Nigeria,2018,,210.85
-Nigeria,2019,,228.07
-Nigeria,2020,,224.44
-Nigeria,2021,,250.86
-Nigeria,2022,,678.85
-Nigeria,2023,,918.68
-Nigeria,2024,,1277.36
-North Macedonia,2016,,48.52
-North Macedonia,2017,,50.18
-North Macedonia,2018,,62.26
-North Macedonia,2019,,61.2
-North Macedonia,2020,,52.0
-North Macedonia,2021,,60.5
-North Macedonia,2022,,88.4
-North Macedonia,2023,,76.54
-North Macedonia,2024,,73.49
-Norway,2015,,11.75
-Norway,2016,,11.66
-Norway,2017,,13.44
-Norway,2018,,14.85
-Norway,2019,,14.89
-Norway,2020,,13.86
-Norway,2021,,15.5
-Norway,2022,,21.72
-Norway,2023,,20.9
-Norway,2024,,21.04
-Oman,2015,,0.15
-Oman,2016,0.16,0.18
-Oman,2017,0.18,0.2
-Oman,2018,0.21,0.24
-Oman,2019,0.2,0.24
-Oman,2020,0.19,0.22
-Oman,2021,0.21,0.23
-Oman,2022,0.23,0.26
-Oman,2023,0.23,0.26
-Oman,2024,0.23,0.26
+Netherlands,2015,1.6,1.23
+Netherlands,2016,1.5,1.13
+Netherlands,2017,1.6,1.22
+Netherlands,2018,1.68,1.34
+Netherlands,2019,1.7,1.34
+Netherlands,2020,1.53,1.22
+Netherlands,2021,1.83,1.43
+Netherlands,2022,2.15,1.96
+Netherlands,2023,1.96,1.75
+Netherlands,2024,1.98,1.74
+New Zealand,2015,1.9,1.11
+New Zealand,2016,1.84,1.05
+New Zealand,2017,1.97,1.19
+New Zealand,2018,2.23,1.48
+New Zealand,2019,2.26,1.52
+New Zealand,2020,2.02,1.28
+New Zealand,2021,2.37,1.47
+New Zealand,2022,2.78,2.27
+New Zealand,2023,2.73,2.11
+New Zealand,2024,2.7,1.99
+Nicaragua,2015,28.71,24.19
+Nicaragua,2016,26.65,23.3
+Nicaragua,2017,30.22,25.86
+Nicaragua,2018,34.19,30.2
+Nicaragua,2019,33.47,30.33
+Nicaragua,2020,29.98,26.96
+Nicaragua,2021,39.73,33.58
+Nicaragua,2022,47.78,42.66
+Nicaragua,2023,48.06,40.16
+Nicaragua,2024,47.53,39.69
+Nigeria,2015,87.0,133.25
+Nigeria,2016,123.33,150.0
+Nigeria,2017,145.0,195.0
+Nigeria,2018,145.0,207.5
+Nigeria,2019,145.0,225.0
+Nigeria,2020,137.92,225.0
+Nigeria,2021,165.0,285.0
+Nigeria,2022,178.67,725.0
+Nigeria,2023,404.17,850.0
+Nigeria,2024,610.0,1150.0
+North Macedonia,2015,64.22,46.86
+North Macedonia,2016,62.13,48.52
+North Macedonia,2017,63.13,50.18
+North Macedonia,2018,69.54,62.26
+North Macedonia,2019,67.62,61.2
+North Macedonia,2020,58.0,52.0
+North Macedonia,2021,69.21,60.5
+North Macedonia,2022,87.67,88.4
+North Macedonia,2023,80.5,76.54
+North Macedonia,2024,80.75,73.49
+Norway,2015,14.61,12.78
+Norway,2016,14.54,12.56
+Norway,2017,15.22,13.78
+Norway,2018,16.03,15.22
+Norway,2019,16.15,15.65
+Norway,2020,14.63,14.18
+Norway,2021,17.48,16.51
+Norway,2022,22.06,21.66
+Norway,2023,21.82,20.44
+Norway,2024,21.88,19.98
+Oman,2015,0.14,
+Oman,2016,0.16,
+Oman,2017,0.18,
+Oman,2018,0.21,
+Oman,2019,0.2,
+Oman,2020,0.19,
+Oman,2021,0.21,
+Oman,2022,0.23,
+Oman,2023,0.23,
+Oman,2024,0.23,
 Pakistan,2015,73.76,83.79
 Pakistan,2016,63.4,73.59
 Pakistan,2017,70.24,81.06
-Pakistan,2018,4029.85,97.38
+Pakistan,2018,86.785,97.38
 Pakistan,2019,103.33,121.24
 Pakistan,2020,98.6,100.31
 Pakistan,2021,117.65,107.74
 Pakistan,2022,192.92,178.34
-Pakistan,2023,,230.57
-Pakistan,2024,,215.08
+Pakistan,2023,275.0,230.57
+Pakistan,2024,278.0,215.08
+Panama,2015,0.65,0.5
+Panama,2016,0.6900000000000001,0.565
 Panama,2017,0.73,0.63
 Panama,2018,0.81,0.76
 Panama,2019,0.76,0.71
@@ -996,24 +999,38 @@ Panama,2021,0.85,0.74
 Panama,2022,1.11,1.16
 Panama,2023,0.99,0.97
 Panama,2024,0.92,0.87
-Papua New Guinea,2017,,261.84
-Papua New Guinea,2018,,325.89
-Papua New Guinea,2019,,322.39
-Papua New Guinea,2020,,246.9
-Papua New Guinea,2021,,310.2
-Papua New Guinea,2022,,425.66
-Papua New Guinea,2023,,415.49
-Papua New Guinea,2024,,422.64
-Peru,2015,10.68,10.25
-Peru,2016,9.7,8.62
-Peru,2017,8.88,8.5
-Peru,2018,9.28,9.21
-Peru,2019,9.61,9.77
-Peru,2020,8.63,8.62
-Peru,2021,12.92,12.23
-Peru,2022,16.14,14.31
-Peru,2023,15.83,13.91
-Peru,2024,14.15,11.81
+Papua New Guinea,2015,273.49,197.79
+Papua New Guinea,2016,292.05,229.815
+Papua New Guinea,2017,310.61,261.84
+Papua New Guinea,2018,357.69,325.89
+Papua New Guinea,2019,343.89,322.39
+Papua New Guinea,2020,286.87,246.9
+Papua New Guinea,2021,358.38,310.2
+Papua New Guinea,2022,442.27,425.66
+Papua New Guinea,2023,422.3,415.49
+Papua New Guinea,2024,446.49,422.64
+Paraguay,2015,5142.5,4653.33
+Paraguay,2016,4592.5,4290.0
+Paraguay,2017,4967.5,4323.33
+Paraguay,2018,5830.83,5068.33
+Paraguay,2019,5761.67,5061.67
+Paraguay,2020,5115.0,4537.5
+Paraguay,2021,6340.0,5682.5
+Paraguay,2022,8547.5,8566.67
+Paraguay,2023,7454.17,8093.33
+Paraguay,2024,6783.33,7616.67
+Peru,2015,10.64,9.65
+Peru,2016,10.14,8.83
+Peru,2017,11.23,9.75
+Peru,2018,12.63,11.23
+Peru,2019,12.39,11.39
+Peru,2020,11.19,10.59
+Peru,2021,14.65,13.06
+Peru,2022,18.9,16.89
+Peru,2023,18.06,16.85
+Peru,2024,17.77,16.88
+Philippines,2015,35.8,23.74
+Philippines,2016,40.065,28.955
 Philippines,2017,44.33,34.17
 Philippines,2018,52.86,44.6
 Philippines,2019,51.04,43.72
@@ -1022,84 +1039,86 @@ Philippines,2021,52.74,43.71
 Philippines,2022,69.97,72.39
 Philippines,2023,63.09,62.48
 Philippines,2024,61.73,61.26
-Poland,2015,,0.98
-Poland,2016,,0.95
-Poland,2017,,1.04
-Poland,2018,,1.15
-Poland,2019,,1.17
-Poland,2020,,1.01
-Poland,2021,,1.18
-Poland,2022,,1.54
-Poland,2023,,1.46
-Poland,2024,,1.5
-Portugal,2015,,1.11
-Portugal,2016,,1.13
-Portugal,2017,,1.24
-Portugal,2018,,1.35
-Portugal,2019,,1.36
-Portugal,2020,,1.24
-Portugal,2021,,1.42
-Portugal,2022,,1.8
-Portugal,2023,,1.59
-Portugal,2024,,1.58
-Qatar,2015,1.15,1.5
-Qatar,2016,1.24,1.43
-Qatar,2017,1.6,1.58
-Qatar,2018,1.9,1.97
-Qatar,2019,1.74,1.87
-Qatar,2020,1.25,1.28
-Qatar,2021,1.88,1.83
-Qatar,2022,1.97,2.05
-Qatar,2023,1.95,2.05
-Qatar,2024,1.94,2.05
-Romania,2015,,1.1
-Romania,2016,,1.07
-Romania,2017,,1.05
-Romania,2018,,1.22
-Romania,2019,,1.2
-Romania,2020,,0.97
-Romania,2021,,1.14
-Romania,2022,,1.68
-Romania,2023,,1.45
-Romania,2024,,1.46
-Russia,2015,,35.56
-Russia,2016,,35.8
-Russia,2017,,38.35
-Russia,2018,,43.14
-Russia,2019,,46.45
-Russia,2020,,47.74
-Russia,2021,,257.1
-Russia,2022,,54.66
-Russia,2023,,60.07
-Russia,2024,,63.01
-Russian Federation,2015,34.54,
-Russian Federation,2016,35.12,
-Russian Federation,2017,37.26,
-Russian Federation,2018,40.9,
-Russian Federation,2019,42.63,
-Russian Federation,2020,43.28,
-Russian Federation,2021,45.61,
-Russian Federation,2022,47.85,
-Russian Federation,2023,49.25,
-Russian Federation,2024,51.1,
-Saint Lucia,2017,,2.8
-Saint Lucia,2018,,2.98
-Saint Lucia,2019,,2.99
-Saint Lucia,2020,,2.54
-Saint Lucia,2021,,2.86
-Saint Lucia,2022,,3.64
-Saint Lucia,2023,,3.62
-Saint Lucia,2024,,3.63
-Saudi Arabia,2015,0.45,0.45
-Saudi Arabia,2016,0.75,0.45
-Saudi Arabia,2017,0.75,0.45
-Saudi Arabia,2018,1.37,0.47
-Saudi Arabia,2019,1.46,0.47
-Saudi Arabia,2020,1.33,0.49
-Saudi Arabia,2021,2.06,0.52
-Saudi Arabia,2022,2.18,0.64
-Saudi Arabia,2023,2.18,0.75
-Saudi Arabia,2024,2.18,1.15
+Poland,2015,4.56,4.35
+Poland,2016,4.28,3.98
+Poland,2017,4.52,4.35
+Poland,2018,4.9,4.92
+Poland,2019,4.93,4.99
+Poland,2020,4.26,4.2
+Poland,2021,5.55,5.2
+Poland,2022,6.54,7.03
+Poland,2023,6.41,6.32
+Poland,2024,6.47,6.46
+Portugal,2015,1.38,1.16
+Portugal,2016,1.34,1.09
+Portugal,2017,1.44,1.21
+Portugal,2018,1.53,1.31
+Portugal,2019,1.5,1.33
+Portugal,2020,1.38,1.23
+Portugal,2021,1.63,1.4
+Portugal,2022,1.89,1.8
+Portugal,2023,1.75,1.58
+Portugal,2024,1.74,1.6
+Qatar,2015,1.38,1.5
+Qatar,2016,1.28,1.43
+Qatar,2017,1.65,1.55
+Qatar,2018,1.94,1.96
+Qatar,2019,1.74,1.95
+Qatar,2020,1.28,1.4
+Qatar,2021,1.83,1.82
+Qatar,2022,2.03,2.05
+Qatar,2023,2.03,2.05
+Qatar,2024,1.99,2.05
+Romania,2015,5.32,5.13
+Romania,2016,4.92,4.64
+Romania,2017,5.03,4.92
+Romania,2018,5.55,5.64
+Romania,2019,5.49,5.77
+Romania,2020,4.64,4.72
+Romania,2021,5.7,5.62
+Romania,2022,7.46,8.08
+Romania,2023,6.86,7.1
+Romania,2024,7.06,7.24
+Russia,2015,33.91,34.78
+Russia,2016,35.66,35.48
+Russia,2017,37.79,37.89
+Russia,2018,42.02,43.68
+Russia,2019,44.41,46.52
+Russia,2020,45.8,47.78
+Russia,2021,48.27,50.15
+Russia,2022,50.62,54.76
+Russia,2023,51.85,59.39
+Russia,2024,55.15,65.23
+Rwanda,2015,912.83,912.83
+Rwanda,2016,908.67,822.0
+Rwanda,2017,955.33,862.0
+Rwanda,2018,1073.33,1031.5
+Rwanda,2019,1051.17,1048.83
+Rwanda,2020,988.5,978.17
+Rwanda,2021,1086.83,1022.33
+Rwanda,2022,1438.25,1455.58
+Rwanda,2023,1638.25,1622.67
+Rwanda,2024,1656.33,1637.33
+Saint Lucia,2015,2.9,2.62
+Saint Lucia,2016,2.64,2.71
+Saint Lucia,2017,2.74,2.8
+Saint Lucia,2018,3.06,2.98
+Saint Lucia,2019,2.98,2.99
+Saint Lucia,2020,2.56,2.54
+Saint Lucia,2021,3.03,2.86
+Saint Lucia,2022,3.74,3.64
+Saint Lucia,2023,3.52,3.62
+Saint Lucia,2024,3.65,3.63
+Saudi Arabia,2015,0.53,0.25
+Saudi Arabia,2016,0.83,0.45
+Saudi Arabia,2017,0.83,0.45
+Saudi Arabia,2018,1.73,0.47
+Saudi Arabia,2019,1.77,0.47
+Saudi Arabia,2020,1.45,0.49
+Saudi Arabia,2021,2.16,0.52
+Saudi Arabia,2022,2.26,0.63
+Saudi Arabia,2023,2.26,0.75
+Saudi Arabia,2024,2.26,1.15
 Senegal,2015,765.0,690.0
 Senegal,2016,670.0,598.75
 Senegal,2017,665.0,595.0
@@ -1109,7 +1128,8 @@ Senegal,2020,665.0,655.0
 Senegal,2021,665.0,655.0
 Senegal,2022,665.0,655.0
 Senegal,2023,665.0,755.0
-Senegal,2024,,755.0
+Senegal,2024,920.0,755.0
+Serbia,2015,,123.33
 Serbia,2016,,136.07
 Serbia,2017,,148.81
 Serbia,2018,,160.45
@@ -1119,85 +1139,116 @@ Serbia,2021,,160.07
 Serbia,2022,,201.46
 Serbia,2023,,194.86
 Serbia,2024,,199.66
-Sierra Leone,2016,,4875.0
-Sierra Leone,2017,,6000.0
-Sierra Leone,2018,,7000.0
-Sierra Leone,2019,,8000.0
-Sierra Leone,2020,,7458.33
-Sierra Leone,2021,,9041.67
-Sierra Leone,2022,,16.67
-Sierra Leone,2023,,24.46
-Sierra Leone,2024,,28.92
-Slovakia,2015,,1.07
-Slovakia,2016,,1.04
-Slovakia,2017,,1.13
-Slovakia,2018,,1.24
-Slovakia,2019,,1.23
-Slovakia,2020,,1.07
-Slovakia,2021,,1.24
-Slovakia,2022,,1.72
-Slovakia,2023,,1.55
-Slovakia,2024,,1.5
-Slovenia,2015,,1.11
-Slovenia,2016,,1.08
-Slovenia,2017,,1.18
-Slovenia,2018,,1.28
-Slovenia,2019,,1.25
-Slovenia,2020,,1.06
-Slovenia,2021,,1.27
-Slovenia,2022,,1.63
-Slovenia,2023,,1.54
-Slovenia,2024,,1.53
-South Africa,2015,,1137.89
-South Africa,2016,,1350.99
+Sierra Leone,2015,3750.0,3750.0
+Sierra Leone,2016,4875.0,4875.0
+Sierra Leone,2017,6000.0,6000.0
+Sierra Leone,2018,7000.0,7000.0
+Sierra Leone,2019,7708.33,8000.0
+Sierra Leone,2020,7083.33,7458.33
+Sierra Leone,2021,9041.67,9041.67
+Sierra Leone,2022,16.67,16.67
+Sierra Leone,2023,24.81,24.46
+Sierra Leone,2024,30.33,28.92
+Singapore,2015,1.87,1.17
+Singapore,2016,1.78,1.06
+Singapore,2017,1.96,1.25
+Singapore,2018,2.18,1.52
+Singapore,2019,2.18,1.56
+Singapore,2020,1.97,1.3
+Singapore,2021,2.34,1.58
+Singapore,2022,2.84,2.37
+Singapore,2023,2.71,2.25
+Singapore,2024,2.78,2.32
+Slovakia,2015,1.22,1.09
+Slovakia,2016,1.14,0.98
+Slovakia,2017,1.22,1.09
+Slovakia,2018,1.32,1.22
+Slovakia,2019,1.29,1.21
+Slovakia,2020,1.14,1.05
+Slovakia,2021,1.37,1.2
+Slovakia,2022,1.69,1.72
+Slovakia,2023,1.58,1.56
+Slovakia,2024,1.59,1.52
+Slovenia,2015,1.27,1.17
+Slovenia,2016,1.18,1.09
+Slovenia,2017,1.25,1.18
+Slovenia,2018,1.31,1.29
+Slovenia,2019,1.28,1.26
+Slovenia,2020,1.05,1.04
+Slovenia,2021,1.26,1.26
+Slovenia,2022,1.49,1.65
+Slovenia,2023,1.41,1.49
+Slovenia,2024,1.46,1.51
+South Africa,2015,1339.08,1137.89
+South Africa,2016,1339.08,1350.99
 South Africa,2017,1339.08,1388.86
 South Africa,2018,1519.25,1236.94
 South Africa,2019,1547.75,1454.47
 South Africa,2020,1449.67,2179.13
 South Africa,2021,1736.0,2093.04
 South Africa,2022,2247.67,1988.04
-South Africa,2023,2276.33,
-South Africa,2024,2277.33,
-South Korea,2015,,1211.03
-South Korea,2016,,1182.36
-South Korea,2017,,1282.69
-South Korea,2018,,1391.91
-South Korea,2019,,1340.1
-South Korea,2020,,1189.83
-South Korea,2021,,1391.28
-South Korea,2022,,1841.83
-South Korea,2023,,1558.72
-South Korea,2024,,1502.58
-Spain,2015,,1.02
-Spain,2016,,1.01
-Spain,2017,,1.1
-Spain,2018,,1.2
-Spain,2019,,1.21
-Spain,2020,,1.07
-Spain,2021,,1.24
-Spain,2022,,1.8
-Spain,2023,,1.56
-Spain,2024,,1.47
-Sri Lanka,2015,117.0,102.5
-Sri Lanka,2016,117.0,102.5
-Sri Lanka,2017,117.0,102.5
-Sri Lanka,2018,133.83,115.31
-Sri Lanka,2019,134.25,117.58
-Sri Lanka,2020,137.0,118.0
-Sri Lanka,2021,150.33,124.58
-Sri Lanka,2022,356.78,375.22
-Sri Lanka,2023,355.42,381.88
-Sri Lanka,2024,346.08,350.46
-Sweden,2015,,1.28
-Sweden,2016,,1.34
-Sweden,2017,,1.43
-Sweden,2018,,1.51
-Sweden,2019,,1.51
-Sweden,2020,,1.38
-Sweden,2021,,1.67
-Sweden,2022,,2.3
-Sweden,2023,,2.02
-Sweden,2024,,1.58
+South Africa,2023,2276.33,2150.0
+South Africa,2024,2277.33,2200.0
+Spain,2015,1.23,1.09
+Spain,2016,1.15,1.01
+Spain,2017,1.22,1.1
+Spain,2018,1.29,1.2
+Spain,2019,1.28,1.21
+Spain,2020,1.15,1.07
+Spain,2021,1.4,1.26
+Spain,2022,1.67,1.69
+Spain,2023,1.59,1.51
+Spain,2024,1.59,1.47
+Sri Lanka,2015,124.92,96.58
+Sri Lanka,2016,119.5,93.67
+Sri Lanka,2017,124.75,99.58
+Sri Lanka,2018,138.83,110.58
+Sri Lanka,2019,137.92,104.92
+Sri Lanka,2020,137.0,104.0
+Sri Lanka,2021,158.5,107.92
+Sri Lanka,2022,373.17,306.67
+Sri Lanka,2023,337.58,333.92
+Sri Lanka,2024,351.42,332.25
+Sudan,2015,4.8,3.47
+Sudan,2016,5.42,3.67
+Sudan,2017,5.71,4.62
+Sudan,2018,11.21,8.08
+Sudan,2019,14.63,13.88
+Sudan,2020,22.08,20.08
+Sudan,2021,187.92,197.83
+Sudan,2022,492.25,391.25
+Sudan,2023,487.5,488.75
+Sudan,2024,790.0,618.0
+Suriname,2015,4.28,4.1
+Suriname,2016,4.72,4.42
+Suriname,2017,5.77,5.27
+Suriname,2018,6.59,6.21
+Suriname,2019,6.86,6.58
+Suriname,2020,7.57,7.31
+Suriname,2021,13.63,12.01
+Suriname,2022,23.36,21.68
+Suriname,2023,36.56,34.52
+Suriname,2024,36.43,35.09
+Sweden,2015,13.72,13.27
+Sweden,2016,13.26,12.8
+Sweden,2017,14.23,14.07
+Sweden,2018,15.22,15.71
+Sweden,2019,15.53,15.82
+Sweden,2020,13.9,14.28
+Sweden,2021,16.51,17.43
+Sweden,2022,20.35,24.3
+Sweden,2023,19.54,21.91
+Sweden,2024,18.57,18.06
+Switzerland,2015,1.46,1.51
+Switzerland,2016,1.38,1.4
+Switzerland,2017,1.47,1.53
+Switzerland,2018,1.6,1.7
+Switzerland,2019,1.6,1.72
+Switzerland,2020,1.4,1.55
+Switzerland,2021,1.63,1.67
+Switzerland,2022,1.93,2.16
+Switzerland,2023,1.81,1.96
+Switzerland,2024,1.78,1.86
 Syria,2015,,130.0
 Syria,2016,,159.58
 Syria,2017,,180.0
@@ -1207,78 +1258,67 @@ Syria,2020,,297.5
 Syria,2021,,860.0
 Syria,2022,,1441.67
 Syria,2023,,4222.5
+Syria,2024,,4222.5
 Syrian Arab Republic,2015,160.0,
 Syrian Arab Republic,2016,197.92,
+Syrian Arab Republic,2017,305.5566666666667,
+Syrian Arab Republic,2018,413.1933333333334,
 Syrian Arab Republic,2019,520.83,
 Syrian Arab Republic,2020,450.0,
 Syrian Arab Republic,2021,633.33,
 Syrian Arab Republic,2022,3106.67,
 Syrian Arab Republic,2023,5042.11,
-Tanzania,2015,1798.0,
-Tanzania,2016,1890.0,1798.0
-Tanzania,2017,2030.58,1883.33
-Tanzania,2018,2317.5,2229.25
-Tanzania,2019,2199.5,2158.75
-Tanzania,2020,1927.67,1861.92
-Tanzania,2021,2240.83,2096.25
-Tanzania,2022,2893.5,2926.58
-Tanzania,2023,3006.83,3058.0
-Tanzania,2024,3130.25,3039.75
-Thailand,2015,19.33,17.08
-Thailand,2016,19.25,18.42
-Thailand,2017,21.61,20.67
-Thailand,2018,23.02,22.96
-Thailand,2019,21.26,21.93
-Thailand,2020,16.1,18.11
-Thailand,2021,22.47,24.06
-Thailand,2022,31.14,33.39
-Thailand,2023,29.01,30.36
-Thailand,2024,29.04,31.21
-Togo,2015,592.0,638.0
-Togo,2016,474.22,494.22
-Togo,2017,508.0,510.0
-Togo,2018,503.56,505.56
-Togo,2019,564.0,567.0
-Togo,2020,478.25,496.25
-Togo,2021,471.67,490.83
-Togo,2022,637.5,722.5
-Togo,2023,700.0,781.25
-Togo,2024,698.33,768.33
+Syrian Arab Republic,2024,5042.11,
+Taiwan,2015,23.63,21.28
+Taiwan,2016,21.84,19.33
+Taiwan,2017,24.39,21.9
+Taiwan,2018,27.16,24.81
+Taiwan,2019,26.78,24.34
+Taiwan,2020,22.3,19.82
+Taiwan,2021,26.47,23.36
+Taiwan,2022,29.83,27.18
+Taiwan,2023,29.74,27.15
+Taiwan,2024,29.71,27.35
+Tanzania,2015,1900.25,1712.67
+Tanzania,2016,1894.17,1798.0
+Tanzania,2017,2046.25,1883.33
+Tanzania,2018,2337.58,2229.25
+Tanzania,2019,2211.33,2158.75
+Tanzania,2020,1915.0,1861.92
+Tanzania,2021,2211.58,2096.25
+Tanzania,2022,2841.0,2926.58
+Tanzania,2023,3026.08,3058.0
+Tanzania,2024,3109.58,3039.75
+Thailand,2015,33.15,24.87
+Thailand,2016,31.11,22.84
+Thailand,2017,33.56,25.43
+Thailand,2018,36.25,28.25
+Thailand,2019,35.04,26.73
+Thailand,2020,30.3,23.11
+Thailand,2021,37.38,26.23
+Thailand,2022,44.59,32.32
+Thailand,2023,45.39,31.7
+Thailand,2024,46.24,31.39
+Tunisia,2015,1.4269999999999998,1.668
+Tunisia,2016,1.436,1.675
+Tunisia,2017,1.445,1.682
+Tunisia,2018,1.454,1.689
+Tunisia,2019,1.463,1.696
 Tunisia,2020,1.49,1.71
 Tunisia,2021,1.58,1.78
 Tunisia,2022,1.79,2.01
 Tunisia,2023,1.98,2.2
 Tunisia,2024,1.98,2.2
-Turkey,2015,,3.55
-Turkey,2016,,3.83
-Turkey,2017,,4.68
-Turkey,2018,,5.78
-Turkey,2019,,6.4
-Turkey,2020,,6.03
-Turkey,2021,,7.54
-Turkey,2022,,22.5
-Turkey,2023,,29.1
-Turkey,2024,,42.88
-UAE,2015,,1.83
-UAE,2016,,1.68
-UAE,2017,,2.0
-UAE,2018,,2.59
-UAE,2019,,2.41
-UAE,2020,,2.13
-UAE,2021,,2.35
-UAE,2022,,3.76
-UAE,2023,,3.14
-UAE,2024,,2.9
-USA,2015,,2.31
-USA,2016,,2.31
-USA,2017,,2.65
-USA,2018,,3.18
-USA,2019,,3.06
-USA,2020,,2.56
-USA,2021,,3.28
-USA,2022,,5.0
-USA,2023,,4.21
-USA,2024,,3.76
+Turkey,2015,4.3,3.77
+Turkey,2016,4.45,3.79
+Turkey,2017,5.19,4.69
+Turkey,2018,6.23,5.72
+Turkey,2019,6.72,6.36
+Turkey,2020,6.43,6.01
+Turkey,2021,7.67,7.39
+Turkey,2022,20.08,23.23
+Turkey,2023,27.75,26.73
+Turkey,2024,42.92,41.97
 Uganda,2015,3709.97,2933.51
 Uganda,2016,3365.67,2640.31
 Uganda,2017,3549.1,3022.06
@@ -1288,6 +1328,7 @@ Uganda,2020,3851.26,3472.72
 Uganda,2021,4051.88,3615.52
 Uganda,2022,4953.46,4358.46
 Uganda,2023,5400.0,4800.0
+Uganda,2024,5800.0,4700.0
 Ukraine,2015,18.66,17.0
 Ukraine,2016,20.82,18.56
 Ukraine,2017,24.62,22.94
@@ -1303,37 +1344,42 @@ United Arab Emirates,2016,1.56,
 United Arab Emirates,2017,1.81,
 United Arab Emirates,2018,2.2,
 United Arab Emirates,2019,1.81,
+United Arab Emirates,2020,1.87,
 United Arab Emirates,2021,2.2,
 United Arab Emirates,2022,3.32,
 United Arab Emirates,2023,2.9,
 United Arab Emirates,2024,2.76,
-United Kingdom,2015,,50.72
-United Kingdom,2016,,53.99
-United Kingdom,2017,,62.43
-United Kingdom,2018,,71.29
-United Kingdom,2019,,71.71
-United Kingdom,2020,,59.83
-United Kingdom,2021,,73.81
-United Kingdom,2022,,116.23
-United Kingdom,2023,,97.44
-United Kingdom,2024,,87.5
-United States,2015,2.07,
-United States,2016,2.19,
-United States,2017,2.47,
-United States,2018,2.79,
-United States,2019,2.66,
-United States,2020,2.65,
-United States,2021,4.35,
-United States,2022,4.0,
-United States,2023,3.61,
-United States,2024,3.41,
-Uruguay,2018,,50.5
-Uruguay,2019,,50.5
-Uruguay,2020,,50.5
-Uruguay,2021,,57.62
-Uruguay,2022,,66.82
-Uruguay,2023,,61.59
-Uruguay,2024,,56.57
+United Kingdom,2015,110.87,114.73
+United Kingdom,2016,108.62,110.15
+United Kingdom,2017,117.38,119.86
+United Kingdom,2018,124.87,129.58
+United Kingdom,2019,124.61,131.06
+United Kingdom,2020,113.62,117.38
+United Kingdom,2021,129.35,133.58
+United Kingdom,2022,164.26,177.37
+United Kingdom,2023,145.41,160.77
+United Kingdom,2024,142.4,151.7
+United States,2015,2.07,0.71
+United States,2016,2.19,0.61
+United States,2017,2.46,0.7
+United States,2018,2.77,0.84
+United States,2019,2.65,0.81
+United States,2020,2.22,0.68
+United States,2021,3.06,0.87
+United States,2022,4.01,1.3
+United States,2023,3.58,1.11
+United States,2024,3.35,1.01
+Uruguay,2015,42.58,47.186
+Uruguay,2016,45.83,48.29066666666666
+Uruguay,2017,50.64,49.39533333333333
+Uruguay,2018,56.12,50.5
+Uruguay,2019,56.11,50.5
+Uruguay,2020,55.12,50.5
+Uruguay,2021,65.35,57.62
+Uruguay,2022,76.54,66.82
+Uruguay,2023,72.48,61.59
+Uruguay,2024,74.12,56.57
+Uzbekistan,2015,1864.31,2097.9
 Uzbekistan,2016,2418.82,2388.67
 Uzbekistan,2017,2973.33,2679.44
 Uzbekistan,2018,3379.31,4250.0
@@ -1343,41 +1389,37 @@ Uzbekistan,2021,6612.38,7682.08
 Uzbekistan,2022,8189.93,12014.58
 Uzbekistan,2023,7422.92,11812.5
 Uzbekistan,2024,8672.92,11641.67
+Vanuatu,2015,,106.942
+Vanuatu,2016,,112.3536
+Vanuatu,2017,,117.7652
+Vanuatu,2018,,123.1768
+Vanuatu,2019,,128.5884
 Vanuatu,2020,,134.0
 Vanuatu,2021,,135.8
 Vanuatu,2022,,211.6
 Vanuatu,2023,,191.6
 Vanuatu,2024,,178.88
-Venezuela,2015,0.07,0.01
-Venezuela,2016,0.92,0.01
-Venezuela,2017,1.0,0.01
-Venezuela,2018,1.0,0.01
-Venezuela,2019,1.0,0.0
-Venezuela,2020,1458.79,0.0
-Venezuela,2021,1875.26,0.0
-Venezuela,2022,0.3,0.0
-Venezuela,2023,0.45,0.05
-Venezuela,2024,0.5,0.1
-Viet Nam,2015,16790.0,
-Viet Nam,2016,15696.36,
-Viet Nam,2017,17281.5,
-Viet Nam,2018,19139.85,
-Viet Nam,2019,18892.08,
-Viet Nam,2020,14627.5,
-Viet Nam,2021,19620.0,
-Viet Nam,2022,25114.44,
-Viet Nam,2023,22005.21,
-Viet Nam,2024,21380.54,
-Vietnam,2015,,13230.0
-Vietnam,2016,,11739.5
-Vietnam,2017,,14001.67
-Vietnam,2018,,17069.17
-Vietnam,2019,,16328.06
-Vietnam,2020,,12167.08
-Vietnam,2021,,15680.0
-Vietnam,2022,,23356.25
-Vietnam,2023,,20509.03
-Vietnam,2024,,19599.79
+Venezuela,2015,0.06,0.048
+Venezuela,2016,0.005,0.048
+Venezuela,2017,0.005,0.048
+Venezuela,2018,0.0,0.0
+Venezuela,2019,0.0,0.0
+Venezuela,2020,0.04,0.0
+Venezuela,2021,0.3,0.09
+Venezuela,2022,0.06,0.22
+Venezuela,2023,0.03,0.1
+Venezuela,2024,0.03,0.04
+Vietnam,2015,17799.08,13833.83
+Vietnam,2016,15647.92,11543.0
+Vietnam,2017,17686.25,13511.25
+Vietnam,2018,19965.83,16812.92
+Vietnam,2019,19736.25,16377.92
+Vietnam,2020,14783.33,12349.58
+Vietnam,2021,19688.33,15750.83
+Vietnam,2022,24891.67,23933.75
+Vietnam,2023,23330.42,20279.17
+Vietnam,2024,23677.16,20464.09
+West Bank & Gaza,2015,,5.34
 West Bank & Gaza,2016,,5.34
 West Bank & Gaza,2017,,5.44
 West Bank & Gaza,2018,,5.85
@@ -1397,7 +1439,8 @@ Zambia,2021,23.6,25.27
 Zambia,2022,23.69,24.59
 Zambia,2023,27.13,26.64
 Zambia,2024,31.89,29.57
-Zimbabwe,2016,1.31,
+Zimbabwe,2015,1.31,1.32
+Zimbabwe,2016,1.31,1.32
 Zimbabwe,2017,1.36,1.32
 Zimbabwe,2018,1.37,1.34
 Zimbabwe,2019,8.53,8.66
